@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Jam User Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! warning
+    **Jam is considered beta software.** While JoinMarket is tried and tested, Jam is new and things might break. Use with caution. Please report any issues [directly on GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new). 
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+TODO
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Please see the [project license](license.md) for further details.
