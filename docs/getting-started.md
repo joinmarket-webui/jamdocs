@@ -5,9 +5,9 @@ Jam is bundled with various node implementations:
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><img src="/assets/raspiblitz-dark.svg#gh-light-mode-only" width="40px" alt="RaspiBlitz Logo" /><img src="/assets/raspiblitz-light.svg#gh-dark-mode-only" width="40px" alt="RaspiBlitz Logo" /></th>
-<th style="text-align:center"><img src="/assets/umbrel.svg" width="45px" alt="Umbrel Logo" /></th>
-<th style="text-align:center"><img src="/assets/citadel.png" width="45px" alt="Citadel Logo" /></th>
+<th style="text-align:center"><img src="assets/raspiblitz-dark.svg#gh-light-mode-only" width="40px" alt="RaspiBlitz Logo" /><img src="assets/raspiblitz-light.svg#gh-dark-mode-only" width="40px" alt="RaspiBlitz Logo" /></th>
+<th style="text-align:center"><img src="assets/umbrel.svg" width="45px" alt="Umbrel Logo" /></th>
+<th style="text-align:center"><img src="assets/citadel.png" width="45px" alt="Citadel Logo" /></th>
 </tr>
 </thead>
 <tbody>
