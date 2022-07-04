@@ -11,7 +11,7 @@ Before you get started you should [understand the why][why] behind it all.
 
 The easiest way to install Jam is via one of the [integrations].
 
-[integrations]: integrations.md
+[integrations]: software/integrations.md
 
 ## First Use
 
@@ -31,7 +31,7 @@ Once installed, you will want to [add some funds][receive] to Jam to get going.
 [fb]: interface/fidelity-bonds.md
 
 !!! info
-    **These docs are a work in progress.** We are writing the documentation as we progress, [out in the open](license.md). If you want to help, [please do](contribute.md)!
+    **These docs are a work in progress.** We are writing the documentation as we progress, [out in the open](software/license.md). If you want to help, [please do](contribute.md)!
 
 ## Getting Help
 
