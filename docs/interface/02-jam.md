@@ -1,3 +1,3 @@
-# Jam
+# "Jam" - Schedule Transactions
 
 TODO
