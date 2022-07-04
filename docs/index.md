@@ -2,7 +2,7 @@
 
 Before you get started you should [understand the why][why] behind it all.
 
-[why]: why.md
+[why]: philosophy/motivation.md
 
 !!! warning
     **Jam is considered beta software.** While JoinMarket is tried and tested, Jam is new and things might break. Use with caution. Please report any issues [directly on GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
