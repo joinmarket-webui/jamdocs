@@ -11,7 +11,7 @@ Before you get started you should [understand the why][why] behind it all.
 
 The easiest way to install Jam is via one of the [integrations].
 
-[integrations]: software/integrations.md
+[integrations]: software/installation.md
 
 ## First Use
 
