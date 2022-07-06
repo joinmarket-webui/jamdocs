@@ -1,4 +1,4 @@
-# Software Verification
+# Verification
 
 All [releases] are signed by one of the Jam [contributors]. As of this writing ([742,834][now]), releases are signed with [dergigi's PGP key][gigi] which has the following fingerprint:
 
