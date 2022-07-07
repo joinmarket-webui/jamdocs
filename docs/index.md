@@ -56,12 +56,16 @@ look at the "cheat sheet."
 ## Getting Help
 
 Since there is no company or fixed team behind Jam or JoinMarket, your best bet
-to get help are public chat groups and public forums.
+to get help are public chat groups and public forums. Also make sure to have a
+look at the FAQ to get answers to frequently asked questions.
+
+[:octicons-arrow-right-24: Jam FAQ][faq]
 
 [:octicons-arrow-right-24: Jam Community Chat][tgJam]
 
 [:octicons-arrow-right-24: Jam Issues on GitHub][ghJam]
 
 
+[faq]: FAQ
 [tgJam]: https://t.me/JoinMarketWebUI
 [ghJam]: https://github.com/joinmarket-webui/joinmarket-webui/issues
