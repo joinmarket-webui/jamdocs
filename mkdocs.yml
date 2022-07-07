@@ -2,6 +2,7 @@ site_name: Jam Docs
 copyright:  Except where otherwise noted, content on this site is licensed under a CC BY-SA 4.0 license.
 theme:
   name: material
+  logo: assets/logo.png
   palette:
 
     # Palette toggle for light mode
