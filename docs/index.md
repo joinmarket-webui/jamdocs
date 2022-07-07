@@ -1,8 +1,17 @@
 # Getting Started
 
-Before you get started you should [understand the why][why] behind it all.
+## Before You Start
 
-[why]: philosophy/motivation.md
+Before you get going with Jam you should understand the why behind it all.
+
+[:octicons-arrow-right-24: Motivation][motivation]
+
+[:octicons-arrow-right-24: Privacy Fundamentals][fundamentals]
+
+[motivation]: philosophy/motivation.md
+[fundamentals]: philosophy/fundamentals.md
+
+...and before you go any further, please heed the following warning:
 
 !!! warning
     **Jam is considered beta software.** While JoinMarket is tried and tested, Jam is new and things might break. Use with caution. Please report any issues [directly on GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
