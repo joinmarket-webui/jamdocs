@@ -1,6 +1,6 @@
 # FAQ
 
-Have a question that is not listed here? Let us know!
+Have a question that is not listed here? [Let us know!][contribute]
 
 [:octicons-arrow-right-24: Contributing][contribute]
 
