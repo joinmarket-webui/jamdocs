@@ -11,7 +11,7 @@ theme:
       primary: deep orange
       accent: deep orange
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -20,7 +20,7 @@ theme:
       primary: deep orange
       accent: deep orange
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to light mode
 
 markdown_extensions:
