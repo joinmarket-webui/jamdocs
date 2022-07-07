@@ -20,7 +20,7 @@ Before you get going with Jam you should understand the "why" behind it all.
 [:octicons-arrow-right-24: Privacy Fundamentals][fundamentals]
 
 [motivation]: philosophy/motivation.md
-[fundamentals]: technology/privacy-fundamentals.md
+[fundamentals]: privacy/fundamentals.md
 
 Jam is an interface for JoinMarket. What sets JoinMarket apart is that it has no
 single point of failure. It is completely peer-to-peer, there is no central

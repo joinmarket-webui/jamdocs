@@ -1,4 +1,4 @@
-# Privacy Fundamentals
+# Fundamentals
 
 When it comes to Bitcoin, misconceptions abound. This is not surprising. Bitcoin
 is a new thing, and, consequently, all [metaphors][metaphors] and comparisons

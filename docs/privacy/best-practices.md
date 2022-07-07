@@ -1,4 +1,4 @@
-# Privacy Best Practices
+# Best Practices
 
 As with every­thing in Bitcoin, taking control of your privacy is
 a gradual, step-by-step process. Learning about and imple­menting these
