@@ -45,20 +45,13 @@ yourself.
 
 ## First Use
 
-Once installed, you will want to [add some funds][receive] to Jam to get going.
+Once installed, you will have to add some funds to Jam to get going. If you are
+new to JoinMarket in general and Jam in particular, you might want to have a
+look at the "cheat sheet."
 
-1. [Fund][receive] your wallet
-2. [Schedule][jam] transactions
-3. Create a [fidelity bond][fb]
-4. [Earn][earn] yield by providing liquidity
-5. [Send][send] a collaborative transaction
-6. Rinse and repeat!
+[:octicons-arrow-right-24: Cheat Sheet][cheatsheet]
 
-[receive]: interface/01-receive.md
-[jam]: interface/02-jam.md
-[earn]: interface/03-earn.md
-[send]: interface/04-send.md
-[fb]: interface/fidelity-bonds.md
+[cheatsheet]: interface/00-cheatsheet.md
 
 ## Getting Help
 
