@@ -11,11 +11,11 @@ TODO
 5. [Send][send] a collaborative transaction
 6. Rinse and repeat!
 
-[receive]: interface/01-receive.md
-[jam]: interface/02-jam.md
-[earn]: interface/03-earn.md
-[send]: interface/04-send.md
-[fb]: interface/fidelity-bonds.md
+[receive]: 01-receive.md
+[jam]: 02-jam.md
+[earn]: 03-earn.md
+[send]: 04-send.md
+[fb]: fidelity-bonds.md
 
 
 ## Receive
