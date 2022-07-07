@@ -59,11 +59,11 @@ Since there is no company or fixed team behind Jam or JoinMarket, your best bet
 to get help are public chat groups and public forums. Also make sure to have a
 look at the FAQ to get answers to frequently asked questions.
 
-[:octicons-arrow-right-24: Jam FAQ][faq]
+[:octicons-arrow-right-24: FAQ][faq]
 
-[:octicons-arrow-right-24: Jam Community Chat][tgJam]
+[:octicons-arrow-right-24: GitHub Issues][ghJam]
 
-[:octicons-arrow-right-24: Jam Issues on GitHub][ghJam]
+[:octicons-arrow-right-24: Community Chat][tgJam]
 
 
 [faq]: FAQ
