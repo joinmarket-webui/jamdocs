@@ -1,6 +1,6 @@
 # Getting Started
 
-Welcome, stranger! The goal of Jam is to make it easier to improve the financial
+Welcome, anon! The goal of Jam is to make it easier to improve the financial
 privacy of yourself and others.
 
 Both Jam and its documentation are a work in progress. We are writing
