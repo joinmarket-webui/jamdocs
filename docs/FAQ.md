@@ -8,7 +8,8 @@ Have a question that is not listed here? [Let us know!][contribute]
 
 ## Frequently Asked Questions
 
-This FAQ compiles questions that relate to Jam in particular. For things related to JoinMarket in general, please refer to the [JoinMarket documentation][jm-docs].
+This FAQ compiles questions that relate to Jam in particular. For things related
+to JoinMarket in general, please refer to the [JoinMarket documentation][jm-docs].
 
 [jm-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/tree/master/docs
 
@@ -81,10 +82,14 @@ in [issue #173][lockfile-issue].
 
 ### Something is/seems stuck; what can I do?
 
+TODO
+
 (hint: service feedback not yet provided; it's always safe to cancel operations;
 no loss of funds)
 
 ### No connection to gateway
+
+TODO
 
 (hint: check service is running; check ports are open) can also be reverse proxy
 issues; reverse proxy is still mandatory (this is a pain point for me.. we need
