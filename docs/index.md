@@ -1,7 +1,10 @@
 # Getting Started
 
-The goal of Jam is to make it easier to improve the financial privacy of
-yourself and others.
+Jam is an interface for JoinMarket[^jm], a special kind of bitcoin software that
+focuses on privacy and security. The goal of Jam is to make it easier to improve
+the financial privacy of yourself and others.
+
+[^jm]: Jam and JoinMarket are separate projects. For more information on JoinMarket, see the [JoinMarket GitHub Page](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 
 Both Jam and its documentation are a work in progress. We are writing
 these docs as we progress, out in the open. If you want to help, please
@@ -22,10 +25,10 @@ Before you get going with Jam you should understand the "why" behind it all.
 [motivation]: philosophy/00-motivation.md
 [fundamentals]: privacy/01-fundamentals.md
 
-Jam is an interface for JoinMarket. What sets JoinMarket apart is that it has no
-single point of failure. It is completely peer-to-peer, there is no central
-coordinator, no "doxxic change", no company behind it all, no marketing
-department, and no central entity making any money off of it.
+As mentioned above, Jam uses JoinMarket under the hood. What sets JoinMarket
+apart is that it has no single point of failure. It is completely peer-to-peer,
+there is no central coordinator, no "doxxic change", no company behind it all,
+no marketing department, and no central entity making any money off of it.
 
 All development is done by volunteers. Consequently, please heed the following
 warning:
