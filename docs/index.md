@@ -6,9 +6,11 @@ the financial privacy of yourself and others.
 
 [^jm]: Jam and JoinMarket are separate projects. For more information on JoinMarket, see the [JoinMarket GitHub Page](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 
-Both Jam and its documentation are a work in progress. We are writing
-these docs as we progress, out in the open. If you want to help, please
-do!
+!!! warning
+    Both Jam and its documentation are a work in progress. We are writing
+    these docs as we progress, out in the open. If you want to help, please
+    do!
+
 
 [:octicons-arrow-right-24: Contributing][contribute]
 
@@ -33,7 +35,7 @@ no marketing department, and no central entity making any money off of it.
 All development is done by volunteers. Consequently, please heed the following
 warning:
 
-!!! warning
+!!! danger
     **Jam is considered beta software.** While JoinMarket is tried and tested, Jam is new and things might break. Use with caution. Please report any issues [directly on GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
 
 ## Installation
