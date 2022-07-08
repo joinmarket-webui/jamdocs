@@ -8,11 +8,29 @@ Have a question that is not listed here? [Let us know!][contribute]
 
 ## Frequently Asked Questions
 
-TODO
+This FAQ compiles questions that relate to Jam in particular. For things related to JoinMarket in general, please refer to the [JoinMarket documentation][jm-docs].
+
+[jm-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/tree/master/docs
 
 ### How much can I earn?
 
-TODO
+Earning sats entails providing liquidity to other market participants.
+Consequently, how much you can earn depends on multiple factors, market
+conditions and liquidity size being two of them. In general, the more liquidity
+you provide, the more you can earn. That being said, you are competing in an
+open market, and because competition is global and only constraint by market
+forces, the margin is usually thin.
+
+If your offers are not taken by market participants, your offer might be too
+expensive. Check the [order book][orderbook] and compare your offer to the
+market price. If your offer is competitive and is still ignored, make sure to
+create a [Fidelity Bond][glossary], which signals that you are a serious market
+participant and not a malicious entity.
+
+See also "[a few words about incentives][jm-incentives]" from the JoinMarket
+documentation.
+
+[jm-incentives]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/YIELDGENERATOR.md#a-few-words-about-incentives
 
 ### How high are the fees that I do have to pay?
 
@@ -38,8 +56,8 @@ See also "[a note on fees][fee-note]" from the JoinMarket documentation.
 
 [fee-note]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/tumblerguide.md#a-note-on-fees
 [fees]: market/fees.md
-[orderbook]: market/orderbook
-[glossary]: /glossary
+[orderbook]: market/orderbook.md
+[glossary]: glossary.md
 [ms]: https://mempool.space/
 [ms-install]: https://github.com/mempool/mempool#one-click-installation
 
