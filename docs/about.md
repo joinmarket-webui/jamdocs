@@ -45,7 +45,7 @@ and shouldn't be taken too seriously. However, it works on multiple levels
 something in a tasty way (and putting it in [jars][glossary]).
 
 <center>
-![](../assets/spaceballs.gif)
+![](assets/spaceballs.gif)
 </center>
 
 [name]: https://github.com/joinmarket-webui/joinmarket-webui/issues/22#issuecomment-1024654436
