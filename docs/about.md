@@ -12,6 +12,9 @@ developed and maintained on a volunteer basis. As mentioned above, Jam is a
 front-end for JoinMarket, a privacy-focused bitcoin software that uses a
 peer-to-peer marketplace to facilitate collaborative transactions.
 
+The goal of Jam is to provide an interface that makes JoinMarket easier to use,
+and thus more easily accessible for more people.
+
 [license]: software/license.md
 [bounty]: https://github.com/JoinMarket-Org/joinmarket-clientserver/issues/978
 
