@@ -9,21 +9,41 @@ Jam is a [free and open-source][license] project that aims to improve the
 financial privacy of yourself and others, without relying on a trusted third
 party. It was [started in 2021][bounty] by various volunteers and is still
 developed and maintained on a volunteer basis. As mentioned above, Jam is a
-front-end for [JoinMarket][jmcs], a privacy-focused bitcoin software that uses a
+front-end for JoinMarket, a privacy-focused bitcoin software that uses a
 peer-to-peer marketplace to facilitate collaborative transactions.
 
 [license]: software/license.md
-[jmcs]: https://github.com/JoinMarket-Org/joinmarket-clientserver
 [bounty]: https://github.com/JoinMarket-Org/joinmarket-clientserver/issues/978
 
 ## About JoinMarket
 
-TODO
+[JoinMarket][jmcs] is a special kind of software that is aimed at improving the privacy
+and fungibility of bitcoin transactions. The main way to improve privacy and
+fungibility on-chain is via collaborative transactions.
+
+[jmcs]: https://github.com/JoinMarket-Org/joinmarket-clientserver
+
+A collaborative transaction requires the coordination of multiple parties. The
+right resources ([UTXOs][glossary]) have to be available in the right quantity
+at the right time.
+
+[glossary]: glossary.md
+
+Consequently, the problem that needs to be solved is not a technological
+problem, but an economic problem. JoinMarket solves this problem not by central
+coordination, but by creating a market that allows participants to allocate
+these resources in the best way, according to their individual needs.
 
 ## About the Name
 
 The name "Jam" is a backronym, stands for [*JoinMarket's Awesome, Man*][name],
-and shouldn't be taken too seriously.
+and shouldn't be taken too seriously. However, it works on multiple levels
+(*Let's jam the signal!*) and "cooking jam" is also a fun metaphor  for mixing
+something in a tasty way (and putting it in [jars][glossary]).
+
+<center>
+![](../assets/spaceballs.gif)
+</center>
 
 [name]: https://github.com/joinmarket-webui/joinmarket-webui/issues/22#issuecomment-1024654436
 
