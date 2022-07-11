@@ -2,6 +2,8 @@
 
 TODO
 
+![](../assets/jam-flow.png)
+
 ## First Use
 
 1. [Fund][receive] your wallet
