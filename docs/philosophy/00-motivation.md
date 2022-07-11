@@ -62,7 +62,11 @@ Privacy, like security, is a process and it is diffi­cult, but not
 impos­sible. Tools continue to be devel­oped to help preserve privacy
 while using Bitcoin and fortu­nately most of these tools become easier
 to use over time. Unfor­tu­nately no panacea exists. One has to remain
-aware of the trade­offs and follow best practices as they evolve.
+aware of the trade­offs and follow best practices as they evolve.[^fn1]
+
+[^fn1]: Some parts of the above are based on "[Bitcoin Privacy: Best
+Practices](https://dergigi.com/2021/03/14/bitcoin-privacy-best-practices/),
+written by Gigi and released under CC BY-SA 4.0 license."
 
 ## Why Jam?
 
@@ -81,3 +85,14 @@ Usually, this problem is solved with a central coordinator.
 JoinMarket takes a different approach. It allows participants to propose
 collaborative transactions to others, creating an open market of buyers and
 sellers, which removes the central coordinator from the equation.
+
+
+## Tech Fundamentals
+
+With the motivation and purpose of Jam covered, understanding the
+fundamentals of bitcoin in general and bitcoin privacy in particular might be
+useful.
+
+[:octicons-arrow-right-24: Privacy Fundamentals][fundamentals]
+
+[fundamentals]: ../privacy/01-fundamentals.md
