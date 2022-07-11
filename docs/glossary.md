@@ -2,6 +2,7 @@
 
 TODO
 
+- Collaborative Transactions
 - Maker
 - Taker
 - Jar

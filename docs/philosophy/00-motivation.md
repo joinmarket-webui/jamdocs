@@ -11,8 +11,8 @@ could benefit from using it, how it works, and how to use it correctly. In order
 to answer the "how" you should also understand the "why" --- why was it created,
 and what is the problem in the first place?
 
-To answer that, we will have to talk about privacy and financial privacy in
-general, and bitcoin privacy in particular:
+To answer that properly, we will have to talk about privacy and financial
+privacy in general, and bitcoin privacy in particular:
 
 - Why care about privacy?
 - Why use Jam?
@@ -76,8 +76,11 @@ written by Gigi and released under CC BY-SA 4.0 license."
 
 ## Why Jam?
 
-Jam is a front-end for [JoinMarket][jmcs], a privacy-focused bitcoin software that
-uses a peer-to-peer marketplace to facilitate collaborative transactions.
+Jam is a front-end for [JoinMarket][jmcs], a privacy-focused bitcoin software
+that uses a peer-to-peer marketplace to facilitate collaborative transactions,
+also called "CoinJoins."[^fn-glossary]
+
+[^fn-glossary]: We prefer to refer to them as [collaborative transactions](../glossary.md), which is more concise and explanatory. 
 
 [jmcs]: https://github.com/JoinMarket-Org/joinmarket-clientserver
 
