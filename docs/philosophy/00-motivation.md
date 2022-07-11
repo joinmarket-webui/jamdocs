@@ -6,7 +6,13 @@
 >
 > <cite>Geoffrey Fisher, Archbishop of Canter­bury (1959)</cite>
 
-TODO
+Jam is a tool, just like bitcoin. Before using it, you should understand how you
+could benefit from using it, how it works, and how to use it correctly. In order
+to answer the "how" you should also understand the "why" --- why was it created,
+and what is the problem in the first place?
+
+To answer that, we will have to talk about privacy and financial privacy in
+general, and bitcoin privacy in particular:
 
 - Why care about privacy?
 - Why use Jam?
