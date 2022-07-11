@@ -1,5 +1,5 @@
 site_name: Jam Docs
-copyright:  Except where otherwise noted, content on this site is licensed under a CC BY-SA 4.0 license.
+copyright:  Except where otherwise noted, content on this site is licensed under the MIT license.
 theme:
   name: material
   logo: assets/logo.png
