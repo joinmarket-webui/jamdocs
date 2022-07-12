@@ -24,7 +24,7 @@ L ·
 [M](#m) ·
 N ·
 O ·
-P ·
+[P](#p) ·
 Q ·
 R ·
 [S](#s) ·
@@ -58,10 +58,13 @@ heuristic](#common-input-ownership-heuristic). Collaborative transactions break
 this heuristic.
 
 ### CoinJoin
+
+
 ### Collaborative Transaction
 
 A collaborative transaction is a bitcoin transaction that --- you guessed it ---
 is done collaboratively by multiple participants.
+### Change
 ### CIOH
 
 Short for [Common Input Ownership Heuristic](#common-input-ownership-heuristic).
@@ -113,6 +116,8 @@ tab][i/earn] and become a market maker.
 ## O
 ### Offchain
 ### Onchain
+## P
+### PayJoin
 ## S
 ### Sats
 ### Schedule
