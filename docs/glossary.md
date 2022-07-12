@@ -81,6 +81,16 @@ There are 5 jars by default. The default jar to receive funds is *Jar #0*.
 
 ## M
 ### Maker
+
+A market maker is someone who offers liquidity to the market, to be used by
+others for collaborative transactions. You can create an offer via the ["Earn"
+tab][i/earn] and become a market maker.
+
+[:octicons-arrow-right-24: Earn Screen][i/earn]
+
+[i/earn]: interface/03-earn.md
+
+
 ### Mempool
 ## O
 ### Offchain
@@ -92,6 +102,17 @@ There are 5 jars by default. The default jar to receive funds is *Jar #0*.
 ## T
 ### Taint
 ### Taker
+A market taker is someone who buys liquidity from the market, taking up
+[market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
+
+You will automatically take offers when running the scheduler via the ["Jam"
+tab][i/earn].
+
+[:octicons-arrow-right-24: Earn Screen][i/earn]
+
+[i/earn]: interface/02-jam.md
+[orderbook]: market/orderbook.md
+
 ### Timelock
 ## U
 ### Unspent Transaction Output (UTXO)
