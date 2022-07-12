@@ -44,11 +44,29 @@ Z
 
 ## C
 ### Chain Analysis
+
+Chain analysis is is the practice of applying heuristics to a
+[timechain](#timechain)'s public transaction graph. The goal of chain analysis
+is to link the pseudonymous identities created by bitcoin software with "real"
+identities corresponding to natural persons or entities.
+
+Chain analysis is based on flawed assumptions, because ownership in bitcoin is
+defined by secret knowledge, not possession. Identities can only be linked
+probabilistically, not provably. One of the main assumptions used by chain
+analysis companies is the [common input ownership
+heuristic](#common-input-ownership-heuristic). Collaborative transactions break
+this heuristic.
+
 ### CoinJoin
-### Collaborative Transactions
+### Collaborative Transaction
 
 A collaborative transaction is a bitcoin transaction that --- you guessed it ---
 is done collaboratively by multiple participants.
+### CIOH
+
+Short for [Common Input Ownership Heuristic](#common-input-ownership-heuristic).
+
+### Common Input Ownership Heuristic
 ## D
 ### Doxxic Change
 ## E
@@ -77,7 +95,7 @@ only spend from one jar at a time.
 
 There are 5 jars by default. The default jar to receive funds is *Jar #0*.
 
-[^mixdepths]: What we call "jars" are called "mixdepths" in JoinMarket. They are also referred to as "pockets" in some of the older parts of the JoinMarket documentation.
+[^mixdepths]: What we call "jars" are usually called "mixdepths" in JoinMarket. They are also referred to as "pockets" and "accounts" in some of the older parts of the JoinMarket documentation.
 
 ## M
 ### Maker
@@ -113,7 +131,9 @@ tab][i/earn].
 [i/earn]: interface/02-jam.md
 [orderbook]: market/orderbook.md
 
+### Timechain
 ### Timelock
 ## U
-### Unspent Transaction Output (UTXO)
+### Unspent Transaction Output
 ### UTXO
+Short for [Unspent Transaction Output](#unspent-transaction-output).
