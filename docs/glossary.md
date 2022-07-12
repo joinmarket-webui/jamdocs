@@ -3,39 +3,38 @@
 Unfortunately, there is no way to talk about bitcoin privacy and the intricacies
 of JoinMarket without a little bit of special lingo.
 
-This glossary explains some of the concepts and terms used in Jam and
-JoinMarket.
+This glossary explains some of the concepts and terms used in Jam.
 
 ---
 
 <center>
 [
-[A](#a) ·
-[B](#b) ·
+A ·
+B ·
 [C](#c) ·
 [D](#d) ·
 [E](#e) ·
 [F](#f) ·
-[G](#g) ·
-[H](#h) ·
-[I](#i) ·
+G ·
+H ·
+I ·
 [J](#j) ·
-[K](#k) ·
-[L](#l) ·
+K ·
+L ·
 [M](#m) ·
-[N](#n) ·
-[O](#o) ·
-[P](#p) ·
-[Q](#q) ·
-[R](#r) ·
+N ·
+O ·
+P ·
+Q ·
+R ·
 [S](#s) ·
 [T](#t) ·
 [U](#u) ·
-[V](#v) ·
-[W](#w) ·
-[X](#x) ·
-[Y](#y) ·
-[Z](#z)
+V ·
+W ·
+X ·
+Y ·
+Z
 ]
 </center>
 
@@ -57,10 +56,11 @@ is done collaboratively by multiple participants.
 ## F
 ### Fidelity Bond
 ### Fungibility
+## J
 ### Jam
 
 Jam is both [the name][name] of the project and the verb we use for running multiple
-collaborative transactions automatically.
+collaborative transactions automatically via the [scheduler](#schedule).
 
 [:octicons-arrow-right-24: About][name]
 
@@ -75,20 +75,24 @@ exist to segregate your sats into multiple buckets that are disconnected from
 each other, which aids privacy. To not risk any privacy degradation, you can
 only spend from one jar at a time.
 
-There are five jars by default. The default jar to receive funds is the first
-one.
+There are 5 jars by default. The default jar to receive funds is *Jar #0*.
 
 [^mixdepths]: What we call "jars" are called "mixdepths" in JoinMarket. They are also referred to as "pockets" in some of the older parts of the JoinMarket documentation.
 
+## M
 ### Maker
 ### Mempool
+## O
 ### Offchain
 ### Onchain
+## S
 ### Sats
 ### Schedule
 ### Sybil Attack
+## T
 ### Taint
 ### Taker
 ### Timelock
+## U
 ### Unspent Transaction Output (UTXO)
 ### UTXO
