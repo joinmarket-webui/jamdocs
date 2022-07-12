@@ -61,10 +61,13 @@ this heuristic.
 ### Collaborative Transaction
 
 A collaborative transaction is a bitcoin transaction that --- you guessed it ---
-is done collaboratively by multiple participants.
+is done collaboratively by multiple participants. Specifically a coinjoin is a 
+transaction with multiple inputs belonging to different users.
+
 ### CIOH
 
 Short for [Common Input Ownership Heuristic](#common-input-ownership-heuristic).
+It is assumed that all inputs of a transaction belong to a single person.
 
 ### Common Input Ownership Heuristic
 ## D
@@ -100,7 +103,7 @@ There are 5 jars by default. The default jar to receive funds is *Jar #0*.
 ## M
 ### Maker
 
-A market maker is someone who offers liquidity to the market, to be used by
+A market maker is someone who offers bitcoin liquidity to the market, to be used by
 others for collaborative transactions. You can create an offer via the ["Earn"
 tab][i/earn] and become a market maker.
 
@@ -110,17 +113,20 @@ tab][i/earn] and become a market maker.
 
 
 ### Mempool
+A list of valid bitcoin transactions that are not yet confirmed in the timechain.
 ## O
 ### Offchain
 ### Onchain
 ## S
 ### Sats
+The atomic unit of the Bitcoin protocol. 100 million sats are considered 1 btc. 
+The total supply of all sat units is 21 quadrillion.
 ### Schedule
 ### Sybil Attack
 ## T
 ### Taint
 ### Taker
-A market taker is someone who buys liquidity from the market, taking up
+A market taker is someone who buys bitcoin liquidity from the market, taking up
 [market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
 
 You will automatically take offers when running the scheduler via the ["Jam"
@@ -132,8 +138,14 @@ tab][i/earn].
 [orderbook]: market/orderbook.md
 
 ### Timechain
+A timestamped and linked list of blocks. Anyone can create a new block, but each block must have 
+sufficient proof of work, making it difficult to create new blocks.
 ### Timelock
+A utxo can be locked up by a script which defines that this coin can only be spent in a block that 
+is higher than a certain value. This makes coins unspendable before a specific time.
 ## U
 ### Unspent Transaction Output
+The tip of the chain of signatures which originates in a coinbase output. It's a coin that can 
+has not yet been spent and can still be spend.
 ### UTXO
 Short for [Unspent Transaction Output](#unspent-transaction-output).
