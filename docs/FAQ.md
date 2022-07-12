@@ -37,14 +37,14 @@ documentation.
 
 The amount of [fees][fees] you have to pay depends on market and blockspace
 conditions. They are dictated by supply and demand, both for collaborative
-transactions and onchain tranactions in general.
+transactions and single user tranactions.
 
 Market [makers][glossary] provide liquidity and set the fee they want to earn,
 either in absolute or percentage terms. Market [takers][glossary] have to agree
 to take these offers voluntarily. Check the [orderbook][orderbook] to get an
 up-to-date overview of the current fee market.
 
-In addition to these fees, you will have to pay mining fees. Mining fees depend
+In addition to these fees, you will have to pay mining fees for you and the makers. Mining fees depend
 on how many transactions are currently in the [mempool][glossary]. Inspect your
 mempool or use a public site like [mempool.space][ms] to do a fee estimation.
 
