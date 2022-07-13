@@ -89,13 +89,14 @@ an appropriate amount of change goes back to the spender.
 
 Bitcoin works the same way. When sats change hands, the spender has to spend the
 whole [UTXO](#utxo). Bitcoin creates the appropriate amount of change
-automatically. Because all transactions are
+automatically. Because all transactions are recorded transparently and publicly on the [timechain](#timechain),
 
 As of this writing,[^744811] a [simple spend](#simple-spend) is
-the most common transaction type.
-
-The act of guessing whether you bought something for $25 or $75 is what is
-called [change detection](#change-detection).
+the most common transaction type, which describes the example given above: one
+input ($100 bill) produces two outputs: $25 for the merchant, and $75 in change.
+The act of an outside observer guessing whether you bought something for $25 or
+$75 (or: who was the customer of the transaction, and who was the merchant) is
+what is called [change detection](#change-detection).
 
 
 
