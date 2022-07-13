@@ -44,11 +44,16 @@ Z
 
 ### Address
 
+### Address Reuse
+
 ### Address Type
 
 ## B
 ### Base Layer
 
+[:octicons-arrow-right-24: Layered Money][layered-money]
+
+[layered-money]: https://bitcoin-resources.com/books/layered-money
 ### Batch Transaction
 
 ### Blockchain
@@ -98,8 +103,6 @@ The act of an outside observer guessing whether you bought something for $25 or
 $75 (or: who was the customer of the transaction, and who was the merchant) is
 what is called [change detection](#change-detection).
 
-
-
 [^744811]: Block 744,811
 
 ### Change Detection
@@ -115,8 +118,17 @@ Short for [Common Input Ownership Heuristic](#common-input-ownership-heuristic).
 ### Common Input Ownership Heuristic
 ## D
 ### Doxxic Change
+
+"Doxxic" change is any leftover change that is going back to you when participating in an equal-output CoinJoin. It is also referred to as toxic change; TODO
+
+The concept does not exist in Jam, since JoinMarket does not produce doxxic change.
+
 ## E
 ### Eclipse Attack
+### Equal-Output CoinJoin
+
+...also referred to as equal-amount or equal-value CoinJoin transactions.
+
 ## F
 ### Fidelity Bond
 ### Fungibility
@@ -191,6 +203,8 @@ tab][i/earn].
 [orderbook]: market/orderbook.md
 
 ### Timechain
+
+The data structure of Bitcoin's [base layer](#base-layer).
 
 [:octicons-arrow-right-24: Bitcoin is Time][time]
 
