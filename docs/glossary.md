@@ -9,7 +9,7 @@ This glossary explains some of the concepts and terms used in Jam.
 
 <center>
 [
-A ·
+[A](#a) ·
 [B](#b) ·
 [C](#c) ·
 [D](#d) ·
@@ -40,12 +40,20 @@ Z
 
 ---
 
+## A
+
+### Address
+
+### Address Type
+
 ## B
 ### Base Layer
 
 ### Batch Transaction
 
+### Blockchain
 
+A bad word for [timechain](#timechain).
 
 ## C
 ### Chain Analysis
@@ -72,6 +80,33 @@ collaboratively by multiple participants. A collaborative transaction involves t
 
 Collaborative transactions break the [common input ownership heuristic](#common-input-ownership-heuristic) that is used by chain analysis companies to de-anonymize actors.
 ### Change
+
+When using physical cash, spending a $100 bill to pay for a $25 item, you will
+get $75 back in change. The reason for this is that you can't spend just a part
+of the bill, because ripping off a quarter of it for payment will invalidate the
+bill. Consequently, when bills change hands, the whole bill has to be spent, and
+an appropriate amount of change goes back to the spender.
+
+Bitcoin works the same way. When sats change hands, the spender has to spend the
+whole [UTXO](#utxo). Bitcoin creates the appropriate amount of change
+automatically. Because all transactions are
+
+As of this writing,[^744811] a [simple spend](#simple-spend) is
+the most common transaction type.
+
+The act of guessing whether you bought something for $25 or $75 is what is
+called [change detection](#change-detection).
+
+
+
+[^744811]: Block 744,811
+
+### Change Detection
+
+[:octicons-arrow-right-24: Privacy Fundamentals][fundamentals]
+
+[fundamentals]: privacy/01-fundamentals.md
+
 ### CIOH
 
 Short for [Common Input Ownership Heuristic](#common-input-ownership-heuristic).
@@ -129,12 +164,16 @@ tab][i/earn] and become a market maker.
 ### Sats
 Short for *satoshis*, plural of *sat* (satoshi).
 
-A sat the smallest fraction of a bitcoin that can be expressed [on-chain](#onchain). There are `100,000,000` sats in a bitcoin. There are multiple currency symbols for a sat emerging. In Jam, the *sat symbol*[^satsymbol] is used:
+A sat the smallest fraction of a bitcoin that can be expressed
+[on-chain](#onchain). There are `100,000,000` sats in a bitcoin. There are
+multiple currency symbols for a sat emerging. In Jam, the *sat
+symbol*[^satsymbol] is used:
 <i class="fak fa-satoshisymbol-solidtilt"></i>
 
 [^satsymbol]: [satsymbol.com](https://satsymbol.com/)
 
 ### Schedule
+### Simple Spend
 ### Sybil Attack
 ## T
 ### Taint
@@ -151,9 +190,15 @@ tab][i/earn].
 [orderbook]: market/orderbook.md
 
 ### Timechain
+
+[:octicons-arrow-right-24: Bitcoin is Time][time]
+
+[time]: https://dergigi.com/time
+
 ### Timelock
+### Transaction
 ### TX
-Short for transaction.
+Short for [transaction](#transaction).
 ## U
 ### Unspent Transaction Output
 ### UTXO
