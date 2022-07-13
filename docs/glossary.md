@@ -10,7 +10,7 @@ This glossary explains some of the concepts and terms used in Jam.
 <center>
 [
 A ·
-B ·
+[B](#b) ·
 [C](#c) ·
 [D](#d) ·
 [E](#e) ·
@@ -23,7 +23,7 @@ K ·
 L ·
 [M](#m) ·
 N ·
-O ·
+[O](#o) ·
 [P](#p) ·
 Q ·
 R ·
@@ -39,6 +39,11 @@ Z
 </center>
 
 ---
+
+## B
+### Base Layer
+
+### Batch Transaction
 
 
 
@@ -62,8 +67,10 @@ this heuristic.
 
 ### Collaborative Transaction
 
-A collaborative transaction is a bitcoin transaction that --- you guessed it ---
-is done collaboratively by multiple participants.
+A collaborative transaction is a bitcoin transaction that—you guessed it—is done
+collaboratively by multiple participants. A collaborative transaction involves two or more parties and is thus always a [batch transaction](#batch-transaction).
+
+Collaborative transactions break the [common input ownership heuristic](#common-input-ownership-heuristic) that is used by chain analysis companies to de-anonymize actors.
 ### Change
 ### CIOH
 
@@ -91,7 +98,7 @@ collaborative transactions automatically via the [scheduler](#schedule).
 [i/jam]: interface/02-jam.md
 ### Jar
 
-In Jam, a "jar" is a container that holds some sats of yours.[^mixdepths] Jars
+In Jam, a "jar" is a container that holds some [sats](#sats) of yours.[^mixdepths] Jars
 exist to segregate your sats into multiple buckets that are disconnected from
 each other, which aids privacy. To not risk any privacy degradation, you can
 only spend from one jar at a time.
@@ -120,6 +127,13 @@ tab][i/earn] and become a market maker.
 ### PayJoin
 ## S
 ### Sats
+Short for *satoshis*, plural of *sat* (satoshi).
+
+A sat the smallest fraction of a bitcoin that can be expressed [on-chain](#onchain). There are `100,000,000` sats in a bitcoin. There are multiple currency symbols for a sat emerging. In Jam, the *sat symbol*[^satsymbol] is used:
+<i class="fak fa-satoshisymbol-solidtilt"></i>
+
+[^satsymbol]: [satsymbol.com](https://satsymbol.com/)
+
 ### Schedule
 ### Sybil Attack
 ## T
@@ -138,6 +152,8 @@ tab][i/earn].
 
 ### Timechain
 ### Timelock
+### TX
+Short for transaction.
 ## U
 ### Unspent Transaction Output
 ### UTXO
