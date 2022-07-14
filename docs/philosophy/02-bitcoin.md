@@ -38,7 +38,8 @@ capitalism and dragnet surveillance.
 
 While credit requires identity, money does not. When you can trust the money you
 don't have to trust the person. In Bitcoin, there are no persons; only
-pseudonymous identities. Identities that can be generated at no cost.
+pseudonymous identities. Identities that are generated cryptographically at
+virtually no cost.
 
 > With e-currency based on cryptographic proof, **without the need to trust a
 > third party middleman**, money can be **secure** and transactions **effortless**.
