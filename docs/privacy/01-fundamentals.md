@@ -175,7 +175,13 @@ complete yet, encrypted communication became the default over time. This upgrade
 took a long time, since, similar to Bitcoin, nobody is in charge of the
 internet.
 
-TODO
+<!-- TODO: Segue, ending? -->
+
+---
+
+[:octicons-arrow-right-24: Best Practices][best-practices]
+
+[best-practices]: /privacy/02-best-practices
 
 [https]: https://dergigi.com/https
 [percent]: https://transparencyreport.google.com/https/overview?hl=en

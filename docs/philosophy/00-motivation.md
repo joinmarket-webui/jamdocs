@@ -70,6 +70,10 @@ while using Bitcoin and fortu­nately most of these tools become easier
 to use over time. Unfor­tu­nately no panacea exists. One has to remain
 aware of the trade­offs and follow best practices as they evolve.[^fn1]
 
+[:octicons-arrow-right-24: Free Software][free-software]
+
+[free-software]: /philosophy/01-free-software
+
 [^fn1]: Some parts of the above are based on "[Bitcoin Privacy: Best
 Practices](https://dergigi.com/2021/03/14/bitcoin-privacy-best-practices/),
 written by Gigi and released under CC BY-SA 4.0 license."
@@ -80,7 +84,7 @@ Jam is a front-end for [JoinMarket][jmcs], a privacy-focused bitcoin software
 that uses a peer-to-peer marketplace to facilitate collaborative transactions,
 also called "CoinJoins."[^fn-glossary]
 
-[^fn-glossary]: We prefer to refer to them as [collaborative transactions](../glossary.md), which is more concise and explanatory. 
+[^fn-glossary]: We prefer to refer to them as [collaborative transactions](../glossary.md), which is more concise and explanatory.
 
 [jmcs]: https://github.com/JoinMarket-Org/joinmarket-clientserver
 
@@ -95,6 +99,9 @@ JoinMarket takes a different approach. It allows participants to propose
 collaborative transactions to others, creating an open market of buyers and
 sellers, which removes the central coordinator from the equation.
 
+[:octicons-arrow-right-24: JoinMarket][joinmarket]
+
+[joinmarket]: /philosophy/03-joinmarket
 
 ## Tech Fundamentals
 
