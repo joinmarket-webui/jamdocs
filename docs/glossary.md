@@ -119,9 +119,19 @@ Short for [Common Input Ownership Heuristic](#common-input-ownership-heuristic).
 ## D
 ### Doxxic Change
 
-"Doxxic" change is any leftover change that is going back to you when participating in an equal-output CoinJoin. It is also referred to as toxic change; TODO
+"Doxxic" change is any leftover change that is going back to you when
+participating in an equal-output CoinJoin. Doxxic change is problematic because
+it can potentially destroy any privacy benefits gained from a CoinJoin.  
 
-The concept does not exist in Jam, since JoinMarket does not produce doxxic change.
+The word is a combination of "toxic" and "doxxing." Doxxing is the act of finding
+out the legal identity (or similar identifiying information) of a pseudonymous
+entity. Bitcoin is a pseudonymous system and does not require the *True
+Names*[^true-names] of participants.
+
+[^true-names]: Vernor Vinge, 1981, [True Names](https://bitcoin-resources.com/books/true-names)
+
+The concept of "doxxic change" does not exist in Jam, since JoinMarket does not
+produce doxxic change.
 
 ## E
 ### Eclipse Attack
