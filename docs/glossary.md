@@ -77,13 +77,33 @@ this heuristic.
 
 ### CoinJoin
 
+A CoinJoin is a collaborative transaction that combines inputs from multiple
+parties. The purpose of a CoinJoin is to combine inputs and create outputs in
+ways that improves the financial privacy of participants, without relying on a
+trusted third party for custody. When done correctly, a CoinJoin breaks any
+deterministic links between transactions, moving the process of chainalysis from
+quasi-deterministic with high certainty to probabilistic with low certainty.
+
+CoinJoins break the [common input ownership
+heuristic](#common-input-ownership-heuristic) that is used by chain analysis
+companies to de-anonymize actors. The concept was introduced in 2013 by Gregory
+Maxwell.[^gmaxwell1][^gmaxwell2]
+
+All CoinJoins are collaborative transactions. The two main types of CoinJoins
+are equal-output and unequal-output. Other differences might be interactivity
+and number of participants.
+
+[^gmaxwell1]: [I taint rich!](https://bitcointalk.org/?topic=139581) Maxwell, Jan. 2013
+[^gmaxwell2]: [CoinJoin: Bitcoin privacy for the real world](https://bitcointalk.org/?topic=279249) Maxwell, Aug. 2013
+
 
 ### Collaborative Transaction
 
-A collaborative transaction is a bitcoin transaction that—you guessed it—is done
-collaboratively by multiple participants. A collaborative transaction involves two or more parties and is thus always a [batch transaction](#batch-transaction).
+A collaborative transaction is a bitcoin transaction that is initiated and
+signed by multiple participants. A collaborative transaction involves two or
+more parties and is thus always a [batch transaction](#batch-transaction). All
+CoinJoins are collaborative transactions.
 
-Collaborative transactions break the [common input ownership heuristic](#common-input-ownership-heuristic) that is used by chain analysis companies to de-anonymize actors.
 ### Change
 
 When using physical cash, spending a $100 bill to pay for a $25 item, you will
@@ -197,6 +217,7 @@ symbol*[^satsymbol] is used:
 
 ### Schedule
 ### Simple Spend
+### SNICKER
 ### Sybil Attack
 ## T
 ### Taint
