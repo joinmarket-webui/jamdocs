@@ -29,8 +29,8 @@ freedoms.
 
 Most software and software products force the user into a master-slave
 relationship, as do most monetary systems and financial products. Bitcoin is
-freedom money because the software that makes Bitcoin possible is free software—
-free as in freedom. There are no masters, only peers.
+freedom money because the software that makes Bitcoin possible is free
+software—free as in freedom. There are no masters, only peers.
 
 [:octicons-arrow-right-24: Bitcoin][bitcoin]
 
