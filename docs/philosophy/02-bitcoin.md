@@ -28,8 +28,8 @@ security holes.[^szabo]
 > We have to trust [banks] with our **privacy**, trust them not to let
 > identity thieves drain our accounts. [...] Before strong encryption, users had
 > to rely on password protection to secure their files, placing trust in the
-> system administrator to keep their information private. Privacy could always
-> be overridden by the admin based on his judgment call weighing the principle
+> system administrator to keep their information private. **Privacy could always
+> be overridden by the admin** based on his judgment call weighing the principle
 > of privacy against other concerns, or at the behest of his superiors.
 
 Privacy. Admins that spy on you. Systems that are designed to spy on you.
@@ -54,10 +54,11 @@ impeded.
 
 > The result is a distributed system with **no single point of failure.**
 
-No single point of failure. That is one of the main value propositions of
-Bitcoin, and what makes it so resilient. No single point of failure is what
-makes Bitcoin resistant to censorship, and it is also what sets JoinMarket
-apart.
+No single point of failure. No admins.That is one of the main value propositions
+of Bitcoin, and what makes it so resilient. This resiliency, and the fact that
+the users are in charge—and nobody else—is what sets Bitcoin apart. JoinMarket
+continues this philosophical approach: economic actors in a peer-to-peer system,
+no single point of failure.
 
 [^brc]: A selection of books is available in the *Bitcoin and Cypherpunk History* section of [bitcoin-resources.com/books](https://bitcoin-resources.com/books/#bitcoin-and-cypherpunk-history)
 
