@@ -32,7 +32,8 @@ you get involved.
 
 ## Understand the Philosophy
 
-Before you really get going you should understand the philosophy behind
+Before you really get going you should understand the philosophy behind Jam and
+the foundations it is built upon.
 
 [:octicons-arrow-right-24: Motivation][motivation]
 
