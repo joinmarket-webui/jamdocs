@@ -235,6 +235,20 @@ tab][i/earn] and become a market maker.
 ### Offchain
 ### Onchain
 ## P
+### P2PKH
+Short for pay-to-public-key-hash.
+
+[:octicons-arrow-right-24: Learn Me A Bitcoin: P2PKH][p2pkh]
+
+[p2pkh]: https://learnmeabitcoin.com/technical/p2pkh
+
+### P2SH
+Short for pay-to-script-hash.
+
+[:octicons-arrow-right-24: Learn Me A Bitcoin: P2SH][p2sh]
+
+[p2sh]: https://learnmeabitcoin.com/technical/p2sh
+
 ### PayJoin
 ## S
 ### Sats
