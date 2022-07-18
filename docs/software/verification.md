@@ -17,7 +17,7 @@ and [verify the git tag][verify-tag] of your local copy:
 [verify-tag]: https://git-scm.com/docs/git-verify-tag
 
 ```
-git verify-tag v0.0.8
+git verify-tag v0.0.9
 ```
 
 This should produce an output that contains "good signature" as well as the key fingerprint mentioned above:
