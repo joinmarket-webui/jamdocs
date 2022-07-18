@@ -44,6 +44,22 @@ Z
 
 ### Address
 
+A bitcoin address—also called bitcoin invoice address[^bip179]—is a string of
+characters that you send to someone else to receive funds.
+
+There are currently three invoice address formats in use:
+
+- [P2PKH](#p2pkh) starting with `1`
+- [P2SH](#p2sh) starting with `3`
+- [Bech32](#bech32) starting with `bc1`
+
+For more details please refer to the [Bitcoin Wiki][wiki-addr]. Jam defaults to
+Bech32 addresses.
+
+[wiki-addr]: https://en.bitcoin.it/wiki/Invoice_address
+
+[^bip179]: The term *invoice* is proposed in [BIP-179](https://github.com/bitcoin/bips/blob/master/bip-0179.mediawiki) as an alternative.
+
 ### Address Reuse
 
 ### Address Type
@@ -54,7 +70,24 @@ Z
 [:octicons-arrow-right-24: Layered Money][layered-money]
 
 [layered-money]: https://bitcoin-resources.com/books/layered-money
+
 ### Batch Transaction
+
+A batch transaction is a transaction that combines multiple real-world
+transactions into one on-chain transaction. It has multiple inputs and multiple
+outputs. Different parties may control one or multiple inputs and receive one or
+multiple outputs.
+
+[:octicons-arrow-right-24: Privacy Fundamentals][fundamentals]
+
+[fundamentals]: privacy/01-fundamentals.md
+
+### Bech32
+
+Bech32 is an [invoice address](#address) format. It was specified in [BIP
+173][bip173] and is used for both SegWit and Taproot addresses.
+
+[bip173]: https://en.bitcoin.it/wiki/BIP_0173
 
 ### Blockchain
 
