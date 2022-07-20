@@ -14,10 +14,6 @@ above. You can also do a manual installation.
 
 TODO
 
-### with Raspiblitz
-
-TODO
-
 ### with Umbrel
 
 Jam can be installed directly from the Umbrel app store:
@@ -31,6 +27,27 @@ Done!
 ### with Citadel
 
 TODO
+
+### with Raspiblitz
+
+You can install Jam via [the
+CLI](https://github.com/rootzoll/raspiblitz/pull/2747) in RaspiBlitz v1.7.2 and
+up. To install it, exit the Raspiblitz menu and run:
+
+```sh
+patch
+config.scripts/bonus.joinmarket-webui.sh on
+```
+
+To get information on how to connect to Jam run:
+
+```sh
+config.scripts/bonus.joinmarket-webui.sh menu
+```
+
+We're aiming for a more stable version to be available as a one-click app
+install with [RaspiBlitz
+v1.8.0](https://github.com/rootzoll/raspiblitz/issues/2891).
 
 ### with BTCPay Server
 
