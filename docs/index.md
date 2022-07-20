@@ -1,10 +1,10 @@
 # Getting Started
 
-Jam is an interface for Joinmarket[^jm], a special kind of bitcoin software that
+Jam is an interface for JoinMarket[^jm], a special kind of bitcoin software that
 focuses on privacy and security. The goal of Jam is to make it easier to improve
 the financial privacy of yourself and others.
 
-[^jm]: Jam and Joinmarket are separate projects. For more information on Joinmarket, see the [Joinmarket GitHub Page](https://github.com/Joinmarket-Org/joinmarket-clientserver)
+[^jm]: Jam and JoinMarket are separate projects. For more information on JoinMarket, see the [JoinMarket GitHub Page](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 
 !!! warning
     Both Jam and its documentation are a work in progress. We are writing
@@ -27,7 +27,7 @@ Before you get going with Jam you should understand the "why" behind it all.
 [motivation]: philosophy/00-motivation.md
 [fundamentals]: privacy/01-fundamentals.md
 
-As mentioned above, Jam uses Joinmarket under the hood. What sets Joinmarket
+As mentioned above, Jam uses JoinMarket under the hood. What sets JoinMarket
 apart is that it has no single point of failure. It is completely peer-to-peer,
 there is no central coordinator, no "doxxic change", no company behind it all,
 no marketing department, and no central entity making any money off of it.
@@ -36,7 +36,7 @@ All development is done by volunteers. Consequently, please heed the following
 warning:
 
 !!! danger
-    **Jam is considered beta software.** While Joinmarket is tried and tested, Jam is new and things might break. Use with caution. Please report any issues [directly on GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
+    **Jam is considered beta software.** While JoinMarket is tried and tested, Jam is new and things might break. Use with caution. Please report any issues [directly on GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
 
 ## Installation
 
@@ -51,7 +51,7 @@ yourself.
 ## First Use
 
 Once installed, you will have to add some funds to Jam to get going. If you are
-new to Joinmarket in general and Jam in particular, you might want to have a
+new to JoinMarket in general and Jam in particular, you might want to have a
 look at the "cheat sheet."
 
 [:octicons-arrow-right-24: Cheat Sheet][cheatsheet]
@@ -60,7 +60,7 @@ look at the "cheat sheet."
 
 ## Getting Help
 
-Since there is no company or fixed team behind Jam or Joinmarket, your best bet
+Since there is no company or fixed team behind Jam or JoinMarket, your best bet
 to get help are public chat groups and public forums. Also make sure to have a
 look at the FAQ to get answers to frequently asked questions.
 
@@ -72,5 +72,5 @@ look at the FAQ to get answers to frequently asked questions.
 
 
 [faq]: FAQ
-[tgJam]: https://t.me/JoinmarketWebUI
+[tgJam]: https://t.me/JoinMarketWebUI
 [ghJam]: https://github.com/joinmarket-webui/joinmarket-webui/issues

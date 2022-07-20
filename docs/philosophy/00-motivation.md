@@ -80,13 +80,13 @@ written by Gigi and released under CC BY-SA 4.0 license."
 
 ## Why Jam?
 
-Jam is a front-end for [Joinmarket][jmcs], a privacy-focused bitcoin software
+Jam is a front-end for [JoinMarket][jmcs], a privacy-focused bitcoin software
 that uses a peer-to-peer marketplace to facilitate collaborative transactions,
 also called "CoinJoins."[^fn-glossary]
 
 [^fn-glossary]: We prefer to refer to them as [collaborative transactions](../glossary.md), which is more concise and explanatory.
 
-[jmcs]: https://github.com/Joinmarket-Org/joinmarket-clientserver
+[jmcs]: https://github.com/JoinMarket-Org/joinmarket-clientserver
 
 A collaborative transaction, as the name implies, is a bitcoin transaction that
 is done collaboratively by multiple parties. The tricky part of getting a
@@ -95,11 +95,11 @@ matchmaking, timing, and trust.
 
 Usually, this problem is solved with a central coordinator.
 
-Joinmarket takes a different approach. It allows participants to propose
+JoinMarket takes a different approach. It allows participants to propose
 collaborative transactions to others, creating an open market of buyers and
 sellers, which removes the central coordinator from the equation.
 
-[:octicons-arrow-right-24: Joinmarket][joinmarket]
+[:octicons-arrow-right-24: JoinMarket][joinmarket]
 
 [joinmarket]: /philosophy/03-joinmarket
 

@@ -13,7 +13,7 @@ on Jam, or have worked on it in the past.
 
 [:octicons-arrow-right-24: Telegram Chat][telegram]
 
-[telegram]: https://t.me/JoinmarketWebUI
+[telegram]: https://t.me/JoinMarketWebUI
 [matrix]: TODO
 
 ## Study the Basics
@@ -81,7 +81,7 @@ translate Jam into multiple languages, [join the translation team][translations]
 [pulls]: https://github.com/joinmarket-webui/joinmarket-webui/pulls
 [good-first-issue]: https://github.com/joinmarket-webui/joinmarket-webui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [translations]: TODO
-[figma]: https://www.figma.com/file/kfejZJFlwBywvLEnPEmJo1/Joinmarket-UI?node-id=2850%3A67638
+[figma]: https://www.figma.com/file/kfejZJFlwBywvLEnPEmJo1/JoinMarket-UI?node-id=2850%3A67638
 
 
 ## Just Get Started!
@@ -100,4 +100,4 @@ participating in this project.
 
 [contrib]: https://github.com/joinmarket-webui/joinmarket-webui/blob/master/CONTRIBUTING.md
 [calls]: https://github.com/joinmarket-webui/joinmarket-webui/wiki/community-calls
-[telegram]: https://t.me/JoinmarketWebUI
+[telegram]: https://t.me/JoinMarketWebUI

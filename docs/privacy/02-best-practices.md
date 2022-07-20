@@ -91,7 +91,7 @@ collab­o­ra­tive CoinJoin trans­ac­tions will ensure that your privacy is
 protected going forward. While CoinJoin trans­ac­tions are nuanced,
 user-friendly software exists to help you create and automate these kinds of
 trans­ac­tions. Samourai's [Whirlpool](https://samouraiwallet.com/whirlpool) is
-a good  solution for Android users, for example. There is also Joinmarket,
+a good  solution for Android users, for example. There is also JoinMarket,
 which, thanks to projects like [JoininBox](https://github.com/openoms/joininbox)
 and [Jam](/), can be set up quite easily on your own node.
 

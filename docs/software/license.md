@@ -1,6 +1,6 @@
 # License
 
-Both Jam and Joinmarket are released under free and open-source software licenses.
+Both Jam and JoinMarket are released under free and open-source software licenses.
 
 ## Jam
 
@@ -11,8 +11,8 @@ Jam and its documentation is licensed under the [MIT License](https://directory.
 
 ---
 
-## Joinmarket
+## JoinMarket
 
-Joinmarket is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
+JoinMarket is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
 
-- Joinmarket [LICENSE](https://github.com/Joinmarket-Org/joinmarket-clientserver/blob/master/LICENSE)
+- JoinMarket [LICENSE](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/LICENSE)

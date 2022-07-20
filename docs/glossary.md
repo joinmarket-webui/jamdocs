@@ -1,7 +1,7 @@
 # Glossary
 
 Unfortunately, there is no way to talk about bitcoin privacy and the intricacies
-of Joinmarket without a little bit of special lingo.
+of JoinMarket without a little bit of special lingo.
 
 This glossary explains some of the concepts and terms used in Jam.
 
@@ -183,7 +183,7 @@ Names*[^true-names] of participants.
 
 [^true-names]: Vernor Vinge, 1981, [True Names](https://bitcoin-resources.com/books/true-names)
 
-The concept of "doxxic change" does not exist in Jam, since Joinmarket does not
+The concept of "doxxic change" does not exist in Jam, since JoinMarket does not
 produce doxxic change.
 
 ## E
@@ -216,7 +216,7 @@ only spend from one jar at a time.
 
 There are 5 jars by default. The default jar to receive funds is *Jar #0*.
 
-[^mixdepths]: What we call "jars" are usually called "mixdepths" in Joinmarket. They are also referred to as "pockets" and "accounts" in some of the older parts of the Joinmarket documentation.
+[^mixdepths]: What we call "jars" are usually called "mixdepths" in JoinMarket. They are also referred to as "pockets" and "accounts" in some of the older parts of the JoinMarket documentation.
 
 ## M
 ### Maker

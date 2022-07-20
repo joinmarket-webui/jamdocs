@@ -9,9 +9,9 @@ Have a question that is not listed here? [Let us know!][contribute]
 ## Frequently Asked Questions
 
 This FAQ compiles questions that relate to Jam in particular. For things related
-to Joinmarket in general, please refer to the [Joinmarket documentation][jm-docs].
+to JoinMarket in general, please refer to the [JoinMarket documentation][jm-docs].
 
-[jm-docs]: https://github.com/Joinmarket-Org/joinmarket-clientserver/tree/master/docs
+[jm-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/tree/master/docs
 
 ### How much can I earn?
 
@@ -28,10 +28,10 @@ market price. If your offer is competitive and is still ignored, make sure to
 create a [Fidelity Bond][glossary], which signals that you are a serious market
 participant and not a malicious entity.
 
-See also "[a few words about incentives][jm-incentives]" from the Joinmarket
+See also "[a few words about incentives][jm-incentives]" from the JoinMarket
 documentation.
 
-[jm-incentives]: https://github.com/Joinmarket-Org/joinmarket-clientserver/blob/master/docs/YIELDGENERATOR.md#a-few-words-about-incentives
+[jm-incentives]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/YIELDGENERATOR.md#a-few-words-about-incentives
 
 ### How high are the fees that I do have to pay?
 
@@ -53,9 +53,9 @@ mempool or use a public site like [mempool.space][ms] to do a fee estimation.
     We highly recommended that you [run your own mempool.space
     instance][ms-install] on your full node.
 
-See also "[a note on fees][fee-note]" from the Joinmarket documentation.
+See also "[a note on fees][fee-note]" from the JoinMarket documentation.
 
-[fee-note]: https://github.com/Joinmarket-Org/joinmarket-clientserver/blob/master/docs/tumblerguide.md#a-note-on-fees
+[fee-note]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/tumblerguide.md#a-note-on-fees
 [fees]: market/fees.md
 [orderbook]: market/orderbook.md
 [glossary]: glossary.md
@@ -64,7 +64,7 @@ See also "[a note on fees][fee-note]" from the Joinmarket documentation.
 
 ### I'm getting an error when trying to open the wallet
 
-The following error can pop up in case Joinmarket didnt't shut down cleanly:
+The following error can pop up in case JoinMarket didnt't shut down cleanly:
 
 ```
 wallet.jmdat cannot be created/opened, it is locked.
