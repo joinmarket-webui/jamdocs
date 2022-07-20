@@ -33,3 +33,5 @@ markdown_extensions:
 
 extra_javascript:
   - https://kit.fontawesome.com/090ca49637.js
+  - js/external-links.js
+
