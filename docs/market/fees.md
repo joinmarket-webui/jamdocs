@@ -19,7 +19,30 @@ Of course, you can offer liquidity yourself via the [Earn][earn] functionality, 
 
 ## Maker Fees
 
+When doing a collaborative transaction via the [Send][send] or [Jam][jam] tabs,
+you are taking liquidity offers from others, effectively becoming a [market
+taker][taker].
+
+How much you will pay in maker fees depends on the fee market of the current offers. You can get an overview of fees by inspecting the order book.
+
+[:octicons-arrow-right-24: Orderbook][orderbook]
+
+[orderbook]: /market/orderbook
+
+[jam]: /interface/02-jam
+[send]: /interface/04-send
+[taker]: /glossary/#taker
+
 ## Mining Fees
+
+Note that collaborative transactions are larger, in terms of bytes, than "regular" bitcoin transactions. Since the cost of on onchain transaction is determined by its byte size—not by value transferred—a collaborative transaction is more expensive than a [simple spend][ss].
+
+
+[:octicons-arrow-right-24: FAQ: How much can I earn?][faq-earn]
+
+[mempool]: /market/mempool
+
+[ss]: /privacy/01-fundamentals/#bitcoin-transaction-types
 
 ## Earning Fees
 
