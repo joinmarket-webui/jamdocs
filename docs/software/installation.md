@@ -14,7 +14,7 @@ above. You can also do a manual installation.
 
 TODO
 
-### with Umbrel
+### ...with Umbrel
 
 Jam can be installed directly from the [Umbrel](https://umbrel.com/) app store:
 
@@ -24,7 +24,7 @@ Jam can be installed directly from the [Umbrel](https://umbrel.com/) app store:
 
 Done!
 
-### with Citadel
+### ...with Citadel
 
 Jam can be installed directly from the [Citadel](https://runcitadel.space/) app store:
 
@@ -34,7 +34,7 @@ Jam can be installed directly from the [Citadel](https://runcitadel.space/) app 
 
 Done!
 
-### with Raspiblitz
+### ...with Raspiblitz
 
 You can install Jam via [the
 CLI](https://github.com/rootzoll/raspiblitz/pull/2747) in RaspiBlitz v1.7.2 and
@@ -55,10 +55,10 @@ We're aiming for a more stable version to be available as a one-click app
 install with [RaspiBlitz
 v1.8.0](https://github.com/rootzoll/raspiblitz/issues/2891).
 
-### with BTCPay Server
+### ...with BTCPay Server
 
 TODO
 
-### Manual Installation
+## Manual Installation
 
 TODO
