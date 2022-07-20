@@ -56,13 +56,13 @@ impeded.
 
 No single point of failure. No admins.That is one of the main value propositions
 of Bitcoin, and what makes it so resilient. This resiliency, and the fact that
-the users are in charge—and nobody else—is what sets Bitcoin apart. JoinMarket
+the users are in charge—and nobody else—is what sets Bitcoin apart. Joinmarket
 continues this philosophical approach: economic actors in a peer-to-peer system,
 no single point of failure.
 
 [^brc]: A selection of books is available in the *Bitcoin and Cypherpunk History* section of [bitcoin-resources.com/books](https://bitcoin-resources.com/books/#bitcoin-and-cypherpunk-history)
 
-[:octicons-arrow-right-24: JoinMarket][joinmarket]
+[:octicons-arrow-right-24: Joinmarket][joinmarket]
 
 [joinmarket]: /philosophy/03-joinmarket
 [announcement]: https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/
