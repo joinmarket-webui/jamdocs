@@ -203,10 +203,10 @@ collaborative transactions automatically via the [scheduler](#schedule).
 
 [:octicons-arrow-right-24: About][name]
 
-[:octicons-arrow-right-24: Jam Interface][i/jam]
+[:octicons-arrow-right-24: Jam Interface][jam]
 
 [name]: about.md
-[i/jam]: interface/02-jam.md
+[jam]: interface/02-jam.md
 ### Jar
 
 In Jam, a "jar" is a container that holds some [sats](#sats) of yours.[^mixdepths] Jars
@@ -223,11 +223,11 @@ There are 5 jars by default. The default jar to receive funds is *Jar #0*.
 
 A market maker is someone who offers liquidity to the market, to be used by
 others for collaborative transactions. You can create an offer via the ["Earn"
-tab][i/earn] and become a market maker.
+tab][earn] and become a market maker.
 
-[:octicons-arrow-right-24: Earn Screen][i/earn]
+[:octicons-arrow-right-24: Earn Screen][earn]
 
-[i/earn]: interface/03-earn.md
+[earn]: interface/03-earn.md
 
 
 ### Mempool
