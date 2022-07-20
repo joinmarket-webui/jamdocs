@@ -50,7 +50,7 @@ mempool or use a public site like [mempool.space][ms] to do a fee estimation.
 
 !!! hint
 
-    We highly recommended that you [run your own mempool.space
+    We recommended that you [run your own mempool.space
     instance][ms-install] on your full node.
 
 See also "[a note on fees][fee-note]" from the JoinMarket documentation.
