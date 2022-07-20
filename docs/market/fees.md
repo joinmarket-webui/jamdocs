@@ -13,17 +13,21 @@ Consequently, when you are sending a collaborative transaction in Jam—or when 
 
 Of course, you can offer liquidity yourself via the [Earn][earn] functionality, allowing you to be on the receiving end when it comes to maker fees.
 
+[:octicons-arrow-right-24: Earn][earn]
+
 [maker]: /glossary/#maker
 [mempool]: /glossary/#mempool
 [earn]: /interface/03-earn
 
-## Maker Fees
+## Paying Maker Fees
 
 When doing a collaborative transaction via the [Send][send] or [Jam][jam] tabs,
 you are taking liquidity offers from others, effectively becoming a [market
 taker][taker].
 
 How much you will pay in maker fees depends on the fee market of the current offers. You can get an overview of fees by inspecting the order book.
+
+[:octicons-arrow-right-24: FAQ: How high are the fees that I do have to pay?][faq-fees]
 
 [:octicons-arrow-right-24: Orderbook][orderbook]
 
@@ -33,18 +37,28 @@ How much you will pay in maker fees depends on the fee market of the current off
 [send]: /interface/04-send
 [taker]: /glossary/#taker
 
-## Mining Fees
+## Paying Mining Fees
 
-Note that collaborative transactions are larger, in terms of bytes, than "regular" bitcoin transactions. Since the cost of on onchain transaction is determined by its byte size—not by value transferred—a collaborative transaction is more expensive than a [simple spend][ss].
+Just like all users of [onchain][onchain] bitcoin, you will have to pay
+transaction fees to miners.
+
+[onchain]: /glossary/#onchain
+
+Note that collaborative transactions are larger, in terms of bytes, than
+"regular" bitcoin transactions. Since the cost of an onchain transaction is
+determined by its size in bytes—not by value transferred—a collaborative
+transaction is more expensive than a [simple spend][ss].
 
 
-[:octicons-arrow-right-24: FAQ: How much can I earn?][faq-earn]
+[:octicons-arrow-right-24: FAQ: How high are the fees that I do have to pay?][faq-fees]
+
+[:octicons-arrow-right-24: Mempool][mempool]
 
 [mempool]: /market/mempool
-
 [ss]: /privacy/01-fundamentals/#bitcoin-transaction-types
+[faq-fees]: /FAQ/#how-high-are-the-fees-that-i-do-have-to-pay
 
-## Earning Fees
+## Earning Maker Fees
 
 As mentioned above, you can use the [Earn][earn] tab to earn maker fees
 yourself.[^fn-home-mining] Simply choose an offer type, select how many fees you would like to earn, and press "Start Earning!"
@@ -58,6 +72,8 @@ you will earn zero sats.
 [^fn-home-mining]: You can also mine yourself to earn mining fees, but that's outside of the scope of Jam. We refer the curious reader to [econoalchemist's home mining guide](https://archive.ph/TLIay) instead.
 
 [:octicons-arrow-right-24: FAQ: How much can I earn?][faq-earn]
+
+[:octicons-arrow-right-24: Orderbook][orderbook]
 
 [faq-earn]: /FAQ/#how-much-can-i-earn
 
