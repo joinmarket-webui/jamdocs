@@ -1,21 +1,25 @@
 # Installation
 
-Jam can be installed as an app / service / plug-in with:
+Jam comes packaged with the following full-node solutions:
 
-- [Raspiblitz](https://github.com/rootzoll/raspiblitz)
-- [Umbrel](https://umbrel.com/)
-- [Citadel](https://github.com/runcitadel)
-- [BTCPay Server](https://btcpayserver.org/)
+- [Umbrel](#with-umbrel)
+- [Citadel](#with-citadel)
+- [Raspiblitz](#with-raspiblitz)
 
 You should be able to install Jam with one click if you are running any of the
-above. You can also do a manual installation.
+above. You can also do a [manual installation](#manual-installation).
+
+---
 
 ## Install as a Package
 
 The easiest way to install Jam is to install it as a package.
 
 !!! info
-    Please understand the trade-offs you are making with a one-click install. Make sure to verify the integrity and authenticity of the node software you are running. And, if possible, [verify the Jam installation][verification] yourself.
+    Please understand the trade-offs you are making when installing Jam as a
+    package. Make sure to verify the integrity and authenticity of the node
+    software you are running. And, if possible, [verify the Jam
+    installation][verification] yourself.
 
 [verification]: /software/verification
 
@@ -56,6 +60,8 @@ config.scripts/bonus.joinmarket-webui.sh menu
 We hope that Jam will be available as a one-click app
 install with [RaspiBlitz
 v1.8.0](https://github.com/rootzoll/raspiblitz/issues/2891).
+
+---
 
 ## Manual Installation
 
