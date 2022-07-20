@@ -17,11 +17,8 @@ node. It is available via port `62601` by default.[^jm-orderbook]
 [^jm-orderbook]: Refer to the [Joinmarket documentation](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/orderbook.md) for details.
 
 There are also public order books that you can inspect, in case you do not have
-access to your own node.[^nixbitcoin]
+access to your own node:
 
-!!! warning
-    Accessing a public order book will reveal your IP address to whomever is
-    running said order book. Make sure to use a VPN or Tor when accessing a
-    public order book.
+[:octicons-arrow-right-24: nixbitcoin.org/orderbook][nixbitcoin]
 
-[^nixbitcoin]: One popular instance of a public orderbook is hosted by nixbitcoin: [nixbitcoin.org/orderbook/](https://nixbitcoin.org/orderbook/)
+[nixbitcoin]: https://nixbitcoin.org/orderbook/
