@@ -20,7 +20,13 @@ TODO
 
 ### with Umbrel
 
-TODO
+Jam can be installed directly from the Umbrel app store:
+
+- Open the Umbrel interface (`umbrel.local` in your browser)
+- Find "Jam" in the Umbrel app store
+- Click install
+
+Done!
 
 ### with Citadel
 
