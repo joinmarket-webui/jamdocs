@@ -29,6 +29,8 @@ others for goods and services, use [send][send].
 4. [Send][send] a collaborative transaction
 5. Rinse and repeat!
 
+[:octicons-arrow-right-24: Receive][receive]
+
 [^fnfb]: Make sure to create a [fidelity bond][fb] to increase the chances of your offer being taken.
 
 [receive]: 01-receive.md
