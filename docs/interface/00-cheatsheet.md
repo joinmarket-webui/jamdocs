@@ -23,11 +23,15 @@ others for goods and services, use [send][send].
 
 ## First Use
 
+
+
 1. [Receive][receive] sats to fund your wallet
-2. [Schedule][jam] transactions
-3. [Earn][earn] sats by offering liquidity (create a [fidelity bond][fb] to increase your chances)
+2. [Jam][jam] it up with the Jam scheduler
+3. [Earn][earn] sats by offering liquidity[^fnfb]
 4. [Send][send] a collaborative transaction
 5. Rinse and repeat!
+
+[^fnfb]: Make sure to create a [fidelity bond][fb] to increase the chances of your offer being taken.
 
 [receive]: 01-receive.md
 [jam]: 02-jam.md
