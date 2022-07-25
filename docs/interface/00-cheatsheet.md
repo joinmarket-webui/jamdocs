@@ -23,8 +23,6 @@ others for goods and services, use [send][send].
 
 ## First Use
 
-
-
 1. [Receive][receive] sats to fund your wallet
 2. [Jam][jam] it up with the Jam scheduler
 3. [Earn][earn] sats by offering liquidity[^fnfb]
@@ -40,3 +38,23 @@ others for goods and services, use [send][send].
 [fb]: fidelity-bonds.md
 
 ## Things to Note
+
+Some processes in Jam might take a long time to complete. Further, **Jam is
+considered beta software.** While JoinMarket is tried and tested, Jam is new and
+things might break. Use with caution. Please report any issues [directly on
+GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
+
+Make sure to understand the privacy fundamentals, best practices, as well as the
+motivation behind this software. Also, understand that you are participating in
+a free market. How much you can earn and how many fees you have to pay depends
+on market conditions.
+
+[:octicons-arrow-right-24: Motivation][motivation]
+
+[:octicons-arrow-right-24: Privacy Fundamentals][fundamentals]
+
+[:octicons-arrow-right-24: Fees][fees]
+
+[motivation]: /philosophy/00-motivation
+[fundamentals]: /privacy/01-fundamentals
+[fees]: /market/fees
