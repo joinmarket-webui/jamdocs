@@ -266,6 +266,8 @@ symbol*[^satsymbol] is used:
 ### Simple Spend
 ### SNICKER
 ### Sybil Attack
+### Sweep
+A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
 ## T
 ### Taint
 ### Taker
