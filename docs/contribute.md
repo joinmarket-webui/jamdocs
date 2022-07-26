@@ -80,7 +80,7 @@ translate Jam into multiple languages, [join the translation team][translations]
 [issues]: https://github.com/joinmarket-webui/joinmarket-webui/issues
 [pulls]: https://github.com/joinmarket-webui/joinmarket-webui/pulls
 [good-first-issue]: https://github.com/joinmarket-webui/joinmarket-webui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
-[translations]: TODO
+[translations]: https://www.transifex.com/joinmarket/jam/dashboard/
 [figma]: https://www.figma.com/file/kfejZJFlwBywvLEnPEmJo1/JoinMarket-UI?node-id=2850%3A67638
 
 
