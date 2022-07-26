@@ -23,4 +23,8 @@ Make sure to create a Fidelity Bond to increase the chances of your offer being 
 
 [:octicons-arrow-right-24: Fidelity Bonds][fb]
 
+[:octicons-arrow-right-24: Send][send]
+
+[send]: 04-send.md
+
 [fb]: fidelity-bonds.md
