@@ -227,8 +227,10 @@ tab][earn] and become a market maker.
 
 [:octicons-arrow-right-24: Earn Screen][earn]
 
-[earn]: interface/03-earn.md
+[:octicons-arrow-right-24: The Maker Role][jm-maker]
 
+[earn]: interface/03-earn.md
+[jm-maker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-maker-role
 
 ### Mempool
 ## O
@@ -279,8 +281,11 @@ tab][i/earn].
 
 [:octicons-arrow-right-24: Earn Screen][i/earn]
 
+[:octicons-arrow-right-24: The Taker Role][jm-taker]
+
 [i/earn]: interface/02-jam.md
 [orderbook]: market/orderbook.md
+[jm-taker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-taker-role
 
 ### Timechain
 
