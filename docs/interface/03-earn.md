@@ -2,7 +2,9 @@
 
 Use the 'Earn' tab to earn sats.
 
-![](../assets/interface/earn.png)
+![](../assets/interface/earn.png#only-dark)
+
+![](../assets/interface/earn-light.png#only-light)
 
 ### Offer Options
 

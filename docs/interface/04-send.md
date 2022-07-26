@@ -2,7 +2,9 @@
 
 Use the 'Send' tab to send sats.
 
-![](../assets/interface/send.png)
+![](../assets/interface/send.png#only-dark)
+
+![](../assets/interface/send-light.png#only-light)
 
 You can also use the scheduler to sweep all funds of your wallet to an external
 address.
