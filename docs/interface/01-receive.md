@@ -2,6 +2,8 @@
 
 Use the 'Receive' tab to receive funds.
 
+![](../assets/interface/receive.png)
+
 A new [invoice address][address] will be generated every time. You can scan the
 QR code with a mobile wallet or copy/paste the invoice address to receive funds
 from someone else, or send funds from another wallet yourself.
