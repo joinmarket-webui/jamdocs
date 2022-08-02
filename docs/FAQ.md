@@ -37,7 +37,7 @@ documentation.
 
 The amount of [fees][fees] you have to pay depends on market and blockspace
 conditions. They are dictated by supply and demand, both for collaborative
-transactions and single user tranactions.
+transactions and single user transactions.
 
 Market [makers][glossary] provide liquidity and set the fee they want to earn,
 either in absolute or percentage terms. Market [takers][glossary] have to agree
