@@ -1,8 +1,12 @@
 site_name: Jam Docs
 copyright: Except where otherwise noted, content on this site is licensed under the GNU FDL.
+repo_url: https://github.com/joinmarket-webui/jamdocs
+repo_name: joinmarket-webui/jamdocs
 theme:
   name: material
   logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
 
     # Palette toggle for light mode
