@@ -139,10 +139,10 @@ tab][i/earn].
 
 ### Timechain
 A timestamped and linked list of blocks. Anyone can create a new block, but each block must have 
-sufficient proof of work, making it difficult to create new blocks.
+sufficient proof of work, making it costly to create new blocks.
 ### Timelock
 A UTXO can be locked up by a script which defines that said UTXO can only be spent in a block that 
-is higher than a certain value. This makes coins unspendable before a specific time.
+is higher than a certain value. This makes UTXOs unspendable before a specific time.
 ## U
 ### Unspent Transaction Output
 The tip of the chain of signatures which originates in a coinbase output. It's a "coin" that
