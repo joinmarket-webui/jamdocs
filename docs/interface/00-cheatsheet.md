@@ -1,17 +1,37 @@
 # Cheat Sheet
 
-TODO
+While everyone will use Jam differently, here is one way you can think about the
+general application flow:
 
 ![](../assets/jam-flow.png)
 
+Some of your [UTXOs][utxo] might be chunky and identifiable, like whole or large
+pieces of fruit. Once you make delicious jam out of them, they are less chunky
+and less identifiable. You are free to offer your fruits to others so they can
+make jam more easily.
+
+Without the fruity metaphor: to increase the privacy and fungibility of your
+funds, you should use Jam as both a [market maker][maker] ('Earn' tab) and a
+[taker][taker] ('Jam' tab). Use a Jar's sweep functionality or the [Jam
+Scheduler][jam] to transfer funds out of Jam, e.g. to move all your funds to
+cold storage or to use them to open lightning channels. If you want to pay
+others for goods and services, use [send][send].
+
+[utxo]: /glossary/#utxo
+[maker]: /glossary/#maker
+[taker]: /glossary/#taker
+
 ## First Use
 
-1. [Fund][receive] your wallet
-2. [Schedule][jam] transactions
-3. Create a [fidelity bond][fb]
-4. [Earn][earn] yield by providing liquidity
-5. [Send][send] a collaborative transaction
-6. Rinse and repeat!
+1. [Receive][receive] sats to fund your wallet
+2. [Jam][jam] it up with the Jam scheduler
+3. [Earn][earn] sats by offering liquidity[^fnfb]
+4. [Send][send] a collaborative transaction
+5. Rinse and repeat!
+
+[:octicons-arrow-right-24: Receive][receive]
+
+[^fnfb]: Make sure to create a [fidelity bond][fb] to increase the chances of your offer being taken.
 
 [receive]: 01-receive.md
 [jam]: 02-jam.md
@@ -19,23 +39,24 @@ TODO
 [send]: 04-send.md
 [fb]: fidelity-bonds.md
 
+## Things to Note
 
-## Receive
+Some processes in Jam might take a long time to complete. Further, **Jam is
+considered beta software.** While JoinMarket is tried and tested, Jam is new and
+things might break. Use with caution. Please report any issues [directly on
+GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
 
-TODO
+Make sure to understand the privacy fundamentals, best practices, as well as the
+motivation behind this software. Also, understand that you are participating in
+a free market. How much you can earn and how many fees you have to pay depends
+on market conditions.
 
-## Jam
+[:octicons-arrow-right-24: Motivation][motivation]
 
-TODO
+[:octicons-arrow-right-24: Privacy Fundamentals][fundamentals]
 
-## Fidelity Bond
+[:octicons-arrow-right-24: Fees][fees]
 
-TODO
-
-## Earn
-
-TODO
-
-## Send
-
-TODO
+[motivation]: /philosophy/00-motivation
+[fundamentals]: /privacy/01-fundamentals
+[fees]: /market/fees

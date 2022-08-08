@@ -17,13 +17,13 @@ and [verify the git tag][verify-tag] of your local copy:
 [verify-tag]: https://git-scm.com/docs/git-verify-tag
 
 ```
-git verify-tag v0.0.8
+git verify-tag v0.0.10
 ```
 
 This should produce an output that contains "good signature" as well as the key fingerprint mentioned above:
 
 ```
-gpg: Signature made Di 28 Jun 11:39:34 2022 CEST
+gpg: Signature made Fr  5 Aug 14:17:58 2022 CEST
 gpg:                using RSA key 8198A18530A522A09561243989C4A25E69A5DE7F
 gpg: Good signature from "Gigi <dergigi@pm.me>" [unknown]
 ...

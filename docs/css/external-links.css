@@ -1,0 +1,4 @@
+a[target='_blank']:after {
+    content: ' \f08e';
+    font-family: 'FontAwesome';
+}

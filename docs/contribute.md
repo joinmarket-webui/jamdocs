@@ -14,7 +14,7 @@ on Jam, or have worked on it in the past.
 [:octicons-arrow-right-24: Telegram Chat][telegram]
 
 [telegram]: https://t.me/JoinMarketWebUI
-[matrix]: TODO
+[matrix]: https://matrix.to/#/%23jam:matrix.dergigi.com
 
 ## Study the Basics
 
@@ -32,7 +32,8 @@ you get involved.
 
 ## Understand the Philosophy
 
-Before you really get going you should understand the philosophy behind
+Before you really get going you should understand the philosophy behind Jam and
+the foundations it is built upon.
 
 [:octicons-arrow-right-24: Motivation][motivation]
 
@@ -79,7 +80,7 @@ translate Jam into multiple languages, [join the translation team][translations]
 [issues]: https://github.com/joinmarket-webui/joinmarket-webui/issues
 [pulls]: https://github.com/joinmarket-webui/joinmarket-webui/pulls
 [good-first-issue]: https://github.com/joinmarket-webui/joinmarket-webui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
-[translations]: TODO
+[translations]: https://www.transifex.com/joinmarket/jam/dashboard/
 [figma]: https://www.figma.com/file/kfejZJFlwBywvLEnPEmJo1/JoinMarket-UI?node-id=2850%3A67638
 
 
