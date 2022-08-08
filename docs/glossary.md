@@ -267,6 +267,12 @@ symbol*[^satsymbol] is used:
 ### Schedule
 ### Simple Spend
 ### SNICKER
+Simple Non-Interactive Coinjoin with Keys for Encryption Reused.
+
+[:octicons-arrow-right-24: SNICKER blog post][snicker]
+
+[snicker]: https://archive.ph/UlvPn
+
 ### Sybil Attack
 ### Sweep
 A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
