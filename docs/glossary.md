@@ -167,6 +167,7 @@ what is called [change detection](#change-detection).
 ### CIOH
 
 Short for [Common Input Ownership Heuristic](#common-input-ownership-heuristic).
+It is assumed that all inputs of a transaction belong to a single person.
 
 ### Common Input Ownership Heuristic
 ## D
@@ -221,7 +222,7 @@ There are 5 jars by default. The default jar to receive funds is *Jar #0*.
 ## M
 ### Maker
 
-A market maker is someone who offers liquidity to the market, to be used by
+A market maker is someone who offers bitcoin liquidity to the market, to be used by
 others for collaborative transactions. You can create an offer via the ["Earn"
 tab][earn] and become a market maker.
 
@@ -233,6 +234,7 @@ tab][earn] and become a market maker.
 [jm-maker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-maker-role
 
 ### Mempool
+A list of valid bitcoin transactions that are not yet confirmed in the timechain.
 ## O
 ### Offchain
 ### Onchain
@@ -279,7 +281,7 @@ A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
 ## T
 ### Taint
 ### Taker
-A market taker is someone who buys liquidity from the market, taking up
+A market taker is someone who buys bitcoin liquidity from the market, taking up
 [market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
 
 You will automatically take offers when running the scheduler via the ["Jam"
@@ -294,18 +296,23 @@ tab][i/earn].
 [jm-taker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-taker-role
 
 ### Timechain
-
-The data structure of Bitcoin's [base layer](#base-layer).
+The data structure of Bitcoin's [base layer](#base-layer). It represents a timestamped and linked list of blocks. Anyone can create a new block, but each block must have 
+sufficient proof of work, making it costly to create new blocks.
 
 [:octicons-arrow-right-24: Bitcoin is Time][time]
 
 [time]: https://dergigi.com/time
 
 ### Timelock
+A UTXO can be locked up by a script which defines that said UTXO can only be spent in a block that 
+is higher than a certain value. This makes UTXOs unspendable before a specific time.
+
 ### Transaction
 ### TX
 Short for [transaction](#transaction).
 ## U
 ### Unspent Transaction Output
+The tip of the chain of signatures which originates in a coinbase output. It's a "coin" that
+has not yet been spent and can still be spend.
 ### UTXO
 Short for [Unspent Transaction Output](#unspent-transaction-output).
