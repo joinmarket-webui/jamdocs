@@ -68,9 +68,11 @@ look at the FAQ to get answers to frequently asked questions.
 
 [:octicons-arrow-right-24: GitHub Issues][ghJam]
 
-[:octicons-arrow-right-24: Community Chat][tgJam]
+[:octicons-arrow-right-24: Matrix Room][mxJam]
 
+[:octicons-arrow-right-24: Telegram Group][tgJam]
 
 [faq]: FAQ
 [tgJam]: https://t.me/JoinMarketWebUI
+[mxJam]: https://matrix.to/#/%23jam:matrix.dergigi.com
 [ghJam]: https://github.com/joinmarket-webui/joinmarket-webui/issues
