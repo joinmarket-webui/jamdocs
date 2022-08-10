@@ -40,7 +40,7 @@ Most mempool explorers have some sort of fee estimation. You can also use the
 [`estimatesmartfee`][cmd-estimate] command to do a fee estimation based on your
 mempool:
 
-    bitcoin-cli estimatesmartfee 21 ECONOMICAL
+    bitcoin-cli estimatesmartfee 21 economical
 
 [cmd-estimate]: https://developer.bitcoin.org/reference/rpc/estimatesmartfee.html
 
