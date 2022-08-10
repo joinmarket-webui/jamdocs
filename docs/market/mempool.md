@@ -36,7 +36,9 @@ transaction to be included in the future. It is more an art than a science,
 since the future is always uncertain and mempool conditions might change
 quickly.
 
-Most mempool explorers have some sort of fee estimation. You can also use the [`estimatesmartfee`][cmd-estimate] command to do a fee estimation based on your mempool:
+Most mempool explorers have some sort of fee estimation. You can also use the
+[`estimatesmartfee`][cmd-estimate] command to do a fee estimation based on your
+mempool:
 
     bitcoin-cli estimatesmartfee 21 ECONOMICAL
 
