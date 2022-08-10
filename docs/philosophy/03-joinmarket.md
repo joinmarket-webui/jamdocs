@@ -42,7 +42,7 @@ design in the [high-level
 design](https://github.com/JoinMarket-Org/JoinMarket-Docs/blob/master/High-level-design.md)
 document of the JoinMarket docs.
 
-[^jmwiki]: See the Bitcoin Wiki for https://en.bitcoin.it/wiki/JoinMarket
+[^jmwiki]: See the Bitcoin Wiki for [https://en.bitcoin.it/wiki/JoinMarket](https://en.bitcoin.it/wiki/JoinMarket)
 [^btcmedia]: *Shinobi*, 2021 [JoinMarket Vs. ZeroLink](https://archive.ph/2r2mD)
 
 JoinMarket is free and open-source software, which means that anyone is free to
