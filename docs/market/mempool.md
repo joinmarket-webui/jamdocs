@@ -25,7 +25,7 @@ included is high. If it is low, the chance of inclusion is lower.
 
 [fees]: /market/fees/#paying-mining-fees
 
-## Fees and the Mempool
+## Mempool and Transaction Fees
 
 Bitcoin block space is scarce. If onchain activity is high, the mempool will be
 crowded. The more crowded the mempool, the higher the "bribe" you will have to
@@ -46,21 +46,39 @@ mempool:
 
 ## Mempool Instances
 
-We recommend that you use your own node to inspect the mempool. The software
-that is powering mempool.space is free software and can be installed quite
-easily on your node.
+We recommend that you use your own node to inspect the mempool. For example, you
+can use the [`getrawmempool`][cmd-mempool] command to inspect your mempool:
+
+    bitcoin-cli getrawmempool true
+
+[cmd-mempool]: https://developer.bitcoin.org/reference/rpc/getrawmempool.html
+
+Of course, plenty of graphical user interfaces exist too. The software that is
+powering mempool.space is free software and can be installed quite easily on
+your node.
 
 [:octicons-arrow-right-24: Mempool One-Click Installation][mempool-install]
 
 [mempool-install]: https://github.com/mempool/mempool#one-click-installation
 
-You can refer to public mempool instaces in case you don't have access to the
-mempool of your own node. There are also great visualisations that help you
-understand what's going on, bitfeed being one of them.
+## Mempool Visualisations
+
+You can also refer to public mempool instaces in case you don't have access to
+the mempool of your own node. Note, however, that using public mempool and block
+explorers has certain privacy implications, as whoever is running these websites
+will be able to correlate your IP with the blocks and transactions you look up.
+Use Tor or a VPN to mitigate this.
 
 [:octicons-arrow-right-24: mempool.space][mempool.space]
 
-[:octicons-arrow-right-24: Bitfeed visualisation][bitfeed]
+There are also great visualisations that help you understand what's going on,
+*Bitfeed* and *Mempool Observer* being two of them.
+
+[:octicons-arrow-right-24: Visualisation: Mempool Observer][mempool.observer]
+
+[:octicons-arrow-right-24: Visualisation: Bitfeed][bitfeed]
+
 
 [mempool.space]: https://mempool.space
+[mempool.observer]: https://mempool.observer/monitor/
 [bitfeed]: https://bits.monospace.live/
