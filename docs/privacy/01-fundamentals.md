@@ -152,7 +152,7 @@ can only be deciphered by said merchant or customer. An eavesdropper is left
 with multiple interpretations of the transaction, each equally likely. Such a
 transaction is called a “[PayJoin][payjoin].”
 
-[payjoin]: https://docs.btcpayserver.org/Payjoin/
+[payjoin]: /glossary/#payjoin
 
 Even if only a small percentage of transactions are PayJoin transactions, the
 privacy of all participants in the network is increased substantially.
