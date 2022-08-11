@@ -132,9 +132,9 @@ heuristic](#common-input-ownership-heuristic) that is used by chain analysis
 companies to de-anonymize actors. The concept was introduced in 2013 by Gregory
 Maxwell.[^gmaxwell1][^gmaxwell2]
 
-All CoinJoins are collaborative transactions. The two main types of CoinJoins
-are equal-output and unequal-output. Other differences might be interactivity
-and number of participants.
+All CoinJoin transactions are collaborative transactions. The two main types of
+CoinJoin transactions are equal-output and unequal-output CoinJoins. Other
+differences might be interactivity (or lack thereof) and number of participants.
 
 [^gmaxwell1]: [I taint rich!](https://bitcointalk.org/?topic=139581) Maxwell, Jan. 2013
 [^gmaxwell2]: [CoinJoin: Bitcoin privacy for the real world](https://bitcointalk.org/?topic=279249) Maxwell, Aug. 2013
@@ -177,9 +177,14 @@ what is called [change detection](#change-detection).
 ### CIOH
 
 Short for [Common Input Ownership Heuristic](#common-input-ownership-heuristic).
-It is assumed that all inputs of a transaction belong to a single person.
 
 ### Common Input Ownership Heuristic
+
+The common input ownership heuristic assumes that all inputs of a transaction
+are controlled by a single entity. This assumption is clearly wrong, because
+[collaborative transactions](#collaborative-transaction) exist.
+[CoinJoin](#coinjoin) transactions are designed to break this heuristic.
+
 ## D
 ### Doxxic Change
 
