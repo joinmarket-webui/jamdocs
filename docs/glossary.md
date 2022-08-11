@@ -184,8 +184,8 @@ Names*[^true-names] of participants.
 
 [^true-names]: Vernor Vinge, 1981, [True Names](https://bitcoin-resources.com/books/true-names)
 
-The concept of "doxxic change" does not exist in Jam, since JoinMarket does not
-produce doxxic change.
+You can use the [Scheduler](/interface/02-jam) functionality to avoid doxxic
+change in Jam.
 
 ## E
 ### Eclipse Attack
@@ -296,7 +296,7 @@ tab][i/earn].
 [jm-taker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-taker-role
 
 ### Timechain
-The data structure of Bitcoin's [base layer](#base-layer). It represents a timestamped and linked list of blocks. Anyone can create a new block, but each block must have 
+The data structure of Bitcoin's [base layer](#base-layer). It represents a timestamped and linked list of blocks. Anyone can create a new block, but each block must have
 sufficient proof of work, making it costly to create new blocks.
 
 [:octicons-arrow-right-24: Bitcoin is Time][time]
@@ -304,7 +304,7 @@ sufficient proof of work, making it costly to create new blocks.
 [time]: https://dergigi.com/time
 
 ### Timelock
-A UTXO can be locked up by a script which defines that said UTXO can only be spent in a block that 
+A UTXO can be locked up by a script which defines that said UTXO can only be spent in a block that
 is higher than a certain value. This makes UTXOs unspendable before a specific time.
 
 ### Transaction
