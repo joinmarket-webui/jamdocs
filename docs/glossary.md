@@ -202,11 +202,11 @@ One can only conclude, as is also mentioned in the report linked above, that "an
 external observer cannot possibly gain a full picture or claim 100% confidence
 in [ownership] attribution."
 
-[:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals]
+[:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals-tx]
 
 [:octicons-arrow-right-24: Bitcoin Wiki: Change Detection][change-detection]
 
-[fundamentals]: privacy/01-fundamentals.md#the-bitcoin-transaction
+[fundamentals-tx]: privacy/01-fundamentals.md#the-bitcoin-transaction
 [change-detection]: https://en.bitcoin.it/wiki/Privacy#Change_address_detection
 
 ### CIOH
@@ -358,6 +358,23 @@ A UTXO can be locked up by a script which defines that said UTXO can only be spe
 is higher than a certain value. This makes UTXOs unspendable before a specific time.
 
 ### Transaction
+
+A bitcoin transaction describes the movement of [sats](#sats). It is structured
+data that describes inputs and outputs, among other things. A valid bitcoin
+transaction has at least one input and at least one output. Every transaction
+input refers to the output of a previous transaction. We say that an input
+"consumes" an output. If an output is not consumed yet, we speak of an unspent
+transaction output, or [UTXO](#utxo), for short.
+
+[:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals-tx]
+
+[:octicons-arrow-right-24: Bitcoin Wiki: Transaction][wiki-tx]
+
+[:octicons-arrow-right-24: Learn Me a Bitcoin: Transactions][lmabtc-tx]
+
+[wiki-tx]: https://en.bitcoin.it/wiki/Transaction
+[lmabtc-tx]: https://learnmeabitcoin.com/beginners/transactions
+
 ### TX
 Short for [transaction](#transaction).
 ## U
