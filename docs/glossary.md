@@ -170,9 +170,40 @@ what is called [change detection](#change-detection).
 
 ### Change Detection
 
-[:octicons-arrow-right-24: Privacy Fundamentals][fundamentals]
+When it comes to [chain analysis](#chain-analysis), change detection is the name
+of the game. The goal of chain analysis companies is to link identities to
+transactions, and to do that, one has to detect whether funds changed hands or not.
 
-[fundamentals]: privacy/01-fundamentals.md
+Technically speaking, change detection is trying to figure out which output of a
+transaction is a change output. Change detection is based on various heuristics. False positives will always
+exist, even if the transaction under scrutiny is a simple spend. Consequently, it is more an art than a science.
+
+To quote one special investigations team speaking on chain analysis:
+
+> Attributing ownership, however, is often nuanced because outside observers can
+> only infer it depending on factors such as availability and quality of the
+> evidence. Evidence means proof that indeed an address belongs to an individual
+> or entity. Unless you own an address yourself, it is very difficult to say
+> with absolute certainty who an address is owned by. This is why it’s more
+> fitting to consider blockchain analytics more of an art than science.
+>
+> <cite>[CSIT](https://archive.ph/1WtkW)</cite>
+
+Keep in mind that ownership can change without any on-chain transaction
+happening, e.g. by passing on a private key directly. It is also possible that
+amount to be paid lines up perfectly with a single UTXO, meaning that what looks
+like a self-spend is actually a payment.
+
+One can only conclude, as is also mentioned in the report linked above, that "an
+external observer cannot possibly gain a full picture or claim 100% confidence
+in [ownership] attribution."
+
+[:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals]
+
+[:octicons-arrow-right-24: Bitcoin Wiki: Change Detection][change-detection]
+
+[fundamentals]: privacy/01-fundamentals.md#the-bitcoin-transaction
+[change-detection]: https://en.bitcoin.it/wiki/Privacy#Change_address_detection
 
 ### CIOH
 
