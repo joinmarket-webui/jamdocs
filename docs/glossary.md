@@ -73,12 +73,19 @@ harms the privacy of yourself and others. You should never reuse addresses.
 ### Address Type
 
     TODO
-    
+
 
 ## B
 ### Base Layer
 
-    TODO
+Bitcoin's base layer (or _Layer 1_) refers to any transaction
+that touches the [timechain](#timechain), i.e. all [onchain](#onchain)
+transactions. The base layer is concerned with global consensus and settlement.
+
+Higher layers build ontop the settlement assurrances of the base layer. One
+example of a _Layer 2_ system is the Lightning Network. All money is layered,
+including gold and fiat monies. Read _Layered Money_ to understand this in more
+detail.
 
 
 [:octicons-arrow-right-24: Layered Money][layered-money]
