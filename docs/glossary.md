@@ -62,6 +62,10 @@ Bech32 addresses.
 
 ### Address Reuse
 
+[:octicons-arrow-right-24: Bitcoin Wiki: Address Reuse][reuse]
+
+[reuse]: https://en.bitcoin.it/wiki/Privacy#Address_reuse
+
 ### Address Type
 
 ## B
