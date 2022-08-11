@@ -62,6 +62,10 @@ Bech32 addresses.
 
 ### Address Reuse
 
+Address reuse refers to the practice of reusing a single bitcoin [invoice
+address](#address) for multiple transactions. It is highly discouraged since it
+harms the privacy of yourself and others. You should never reuse addresses.
+
 [:octicons-arrow-right-24: Bitcoin Wiki: Address Reuse][reuse]
 
 [reuse]: https://en.bitcoin.it/wiki/Address_reuse
