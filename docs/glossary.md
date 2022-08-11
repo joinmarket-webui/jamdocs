@@ -310,8 +310,8 @@ tab][earn] and become a market maker.
 
 ### Mempool
 
-A pool of valid bitcoin [transactions](#transaction) that are not yet confirmed
-in the [timechain](#timechain).
+Short for 'memory pool.' A pool of valid bitcoin [transactions](#transaction)
+held by each node, that are not yet confirmed in the [timechain](#timechain).
 
 [:octicons-arrow-right-24: Mempool][mempool]
 
