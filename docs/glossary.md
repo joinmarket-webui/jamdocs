@@ -406,9 +406,12 @@ malicious network state.
 
 JoinMarket uses [fidelity bonds](#fidelity-bond) to protect users from Sybil attacks.
 
+[:octicons-arrow-right-24: Design for Improving JoinMarket's Resistance to Sybil Attacks Using Fidelity Bonds][fb-design]
+
 [:octicons-arrow-right-24: Wikipedia: Sybil Attack][w-sybil]
 
 [w-sybil]: https://en.wikipedia.org/wiki/Sybil_attack
+[fb-design]: https://gist.github.com/chris-belcher/18ea0e6acdb885a2bfbdee43dcd6b5af
 
 ### Sweep
 A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
