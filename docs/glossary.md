@@ -91,7 +91,13 @@ Bech32 is an [invoice address](#address) format. It was specified in [BIP
 
 ### Blockchain
 
-A bad word for [timechain](#timechain).
+A mostly meaningless marketing term used to confuse newcomers. While "[block
+chain][block-chain]" is still the main term used to refer to Bitcoin's linked
+data structure of blocks, it has increasingly become meaningless over the years
+as it got co-opted by grifters, charlatans & marketers. A better, more
+descriptive term of said data structure is [timechain](#timechain).
+
+[block-chain]: https://developer.bitcoin.org/devguide/block_chain.html
 
 ## C
 ### Chain Analysis
