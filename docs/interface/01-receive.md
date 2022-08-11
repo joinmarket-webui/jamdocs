@@ -13,7 +13,7 @@ from someone else, or send funds from another wallet yourself.
 !!! info
     Jam uses [jars][jars] under the hood to separate funds into disconnected
     containers. Think of jars as different pockets in your wallet, or different
-    identities. The default jar to receive funds is *Jar #0*.
+    identities. The default jar to receive funds is **Jar A**.
 
 Once you have funded your wallet, you can use the 'Jam' tab to schedule
 collaborative transactions.

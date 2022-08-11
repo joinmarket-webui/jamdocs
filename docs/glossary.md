@@ -312,7 +312,7 @@ exist to segregate your sats into multiple buckets that are disconnected from
 each other, which aids privacy. To not risk any privacy degradation, you can
 only spend from one jar at a time.
 
-There are 5 jars by default. The default jar to receive funds is *Jar #0*.
+There are 5 jars by default. The default jar to receive funds is **Jar A**.
 
 [^mixdepths]: What we call "jars" are usually called "mixdepths" in JoinMarket. They are also referred to as "pockets" and "accounts" in some of the older parts of the JoinMarket documentation.
 
