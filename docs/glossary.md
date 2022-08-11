@@ -271,7 +271,7 @@ finance, thus the policyholders are usually companies, and the other parties are
 usually employees.
 
 In JoinMarket, a fidelity bond is a mechanism which ensures that market actors
-act honestly. It is a protection mechanism against [Sybill
+act honestly. It is a protection mechanism against [Sybil
 attacks](#sybil-attack), because a fidelity bond makes the creation of
 cryptographic identities costly.
 
@@ -396,7 +396,19 @@ Simple Non-Interactive Coinjoin with Keys for Encryption Reused.
 
 ### Sybil Attack
 
-    TODO
+A Sybil attack is a special kind of attack in peer-to-peer networked computing.
+The victim is surrounded by malicious entities, each of which act as if they are
+a separate entity. The victim believes that everything is in order, that he is
+getting an accurate state of the network from multiple independent peers. In
+actuality, the Sybil attacker controls all entities surrounding the victim.
+Consequently, the attacker is able to trick the victim into accepting a
+malicious network state.
+
+JoinMarket uses [fidelity bonds](#fidelity-bond) to protect users from Sybil attacks.
+
+[:octicons-arrow-right-24: Wikipedia: Sybil Attack][w-sybil]
+
+[w-sybil]: https://en.wikipedia.org/wiki/Sybil_attack
 
 ### Sweep
 A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
