@@ -72,8 +72,14 @@ harms the privacy of yourself and others. You should never reuse addresses.
 
 ### Address Type
 
+    TODO
+    
+
 ## B
 ### Base Layer
+
+    TODO
+
 
 [:octicons-arrow-right-24: Layered Money][layered-money]
 
@@ -239,9 +245,15 @@ change in Jam.
 
 ## E
 ### Eclipse Attack
+
+    TODO
+
 ### Equal-Output CoinJoin
 
 ...also referred to as equal-amount or equal-value CoinJoin transactions.
+
+    TODO
+
 
 ## F
 ### Fidelity Bond
@@ -267,6 +279,9 @@ your chance of being chosen as a [market maker](#maker) drastically.
 [jm-fb]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/fidelity-bonds.md
 
 ### Fungibility
+
+    TODO
+
 ## J
 ### Jam
 
@@ -319,7 +334,13 @@ held by each node, that are not yet confirmed in the [timechain](#timechain).
 
 ## O
 ### Offchain
+
+    TODO
+
 ### Onchain
+
+    TODO
+
 ## P
 ### P2PKH
 Short for pay-to-public-key-hash.
@@ -336,6 +357,9 @@ Short for pay-to-script-hash.
 [p2sh]: https://learnmeabitcoin.com/technical/p2sh
 
 ### PayJoin
+
+    TODO
+
 ## S
 ### Sats
 Short for *satoshis*, plural of *sat* (satoshi).
@@ -349,7 +373,13 @@ symbol*[^satsymbol] is used:
 [^satsymbol]: [satsymbol.com](https://satsymbol.com/)
 
 ### Schedule
+
+    TODO
+
 ### Simple Spend
+
+    TODO
+
 ### SNICKER
 Simple Non-Interactive Coinjoin with Keys for Encryption Reused.
 
@@ -358,10 +388,16 @@ Simple Non-Interactive Coinjoin with Keys for Encryption Reused.
 [snicker]: https://archive.ph/UlvPn
 
 ### Sybil Attack
+
+    TODO
+
 ### Sweep
 A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
 ## T
 ### Taint
+
+    TODO
+
 ### Taker
 A market taker is someone who buys bitcoin liquidity from the market, taking up
 [market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
