@@ -32,13 +32,13 @@ Primary key fingerprint: 8198 A185 30A5 22A0 9561  2439 89C4 A25E 69A5 DE7F
 
 ---
 
-You can also see that a release was signed properly by clicking on the
-verification tag ![Verification badge](../assets/github-checkmark.png) on the
-[releases page][releases] on GitHub.
+You can also see if a release was signed properly by clicking on the
+verification tag ![Verification badge](../assets/github-checkmark.png) next to
+the version number on the [releases page][releases] on GitHub.
 
-
-![Verified release on GitHub](../assets/github-verified.png)
-
+It should say that _"This tag was signed with the committer’s verified
+signature"_ and show you the last 16 characters of the GPG key ID listed above
+(`89C4 A25E 69A5 DE7F`).
 
 [releases]: https://github.com/joinmarket-webui/joinmarket-webui/releases
 [contributors]: https://github.com/joinmarket-webui/joinmarket-webui/graphs/contributors
