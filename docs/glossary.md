@@ -245,6 +245,27 @@ change in Jam.
 
 ## F
 ### Fidelity Bond
+
+A fidelity bond is an insurance policies which protects the policyholder from
+wrongful acts committed by others. The term comes from the world of business and
+finance, thus the policyholders are usually companies, and the other parties are
+usually employees.
+
+In JoinMarket, a fidelity bond is a mechanism which ensures that market actors
+act honestly. It is a protection mechanism against [Sybill
+attacks](#sybil-attack), because a fidelity bond makes the creation of
+cryptographic identities costly.
+
+Fidelity bonds improve the privacy guarantees of the whole system and increase
+your chance of being chosen as a [market maker](#maker) drastically.
+
+[:octicons-arrow-right-24: What Are Fidelity Bonds and How Do They Work in JoinMarket?][se-fb]
+
+[:octicons-arrow-right-24: JoinMarket: Fidelity Bonds][se-fb]
+
+[se-fb]: https://bitcoin.stackexchange.com/a/106189/93857
+[jm-fb]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/fidelity-bonds.md
+
 ### Fungibility
 ## J
 ### Jam
