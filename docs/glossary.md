@@ -1,7 +1,7 @@
 # Glossary
 
 Unfortunately, there is no way to talk about bitcoin privacy and the intricacies
-of JoinMarket without a little bit of special lingo.
+of JoinMarket without a little bit of jargon.
 
 This glossary explains some of the concepts and terms used in Jam.
 
@@ -64,7 +64,7 @@ Bech32 addresses.
 
 [:octicons-arrow-right-24: Bitcoin Wiki: Address Reuse][reuse]
 
-[reuse]: https://en.bitcoin.it/wiki/Privacy#Address_reuse
+[reuse]: https://en.bitcoin.it/wiki/Address_reuse
 
 ### Address Type
 
