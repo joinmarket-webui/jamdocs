@@ -135,7 +135,7 @@ services, e.g. via `systemd`.
 
 [jm-install-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/INSTALL.md
 
-To start the services manually, nagivate to JoinMarket's `scripts`
+To start the services manually, navigate to JoinMarket's `scripts`
 directory and execute:
 
 ```sh
