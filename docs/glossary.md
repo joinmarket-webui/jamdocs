@@ -277,8 +277,12 @@ collaborative transactions automatically via the [scheduler](#schedule).
 
 [:octicons-arrow-right-24: Jam Interface][jam]
 
+[:octicons-arrow-right-24: jamapp.org][jamapp-org]
+
 [name]: about.md
 [jam]: interface/02-jam.md
+[jamapp-org]: https://jamapp.org
+
 ### Jar
 
 In Jam, a "jar" is a container that holds some [sats](#sats) of yours.[^mixdepths] Jars
