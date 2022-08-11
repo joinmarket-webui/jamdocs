@@ -309,7 +309,14 @@ tab][earn] and become a market maker.
 [jm-maker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-maker-role
 
 ### Mempool
-A list of valid bitcoin transactions that are not yet confirmed in the timechain.
+
+A pool of valid bitcoin [transactions](#transaction) that are not yet confirmed
+in the [timechain](#timechain).
+
+[:octicons-arrow-right-24: Mempool][mempool]
+
+[mempool]: /market/mempool/
+
 ## O
 ### Offchain
 ### Onchain
