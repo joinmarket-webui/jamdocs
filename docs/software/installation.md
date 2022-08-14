@@ -73,10 +73,14 @@ There are multiple ways to run Jam.
 All these methods have benefits and drawbacks. One method is easy, but you
 have less control. Others give you more flexibility, but require several
 manual steps. Choose the method that works best for you.
+The rule of thumb is: Always prefer to build and verify the applications
+locally yourself if you have the necessary technical skills to do so.
 
 ### Using docker
 
-Using docker is the easiest way to run Jam and JoinMarket.
+Using docker is the easiest way to run JoinMarket with Jam.
+However, a disadvantage is that you have to trust the developers and it is
+rather difficult to verify the authenticity.
 
 Prerequisites:
 - Bitcoin Core
@@ -92,12 +96,12 @@ If you are connecting to a remote Bitcoin Core node, run:
 ```sh
 docker run --rm  -it \
         --env JM_RPC_HOST="IP_OF_HOST_RUNNING_BITCOIN_CORE" \
-        --env JM_RPC_PORT="8332" \
-        --env JM_RPC_USER="MY_BTC_RPC_USER" \
+        --env JM_RPC_PORT="API_PORT_OF_BITCOIN_CORE" \
+        --env JM_RPC_USER="BTC_RPC_USERNAME" \
         --env JM_RPC_PASSWORD="****************" \
-        --env APP_USER="MY_JAM_USER" \
+        --env APP_USER="JAM_USERNAME" \
         --env APP_PASSWORD="****************" \
-        --publish "8080:8080" \
+        --publish "8080:80" \
         ghcr.io/joinmarket-webui/joinmarket-webui-standalone:v0.0.10-clientserver-v0.9.6
 ```
 
@@ -117,7 +121,7 @@ docker run --rm  -it \
         --env JM_RPC_PASSWORD="LXDDdLDf3aOmJ12Dd228i0BQTy5v3LH4" \
         --env APP_USER="jam" \
         --env APP_PASSWORD="v2tjeUwZFtUza1w6Ag0CzPJHgoNHUuxl" \
-        --publish "8080:8080" \
+        --publish "8080:80" \
         ghcr.io/joinmarket-webui/joinmarket-webui-standalone:v0.0.10-clientserver-v0.9.6
 ```
 
@@ -131,23 +135,41 @@ Prerequisites:
 
 If you have [successfully installed JoinMarket][jm-install-docs], start
 `jmwalletd` and `ob-watcher`. It is recommended to install them as system 
-services, e.g. via `systemd`.
+services, e.g. via `systemd`. Also, see your `joinmarket.cfg` config file
+and adapt the values to your needs. It is generally advised to leave
+all settings at their default values. The following examples all
+use the standard values (e.g. for ports).
 
 [jm-install-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/INSTALL.md
 
-To start the services manually, navigate to JoinMarket's `scripts`
-directory and execute:
+
+!!! info
+    Never expose your JoinMarket services publicly to your local network, 
+    i.e. always bind to `127.0.0.1` instead of `0.0.0.0`.
+
+To start the services manually, navigate to JoinMarket's root directory and
+execute:
 
 ```sh
-python3 jmwalletd.py
+. jmvenv/bin/activate
+python3 scripts/jmwalletd.py
 ```
 and
 ```sh
-python3 obwatch/ob-watcher.py --host=127.0.0.1
+. jmvenv/bin/activate
+python3 scripts/obwatch/ob-watcher.py --host=127.0.0.1
 ```
 
 #### With docker
-TODO
+```
+docker run --rm  -it \
+        --add-host=host.docker.internal:host-gateway \
+        --env JMWEBUI_JMWALLETD_HOST="host.docker.internal" \
+        --env JMWEBUI_JMWALLETD_API_PORT="28183" \
+        --env JMWEBUI_JMWALLETD_WEBSOCKET_PORT="28283" \
+        --publish "8080:80" \
+        ghcr.io/joinmarket-webui/joinmarket-webui-ui-only:v0.0.10-clientserver-v0.9.6
+```
 
 #### Without docker
 
@@ -165,10 +187,11 @@ A browser should automatically be opened on `http://localhost:3000`.
 ### Connecting to a remote JoinMarket instance
 
 Do all the same steps as in [Connecting to a local JoinMarket instance](#connecting-to-a-local-JoinMarket-instance)
-but before starting Jam, create a ssh tunnel to the remote host.
+but before starting Jam (either directory or with docker), create a ssh tunnel
+to the remote host.
 
 ```sh
-ssh yourhost.local -v -o GatewayPorts=true -N -L 28183:0.0.0.0:28183 -L 28283:0.0.0.0:28283 -L 62601:0.0.0.0:62601
+ssh yourhost.local -v -o GatewayPorts=true -N -L 28183:127.0.0.1:28183 -L 28283:127.0.0.1:28283 -L 62601:127.0.0.1:62601
 ```
 
 ---
