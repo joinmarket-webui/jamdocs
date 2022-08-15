@@ -65,10 +65,11 @@ v1.8.0](https://github.com/rootzoll/raspiblitz/issues/2891).
 
 ## Manual Installation
 
-There are multiple ways to run Jam.
-- Using the official standalone docker image (easiest)
-- Running Jam connecting to a local JoinMarket instance
-- Running Jam connecting to a remote JoinMarket instance
+There are three ways to set up Jam manually:
+
+1. Official standalone docker image (easiest)
+2. Connect Jam to a local JoinMarket instance
+3. Connect Jam to a remote JoinMarket instance
 
 All these methods have benefits and drawbacks. One method is easy, but you
 have less control. Others give you more flexibility, but require several
@@ -76,7 +77,7 @@ manual steps. Choose the method that works best for you.
 The rule of thumb is: Always prefer to build and verify the applications
 locally yourself if you have the necessary technical skills to do so.
 
-### Using docker
+### ...with docker image
 
 Using docker is the easiest way to run JoinMarket with Jam.
 However, a disadvantage is that you have to trust the developers and it is
@@ -125,7 +126,7 @@ docker run --rm  -it \
         ghcr.io/joinmarket-webui/joinmarket-webui-standalone:v0.0.10-clientserver-v0.9.6
 ```
 
-### Connecting to a local JoinMarket instance
+### ...running a local JoinMarket instance
 
 Prerequisites:
 - Bitcoin Core
@@ -134,7 +135,7 @@ Prerequisites:
 - [docker](#with-docker) or [node & npm](#without-docker)
 
 If you have [successfully installed JoinMarket][jm-install-docs], start
-`jmwalletd` and `ob-watcher`. It is recommended to install them as system 
+`jmwalletd` and `ob-watcher`. It is recommended to install them as system
 services, e.g. via `systemd`. Also, see your `joinmarket.cfg` config file
 and adapt the values to your needs. It is generally advised to leave
 all settings at their default values. The following examples all
@@ -144,7 +145,7 @@ use the standard values (e.g. for ports).
 
 
 !!! info
-    Never expose your JoinMarket services publicly to your local network, 
+    Never expose your JoinMarket services publicly to your local network,
     i.e. always bind to `127.0.0.1` instead of `0.0.0.0`.
 
 To start the services manually, navigate to JoinMarket's root directory and
@@ -182,9 +183,9 @@ npm install
 npm start
 ```
 
-A browser should automatically be opened on `http://localhost:3000`. 
+A browser should automatically be opened on `http://localhost:3000`.
 
-### Connecting to a remote JoinMarket instance
+### ...running a remote JoinMarket instance
 
 Do all the same steps as in [Connecting to a local JoinMarket instance](#connecting-to-a-local-JoinMarket-instance)
 but before starting Jam (either directory or with docker), create a ssh tunnel
