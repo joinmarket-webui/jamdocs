@@ -142,35 +142,39 @@ Prerequisites:
 - JoinMarket
 - [docker](#with-docker) or [node & npm](#without-docker)
 
-If you have [successfully installed JoinMarket][jm-install-docs], start
-`jmwalletd` and `ob-watcher`. It is recommended to install them as system
-services, e.g. via `systemd`. Also, see your `joinmarket.cfg` config file
-and adapt the values to your needs. It is generally advised to leave
-all settings at their default values. The following examples all
-use the standard values (e.g. for ports).
-
-[jm-install-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/INSTALL.md
-
-
-!!! info
-    Never expose your JoinMarket services publicly to your local network,
-    i.e. always bind to `127.0.0.1` instead of `0.0.0.0`.
-
-To start the services manually, navigate to JoinMarket's root directory and
-execute:
+If you have [successfully installed JoinMarket][jm-install-docs], navigate to JoinMarket's root directory and start
+`jmwalletd` and `ob-watcher`:
 
 ```sh
 . jmvenv/bin/activate
 python3 scripts/jmwalletd.py
 ```
-and
+
 ```sh
 . jmvenv/bin/activate
 python3 scripts/obwatch/ob-watcher.py --host=127.0.0.1
 ```
 
-#### With docker
-```
+It is recommended to install both services as system services, e.g. via
+`systemd`. Also, see your `joinmarket.cfg` config file and adapt the values to
+your needs. It is generally advised to leave all settings at their default
+values. The above commands all use the standard values (e.g. for ports).
+
+[jm-install-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/INSTALL.md
+
+
+!!! info
+    Bind both services to `127.0.0.1` instead of `0.0.0.0` to not expose them to
+    your local network.
+
+Once `jmwalletd` and `ob-watcher` are running, the last thing to do is to launch
+Jam. You can either run the docker image, or download the source code and run it
+via npm. If you run Jam via the `docker` image, you will have to make sure that
+the "internal" host is used:
+
+```sh
+# Option 1: run Jam via docker
+
 docker run --rm  -it \
         --add-host=host.docker.internal:host-gateway \
         --env JMWEBUI_JMWALLETD_HOST="host.docker.internal" \
@@ -180,18 +184,21 @@ docker run --rm  -it \
         ghcr.io/joinmarket-webui/joinmarket-webui-ui-only:v0.0.10-clientserver-v0.9.6
 ```
 
-#### Without docker
-
-Download, [verify][verification] and run Jam.
-
 ```sh
+# Option 2: run Jam via npm
+
 git clone https://github.com/joinmarket-webui/jam.git --branch v0.0.10 --depth=1
 cd jam/
 npm install
 npm start
 ```
 
-A browser should automatically be opened on `http://localhost:3000`.
+!!! success
+    Always make sure to [verify the code][verification] that you run.
+
+When successful, a browser pointing to `http://localhost:3000` should
+automatically be opened.
+
 
 ### ...connecting to a remote JoinMarket instance
 
