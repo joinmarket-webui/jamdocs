@@ -203,7 +203,7 @@ automatically be opened.
 ### ...connecting to a remote JoinMarket instance
 
 Do all the same steps as in [Connecting to a local JoinMarket instance](#connecting-to-a-local-joinmarket-instance)
-but before starting Jam (either directory or with docker), create a ssh tunnel
+but before starting Jam (either directly or with docker), create a ssh tunnel
 to the remote host.
 
 ```sh
