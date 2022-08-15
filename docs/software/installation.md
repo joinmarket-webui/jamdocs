@@ -67,9 +67,9 @@ v1.8.0](https://github.com/rootzoll/raspiblitz/issues/2891).
 
 There are three ways to set up Jam manually:
 
-1. Official standalone docker image (easiest)
-2. Connect Jam to a local JoinMarket instance
-3. Connect Jam to a remote JoinMarket instance
+1. [Run the standalone docker image](#with-docker-image) (easiest)
+2. [Connect Jam to a local JoinMarket instance](#connecting-to-a-local-joinmarket-instance)
+3. [Connect Jam to a remote JoinMarket instance](#connecting-to-a-remote-joinmarket-instance)
 
 All these methods have benefits and drawbacks. One method is easy, but you
 have less control. Others give you more flexibility, but require several
@@ -126,7 +126,7 @@ docker run --rm  -it \
         ghcr.io/joinmarket-webui/joinmarket-webui-standalone:v0.0.10-clientserver-v0.9.6
 ```
 
-### ...running a local JoinMarket instance
+### ...connecting to a local JoinMarket instance
 
 Prerequisites:
 - Bitcoin Core
@@ -185,7 +185,7 @@ npm start
 
 A browser should automatically be opened on `http://localhost:3000`.
 
-### ...running a remote JoinMarket instance
+### ...connecting to a remote JoinMarket instance
 
 Do all the same steps as in [Connecting to a local JoinMarket instance](#connecting-to-a-local-JoinMarket-instance)
 but before starting Jam (either directory or with docker), create a ssh tunnel
