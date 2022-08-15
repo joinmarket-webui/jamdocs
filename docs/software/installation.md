@@ -114,18 +114,24 @@ variable `JM_RPC_HOST` to `host.docker.internal`.
 After starting the container, Jam can be accessed by visiting
 `http://localhost:8080` in your browser.
 
-Replace the variables in the commands above to your needs, e.g.:
+Make sure to replace the above dummy values for IP, port, RPC username, and RPC
+password with values appropriate to your setup. For example:
+
 ```sh
 docker run --rm  -it \
         --env JM_RPC_HOST="192.168.1.1" \
         --env JM_RPC_PORT="8332" \
         --env JM_RPC_USER="bitcoin" \
-        --env JM_RPC_PASSWORD="LXDDdLDf3aOmJ12Dd228i0BQTy5v3LH4" \
+        --env JM_RPC_PASSWORD="n5a___YOUR_RPC_PASSWORD___yNA" \
         --env APP_USER="jam" \
-        --env APP_PASSWORD="v2tjeUwZFtUza1w6Ag0CzPJHgoNHUuxl" \
+        --env APP_PASSWORD="AvQ___YOUR_APP_PASSWORD___iCw" \
         --publish "8080:80" \
         ghcr.io/joinmarket-webui/joinmarket-webui-standalone:v0.0.10-clientserver-v0.9.6
 ```
+
+Please use your password manager or something like `openssl rand -base64 32` to
+generate strong passwords.
+
 
 ### ...connecting to a local JoinMarket instance
 
