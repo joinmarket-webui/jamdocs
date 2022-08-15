@@ -189,7 +189,7 @@ A browser should automatically be opened on `http://localhost:3000`.
 
 ### ...connecting to a remote JoinMarket instance
 
-Do all the same steps as in [Connecting to a local JoinMarket instance](#connecting-to-a-local-JoinMarket-instance)
+Do all the same steps as in [Connecting to a local JoinMarket instance](#connecting-to-a-local-joinmarket-instance)
 but before starting Jam (either directory or with docker), create a ssh tunnel
 to the remote host.
 
