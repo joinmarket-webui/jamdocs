@@ -84,6 +84,7 @@ However, a disadvantage is that you have to trust the developers and it is
 rather difficult to verify the authenticity.
 
 Prerequisites:
+
 - Bitcoin Core
 - docker
 
@@ -129,6 +130,7 @@ docker run --rm  -it \
 ### ...connecting to a local JoinMarket instance
 
 Prerequisites:
+
 - Bitcoin Core
 - Tor
 - JoinMarket
