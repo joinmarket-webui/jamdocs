@@ -108,8 +108,8 @@ docker run --rm  -it \
 ```
 
 If you are connecting to a local Bitcoin Core node, use the above command but
-add param `--add-host=host.docker.internal:host-gateway` and set env variable
-`JM_RPC_HOST` to `host.docker.internal`.
+add param `--add-host=host.docker.internal:host-gateway` and set the environment
+variable `JM_RPC_HOST` to `host.docker.internal`.
 
 After starting the container, Jam can be accessed by visiting
 `http://localhost:8080` in your browser.
