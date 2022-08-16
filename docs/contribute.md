@@ -14,7 +14,7 @@ on Jam, or have worked on it in the past.
 [:octicons-arrow-right-24: Telegram Chat][telegram]
 
 [telegram]: https://t.me/JoinMarketWebUI
-[matrix]: https://matrix.to/#/%23jam:matrix.dergigi.com
+[matrix]: https://matrix.to/#/%23jam:bitcoin.kyoto
 
 ## Study the Basics
 

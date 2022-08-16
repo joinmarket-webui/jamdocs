@@ -74,5 +74,5 @@ look at the FAQ to get answers to frequently asked questions.
 
 [faq]: FAQ
 [tgJam]: https://t.me/JoinMarketWebUI
-[mxJam]: https://matrix.to/#/%23jam:matrix.dergigi.com
+[mxJam]: https://matrix.to/#/%23jam:bitcoin.kyoto
 [ghJam]: https://github.com/joinmarket-webui/joinmarket-webui/issues
