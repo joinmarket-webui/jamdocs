@@ -80,12 +80,54 @@ in [issue #173][lockfile-issue].
 
 [lockfile-issue]: https://github.com/joinmarket-webui/joinmarket-webui/issues/173#issuecomment-1069086553
 
-### Something is/seems stuck; what can I do?
+### Why is my collaborative transaction taking so long?
 
-TODO
+This can have multiple reasons. Tor or general network connection issues,
+participants not responding in a timely manner, missing requirements to
+source commitments ([see the docs][sourcing-commitments]), period of slow
+block production, unexpected increase of transaction fees, etc.
 
-(hint: service feedback not yet provided; it's always safe to cancel operations;
-no loss of funds)
+[sourcing-commitments]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/v0.9.7/docs/SOURCING-COMMITMENTS.md
+
+For a better assessment, the following can be taken as a guideline:
+
+- single collaborative transactions generally take only a few minutes (<15min)
+- a scheduled sweep can take hours, even days (<3days)
+
+If something takes longer that this, then there might be a different issue.
+See ["Something else is/seems stuck"](#something-isseems-stuck-what-can-i-do) for more info.
+
+### Something else is/seems stuck; what can I do?
+
+If a single collaborative transaction takes hours, or if your
+scheduled sweep already takes over three days, there might be a different
+underlying problem.
+
+A general rule of thumb is: Any operation either succeeds or fails. 
+If an operation is aborted prematurely, there is no danger of loss of funds.
+
+All operations can be aborted by **locking your wallet**.
+
+Since Jam does not yet have a way to provide fine grained error information to users,
+it is always a good idea to inspect the log files for warning and error messages.
+
+### How do I view the log file?
+
+If you are running Jam with one of the supported integrations (RaspiBlitz,
+Citadel, Umbrel, etc.) chances are you can view the logs inside the app
+(See Settings > Show logs).
+
+If the option is not displayed, or if you run the `standalone` docker image
+yourself, you can find all log files inside the container in directory 
+`/var/log/jam/`. See `jmwalletd_stdout.log` or `jmwalletd_stderr.log` for 
+problems with Jam.
+
+e.g. `tail -n 200 -f /var/log/jam/jmwalletd_stdout.log`
+
+If you run JoinMarket natively, you can find the logs files inside the `logs`
+folder of JoinMarket's working directory (e.g. `/home/<user>/.joinmarket/logs`)
+
+e.g. `tail -n 200 -f /home/user/.joinmarket/logs/jmwalletd_logs.log`
 
 ### No connection to gateway
 
