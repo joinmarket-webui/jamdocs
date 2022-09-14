@@ -1,14 +1,16 @@
 # Send
 
-Use the 'Send' tab to send sats.
+Use the 'Send' tab to do a single collaborative transaction.
 
 ![](../assets/interface/send.png#only-dark)
 
 ![](../assets/interface/send-light.png#only-light)
 
-Click 'sweep' to empty a single jar, or use the [Sweep] tab to sweep all funds
-of your wallet to external addresses.
+Use the 'Sweep' button in the amount field to empty a single jar, or use the
+[Sweep tab][sweep] to sweep all non-frozen funds of your wallet to external
+addresses.
 
-[:octicons-arrow-right-24: Sweep][sweep]
+[:octicons-arrow-right-24: Earn][earn]
 
+[earn]: 03-earn.md
 [sweep]: 04-sweep.md
