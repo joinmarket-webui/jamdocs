@@ -36,7 +36,7 @@ others for goods and services, use [send][send].
 [receive]: 01-receive.md
 [jam]: 02-jam.md
 [earn]: 03-earn.md
-[send]: 04-send.md
+[send]: 02-send.md
 [fb]: fidelity-bonds.md
 
 ## Things to Note
