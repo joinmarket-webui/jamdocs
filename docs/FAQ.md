@@ -94,7 +94,7 @@ For a better assessment, the following can be taken as a guideline:
 - single collaborative transactions generally take only a few minutes (<15min)
 - a scheduled sweep can take hours, even days (<3days)
 
-If something takes longer that this, then there might be a different issue.
+If an operation takes longer than that, then there might be a different issue.
 See ["Something else is/seems stuck"](#something-isseems-stuck-what-can-i-do) for more info.
 
 ### Something else is/seems stuck; what can I do?
