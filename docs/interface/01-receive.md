@@ -21,6 +21,6 @@ collaborative transactions.
 [jars]: /glossary/#jar
 [address]: /glossary/#address
 
-[:octicons-arrow-right-24: Jam][jam]
+[:octicons-arrow-right-24: Jam][sweep]
 
-[jam]: 04-sweep.md
+[sweep]: 04-sweep.md

@@ -300,12 +300,12 @@ collaborative transactions automatically via the [scheduler](#schedule).
 
 [:octicons-arrow-right-24: About][name]
 
-[:octicons-arrow-right-24: Jam Interface][jam]
+[:octicons-arrow-right-24: Jam Interface][sweep]
 
 [:octicons-arrow-right-24: jamapp.org][jamapp-org]
 
 [name]: about.md
-[jam]: interface/04-sweep.md
+[sweep]: interface/04-sweep.md
 [jamapp-org]: https://jamapp.org
 
 ### Jar
