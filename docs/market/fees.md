@@ -33,7 +33,7 @@ How much you will pay in maker fees depends on the fee market of the current off
 
 [orderbook]: /market/orderbook
 
-[jam]: /interface/02-jam
+[jam]: /interface/04-sweep
 [send]: /interface/02-send
 [taker]: /glossary/#taker
 

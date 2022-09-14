@@ -23,4 +23,4 @@ collaborative transactions.
 
 [:octicons-arrow-right-24: Jam][jam]
 
-[jam]: 02-jam.md
+[jam]: 04-sweep.md

@@ -34,7 +34,7 @@ others for goods and services, use [send][send].
 [^fnfb]: Make sure to create a [fidelity bond][fb] to increase the chances of your offer being taken.
 
 [receive]: 01-receive.md
-[jam]: 02-jam.md
+[jam]: 04-sweep.md
 [earn]: 03-earn.md
 [send]: 02-send.md
 [fb]: fidelity-bonds.md
