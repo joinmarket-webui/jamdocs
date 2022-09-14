@@ -137,3 +137,47 @@ TODO
 issues; reverse proxy is still mandatory (this is a pain point for me.. we need
 to get rid of it) don't know if we should go into details why it is needed or
 what the differences are
+
+### Can I import an existing wallet?
+
+Yes, it is possible to import an existing wallet.
+However, not yet via the web interface, but with a few manual steps via the command line.
+
+- Log into the host machine, e.g. with `ssh` (see an example for Umbrel below)
+- Navigate to JoinMarket's root directory
+- Invoke the recover mechansim of the `wallet-tool.py` script
+
+```sh
+. jmvenv/bin/activate # if virtual environment is enabled
+python3 scripts/wallet-tool.py recover --gap-limit=200 --recoversync
+```
+
+- Answer questions (provide seed phrase, etc.). Make sure that you put ".jmdat" 
+at the end of the name for the wallet, otherwise it won't be displayed in Jam.
+Answer the question for support of fidelity bonds with "y" (yes).
+
+```
+root@821939a90a7c:/src# python3 scripts/wallet-tool.py recover --gap-limit=200 --recoversync
+User data location: /root/.joinmarket/
+Input mnemonic recovery phrase: zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo wrong
+Input mnemonic extension, leave blank if there isnt one: 
+Enter new passphrase to encrypt wallet: 
+Reenter new passphrase to encrypt wallet: 
+Input wallet file name (default: wallet.jmdat): recover.jmdat
+Would you like this wallet to support fidelity bonds? write 'n' if you don't know what this is (y/n): y
+Write down this wallet recovery mnemonic
+
+zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo wrong
+
+Recovered wallet OK
+```
+
+- All done.
+
+Here is an example of how you'd get into the Jam container on Umbrel:
+
+- Log into your umbrel with `ssh umbrel@umbrel.local`
+- Move into the jam container with `docker exec -it jam_jam_1 bash`
+- Navigate to JoinMarket's root directory with `cd /src`
+- Now follow the import procedure as explained above
+- Leave the command line with `exit` (multiple times)
