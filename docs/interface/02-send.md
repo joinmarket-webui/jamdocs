@@ -6,9 +6,9 @@ Use the 'Send' tab to send sats.
 
 ![](../assets/interface/send-light.png#only-light)
 
-You can also use the scheduler to sweep all funds of your wallet to an external
-address.
+Click 'sweep' to empty a single jar, or use the [Sweep] tab to sweep all funds
+of your wallet to external addresses.
 
 [:octicons-arrow-right-24: Sweep][sweep]
 
-[sweep]: /glossary/#sweep
+[sweep]: 04-sweep.md

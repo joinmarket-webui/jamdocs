@@ -23,8 +23,8 @@ Make sure to create a Fidelity Bond to increase the chances of your offer being 
 
 [:octicons-arrow-right-24: Fidelity Bonds][fb]
 
-[:octicons-arrow-right-24: Send][send]
+[:octicons-arrow-right-24: Sweep][sweep]
 
-[send]: 02-send.md
+[sweep]: 04-sweep.md
 
 [fb]: fidelity-bonds.md
