@@ -11,11 +11,12 @@ and less identifiable. You are free to offer your fruits to others so they can
 make jam more easily.
 
 Without the fruity metaphor: to increase the privacy and fungibility of your
-funds, you should use Jam as both a [market maker][maker] ('Earn' tab) and a
-[taker][taker] ('Jam' tab). Use a Jar's sweep functionality or the [Jam
-Scheduler][jam] to transfer funds out of Jam, e.g. to move all your funds to
-cold storage or to use them to open lightning channels. If you want to pay
-others for goods and services, use [send][send].
+funds—and thus your security overall—you should use Jam as both a market
+[maker][maker] ('Earn' tab) and a [taker][taker] ('Send' and 'Sweep' tabs). Use
+a Jar's sweep functionality or the [Scheduler][sweep] to transfer funds out of
+Jam, e.g. to move all your funds to cold storage or to use them to open
+lightning channels. If you want to pay others for goods and services, use
+[send][send].
 
 [utxo]: /glossary/#utxo
 [maker]: /glossary/#maker
@@ -24,9 +25,9 @@ others for goods and services, use [send][send].
 ## First Use
 
 1. [Receive][receive] sats to fund your wallet
-2. [Jam][jam] it up with the Jam scheduler
+2. [Send][send] a collaborative transaction to one of your jars
 3. [Earn][earn] sats by offering liquidity[^fnfb]
-4. [Send][send] a collaborative transaction
+4. [Sweep][sweep] your wallet using the scheduler
 5. Rinse and repeat!
 
 [:octicons-arrow-right-24: Receive][receive]
@@ -34,9 +35,9 @@ others for goods and services, use [send][send].
 [^fnfb]: Make sure to create a [fidelity bond][fb] to increase the chances of your offer being taken.
 
 [receive]: 01-receive.md
-[jam]: 02-jam.md
+[sweep]: 04-sweep.md
 [earn]: 03-earn.md
-[send]: 04-send.md
+[send]: 02-send.md
 [fb]: fidelity-bonds.md
 
 ## Things to Note

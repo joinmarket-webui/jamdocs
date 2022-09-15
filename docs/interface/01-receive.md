@@ -15,12 +15,12 @@ from someone else, or send funds from another wallet yourself.
     containers. Think of jars as different pockets in your wallet, or different
     identities. The default jar to receive funds is **Jar A**.
 
-Once you have funded your wallet, you can use the 'Jam' tab to schedule
-collaborative transactions.
+Once you have funded your wallet, you can use the 'Send' tab to do
+a collaborative transaction.
 
 [jars]: /glossary/#jar
 [address]: /glossary/#address
 
-[:octicons-arrow-right-24: Jam][jam]
+[:octicons-arrow-right-24: Send][send]
 
-[jam]: 02-jam.md
+[send]: 02-send.md

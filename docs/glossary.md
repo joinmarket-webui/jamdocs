@@ -247,7 +247,7 @@ Names*[^true-names] of participants.
 
 [^true-names]: Vernor Vinge, 1981, [True Names](https://bitcoin-resources.com/books/true-names)
 
-You can use the [Scheduler](/interface/02-jam) functionality to avoid doxxic
+You can use the [Scheduler](/interface/04-sweep) functionality to avoid doxxic
 change in Jam.
 
 ## E
@@ -300,12 +300,12 @@ collaborative transactions automatically via the [scheduler](#schedule).
 
 [:octicons-arrow-right-24: About][name]
 
-[:octicons-arrow-right-24: Jam Interface][jam]
+[:octicons-arrow-right-24: Jam Interface][sweep]
 
 [:octicons-arrow-right-24: jamapp.org][jamapp-org]
 
 [name]: about.md
-[jam]: interface/02-jam.md
+[sweep]: interface/04-sweep.md
 [jamapp-org]: https://jamapp.org
 
 ### Jar
@@ -434,7 +434,7 @@ tab][i/earn].
 
 [:octicons-arrow-right-24: The Taker Role][jm-taker]
 
-[i/earn]: interface/02-jam.md
+[i/earn]: interface/04-sweep.md
 [orderbook]: market/orderbook.md
 [jm-taker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-taker-role
 
