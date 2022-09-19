@@ -180,6 +180,7 @@ docker run --rm  -it \
         --env JAM_JMWALLETD_HOST="host.docker.internal" \
         --env JAM_JMWALLETD_API_PORT="28183" \
         --env JAM_JMWALLETD_WEBSOCKET_PORT="28283" \
+        --env JAM_JMOBWATCH_PORT="62601" \
         --publish "8080:80" \
         ghcr.io/joinmarket-webui/jam-ui-only:v0.1.0-clientserver-v0.9.8
 ```
