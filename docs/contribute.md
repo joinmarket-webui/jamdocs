@@ -37,7 +37,7 @@ the foundations it is built upon.
 
 [:octicons-arrow-right-24: Motivation][motivation]
 
-[:octicons-arrow-right-24: A Cypherpunk's Manifesto][fundamentals]
+[:octicons-arrow-right-24: A Cypherpunk's Manifesto][manifesto]
 
 [motivation]: philosophy/00-motivation.md
 [manifesto]: https://nakamotoinstitute.org/static/docs/cypherpunk-manifesto.txt
