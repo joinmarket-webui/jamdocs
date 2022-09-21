@@ -2,6 +2,10 @@
 
 Both Jam and JoinMarket are released under free and open-source software licenses.
 
+[:octicons-arrow-right-24: Philosophy: Free Software][free-software]
+
+[free-software]: /philosophy/01-free-software
+
 ## Jam
 
 Jam and is licensed under the [MIT License](https://directory.fsf.org/wiki/License:Expat).
