@@ -73,7 +73,10 @@ harms the privacy of yourself and others. You should never reuse addresses.
 ### Address Type
 
     TODO
+    
+### Anonymity Set
 
+    TODO
 
 ## B
 ### Base Layer
