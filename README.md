@@ -1,4 +1,4 @@
 # Jam Docs | [jamdocs.org](https://jamdocs.org/)
 
-Documentation for Jam. Built using mkdocs material theme.
+Documentation for [Jam](https://jamapp.org/). Built using mkdocs material theme.
 
