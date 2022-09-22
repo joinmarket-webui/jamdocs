@@ -52,9 +52,9 @@ yourself.
 
 Once installed, you will have to add some funds to Jam to get going. If you are
 new to JoinMarket in general and Jam in particular, you might want to have a
-look at the "cheat sheet."
+look at the "Cheatsheet."
 
-[:octicons-arrow-right-24: Cheat Sheet][cheatsheet]
+[:octicons-arrow-right-24: Cheatsheet][cheatsheet]
 
 [cheatsheet]: interface/00-cheatsheet.md
 
