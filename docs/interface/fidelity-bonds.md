@@ -19,8 +19,8 @@ looks right, you can create the fidelity bond which will [time-lock your
 funds][timelock] for the set duration.
 
 !!! warning
-    There is no way to un-freeze funds that are locked in a fidelity bond before
-    the bond expires, as they are time-locked by the bitcoin protocol.
+    It is impossible to move or spend funds that are locked in a fidelity bond
+    before the bond expires, as they are time-locked by the bitcoin protocol.
 
 [earn]: /interface/03-earn/
 [jar]: /glossary/#jar
