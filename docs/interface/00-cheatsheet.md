@@ -1,4 +1,4 @@
-# Cheat Sheet
+# Cheatsheet
 
 While everyone will use Jam differently, here is one way you can think about the
 general application flow:
@@ -30,7 +30,17 @@ lightning channels. If you want to pay others for goods and services, use
 4. [Sweep][sweep] your wallet using the scheduler
 5. Rinse and repeat!
 
+---
+
+Click "Cheatsheet" at the bottom of the screen to open up the cheatsheet in Jam.
+
+![](../assets/interface/cheatsheet.png#only-dark)
+
+![](../assets/interface/cheatsheet-light.png#only-light)
+
 [:octicons-arrow-right-24: Receive][receive]
+
+---
 
 [^fnfb]: Make sure to create a [fidelity bond][fb] to increase the chances of your offer being taken.
 

@@ -73,7 +73,10 @@ harms the privacy of yourself and others. You should never reuse addresses.
 ### Address Type
 
     TODO
+    
+### Anonymity Set
 
+    TODO
 
 ## B
 ### Base Layer
@@ -284,9 +287,12 @@ your chance of being chosen as a [market maker](#maker) drastically.
 
 [:octicons-arrow-right-24: JoinMarket: Financial Mathematics of Fidelity Bonds][jm-fb-math]
 
+[:octicons-arrow-right-24: Creating a Fidelity Bond in Jam][jam-fb]
+
 [se-fb]: https://bitcoin.stackexchange.com/a/106189/93857
 [jm-fb]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/fidelity-bonds.md
 [jm-fb-math]: https://gist.github.com/chris-belcher/87ebbcbb639686057a389acb9ab3e25b
+[jam-fb]: /interface/fidelity-bonds/
 
 ### Fungibility
 

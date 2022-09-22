@@ -53,27 +53,21 @@ your language? Translate it!
 It can be daunting to get started, but Jam, like every software project, is just
 code & design & text.
 
-**Code**: [review a pull request][pulls] or work on some [open issues][issues].
+### Code
+
+[Review a pull request][pulls] or work on some [open issues][issues].
 Small tasks that are relatively easy to do will have the
 "[good first issue][good-first-issue]" label.
 
-[:octicons-arrow-right-24: GitHub issues][issues]
+### Design
 
-[:octicons-arrow-right-24: Pull Requests][pulls]
-
-[:octicons-arrow-right-24: Good first issues][good-first-issue]
-
-**Design**: have a look at the [Figma files][figma], comment on them, or propose
+Have a look at the [Figma files][figma], comment on them, or propose
 a change.
 
-[:octicons-arrow-right-24: Figma][figma]
+### Text
 
-**Text**: if you're good with words and copy editing, or if you want to help to
+If you're good with words and copy editing, or if you want to help to
 translate Jam into multiple languages, [join the translation team][translations].
-
-
-[:octicons-arrow-right-24: Translations][translations]
-
 
 [milestones]: https://github.com/joinmarket-webui/joinmarket-webui/milestones
 
@@ -88,9 +82,6 @@ translate Jam into multiple languages, [join the translation team][translations]
 
 Since all development happens out in the open and there are no gatekeepers,
 getting involved is as easy as showing up.
-
-Feel free to [create an issue][issues], review or open up a
-[pull-request][pulls], or join one of the [community calls][calls].
 
 This is a [free and open-source](/software/license) software project and we love
 receiving pull-requests, bug reports, ideas, and feedback from everyone. See the
