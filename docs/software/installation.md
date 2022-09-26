@@ -41,6 +41,10 @@ Jam can be installed directly from the [Citadel](https://runcitadel.space/) app 
 - Click install
 - Done!
 
+!!! info
+    If you are asked to enter a username and password after installation, enter
+    "citadel" as the username and the password that Citadel provides for you.
+
 ### ...with Raspiblitz
 
 You can install Jam via the command line in RaspiBlitz v1.7.2 and up. To install
