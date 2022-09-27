@@ -144,8 +144,9 @@ A CoinJoin is a collaborative transaction that combines inputs from multiple
 parties. The purpose of a CoinJoin is to combine inputs and create outputs in
 ways that improves the financial privacy of participants, without relying on a
 trusted third party for custody. When done correctly, a CoinJoin breaks any
-deterministic links between transactions, moving the process of chainalysis from
-quasi-deterministic with high certainty to probabilistic with low certainty.
+deterministic links between transactions, moving the process of [chain
+analysis](#chain-analysis) from quasi-deterministic with high certainty to
+probabilistic with low certainty.
 
 CoinJoins break the [common input ownership
 heuristic](#common-input-ownership-heuristic) that is used by chain analysis
@@ -276,6 +277,8 @@ such a transaction allows you to gain privacy by "hiding in the crowd."
 
 Jam defaults to collaborative transactions when [sending][send] and
 [sweeping][sweep], creating equal-output CoinJoins.
+
+[send]: /interface/02-send
 
 ## F
 ### Fidelity Bond
