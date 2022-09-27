@@ -73,7 +73,7 @@ harms the privacy of yourself and others. You should never reuse addresses.
 ### Address Type
 
     TODO
-    
+
 ### Anonymity Set
 
     TODO
@@ -144,8 +144,9 @@ A CoinJoin is a collaborative transaction that combines inputs from multiple
 parties. The purpose of a CoinJoin is to combine inputs and create outputs in
 ways that improves the financial privacy of participants, without relying on a
 trusted third party for custody. When done correctly, a CoinJoin breaks any
-deterministic links between transactions, moving the process of chainalysis from
-quasi-deterministic with high certainty to probabilistic with low certainty.
+deterministic links between transactions, moving the process of [chain
+analysis](#chain-analysis) from quasi-deterministic with high certainty to
+probabilistic with low certainty.
 
 CoinJoins break the [common input ownership
 heuristic](#common-input-ownership-heuristic) that is used by chain analysis
@@ -153,8 +154,9 @@ companies to de-anonymize actors. The concept was introduced in 2013 by Gregory
 Maxwell.[^gmaxwell1][^gmaxwell2]
 
 All CoinJoin transactions are collaborative transactions. The two main types of
-CoinJoin transactions are equal-output and unequal-output CoinJoins. Other
-differences might be interactivity (or lack thereof) and number of participants.
+CoinJoin transactions are [equal-output](#equal-output-coinjoin) and
+unequal-output CoinJoins. Other differences might be interactivity (or lack
+thereof) and number of participants.
 
 [^gmaxwell1]: [I taint rich!](https://bitcointalk.org/?topic=139581) Maxwell, Jan. 2013
 [^gmaxwell2]: [CoinJoin: Bitcoin privacy for the real world](https://bitcointalk.org/?topic=279249) Maxwell, Aug. 2013
@@ -195,8 +197,9 @@ of the game. The goal of chain analysis companies is to link identities to
 transactions, and to do that, one has to detect whether funds changed hands or not.
 
 Technically speaking, change detection is trying to figure out which output of a
-transaction is a change output. Change detection is based on various heuristics. False positives will always
-exist, even if the transaction under scrutiny is a simple spend. Consequently, it is more an art than a science.
+transaction is a change output. Change detection is based on various heuristics.
+False positives will always exist, even if the transaction under scrutiny is a
+simple spend. Consequently, it is more an art than a science.
 
 To quote one special investigations team speaking on chain analysis:
 
@@ -216,7 +219,7 @@ like a self-spend is actually a payment.
 
 One can only conclude, as is also mentioned in the report linked above, that "an
 external observer cannot possibly gain a full picture or claim 100% confidence
-in [ownership] attribution."
+in ownership attribution."
 
 [:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals-tx]
 
@@ -240,8 +243,9 @@ are controlled by a single entity. This assumption is clearly wrong, because
 ### Doxxic Change
 
 "Doxxic" change is any leftover change that is going back to you when
-participating in an equal-output CoinJoin. Doxxic change is problematic because
-it can potentially destroy any privacy benefits gained from a CoinJoin.  
+participating in an [equal-output CoinJoin](#equal-output-coinjoin). Doxxic
+change is problematic because it can potentially destroy any privacy benefits
+gained from a CoinJoin.  
 
 The word is a combination of "toxic" and "doxxing." Doxxing is the act of finding
 out the legal identity (or similar identifiying information) of a pseudonymous
@@ -250,7 +254,7 @@ Names*[^true-names] of participants.
 
 [^true-names]: Vernor Vinge, 1981, [True Names](https://bitcoin-resources.com/books/true-names)
 
-You can use the [Scheduler](/interface/04-sweep) functionality to avoid doxxic
+You can use the [sweep](/interface/04-sweep) functionality to avoid doxxic
 change in Jam.
 
 ## E
@@ -260,10 +264,22 @@ change in Jam.
 
 ### Equal-Output CoinJoin
 
-...also referred to as equal-amount or equal-value CoinJoin transactions.
+An equal-output CoinJoin is a collaborative transaction that produces outputs of
+equal denomination, i.e. outputs of equal value when measured in sats. For this
+reason, these types of transactions are also referred to as equal-amount or
+equal-value CoinJoin transactions.
 
-    TODO
+Equal-output CoinJoins are [batch transaction](#batch-transaction) that are
+easily identifiable [on-chain](#onchain) due to their uniform output structure.
 
+Like any collaborative transaction, an equal-output CoinJoin breaks the [Common
+Input Ownership Heuristic](#common-input-ownership-heuristic). Participating in
+such a transaction allows you to gain privacy by "hiding in the crowd."
+
+Jam defaults to collaborative transactions when [sending][send] and
+[sweeping][sweep], creating equal-output CoinJoins.
+
+[send]: /interface/02-send
 
 ## F
 ### Fidelity Bond
@@ -301,17 +317,19 @@ your chance of being chosen as a [market maker](#maker) drastically.
 ## J
 ### Jam
 
-Jam is both [the name][name] of the project and the verb we use for running multiple
-collaborative transactions automatically via the [scheduler](#schedule).
+Jam is both [the name][name] of the project and the verb we use when a
+collaborative transaction is in progress.
+
+> Sir! The radar, sir! It appears to be... [Jam starts flowing through the
+> computer screen] jammed!
+>
+><cite>Spaceballs</cite>
 
 [:octicons-arrow-right-24: About][name]
-
-[:octicons-arrow-right-24: Jam Interface][sweep]
 
 [:octicons-arrow-right-24: jamapp.org][jamapp-org]
 
 [name]: about.md
-[sweep]: interface/04-sweep.md
 [jamapp-org]: https://jamapp.org
 
 ### Jar
@@ -374,7 +392,24 @@ Short for pay-to-script-hash.
 
 ### PayJoin
 
-    TODO
+A PayJoin is a collaborative transaction between two parties that facilitates an
+actual payment for a good or service. The merchant agrees to provide one or
+multiple inputs to the transaction, increasing the privacy of both parties.
+
+A PayJoin has different [onchain](#onchain) characteristics than an
+[equal-output CoinJoin](#equal-output-coinjoin) and is not detectable via [chain
+analysis](#chain-analysis) alone. A PayJoin transaction has multiple
+interpretations, all of which are equally valid. In addition to breaking the
+[common input ownership heuristic](#common-input-ownership-heuristic) it poisons
+the basis of all [chain analysis](#chain-analysis), because of its
+undetectability.
+
+[:octicons-arrow-right-24: Bitcoin Wiki: PayJoin][wiki-payjoin]
+
+[:octicons-arrow-right-24: Bitcoin Wiki: PayJoin Adoption][wiki-payjoin]
+
+[wiki-payjoin]: https://en.bitcoin.it/wiki/PayJoin
+[wiki-payjoin-adoption]: https://en.bitcoin.it/wiki/PayJoin_adoption
 
 ## S
 ### Sats
@@ -388,7 +423,7 @@ symbol*[^satsymbol] is used:
 
 [^satsymbol]: [satsymbol.com](https://satsymbol.com/)
 
-### Schedule
+### Scheduler
 
     TODO
 
@@ -423,24 +458,48 @@ JoinMarket uses [fidelity bonds](#fidelity-bond) to protect users from Sybil att
 [fb-design]: https://gist.github.com/chris-belcher/18ea0e6acdb885a2bfbdee43dcd6b5af
 
 ### Sweep
-A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
+
+A 'sweep' send will transfer all funds of a jar or all funds of your wallet. To
+sweep all funds from your wallet multiple transactions are created using the
+[scheduler](#scheduler).
+
+[:octicons-arrow-right-24: 'Sweep' Screen][sweep]
+
+[sweep]: interface/04-sweep.md
+
 ## T
 ### Taint
 
-    TODO
+Taint is an external property defined by [chain analysis](#chain-analysis)
+surveillance firms. It is an attempt to trace the origin and ownership of
+[UTXOs](#utxo), classifying their owners and building lists of "good" and "bad"
+money.
+
+All taint in bitcoin always is and always will be arbitrarily defined and
+probabilistically applied. Just like [change detection](#change-detection), it
+is more an art than a science. It can never be done exactly. False positives and
+false negatives will always arise.
+
+The bitcoin network is indifferent to taint. Miners will include any transaction
+in a valid block that will reward them economically. Any application of taint on
+the block production level is equivalent to imposing additional rules via a
+soft-fork, which fully validating nodes can reject.
 
 ### Taker
+
 A market taker is someone who buys bitcoin liquidity from the market, taking up
-[market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
+[market makers](#maker) on their offers. You can see active offers in the [order
+book][orderbook].
 
-You will automatically take offers when running the scheduler via the ["Jam"
-tab][i/earn].
+You will automatically take offers when running the [scheduler](#scheduler) via
+the ["Sweep"][sweep] functionality.
 
-[:octicons-arrow-right-24: Earn Screen][i/earn]
+[:octicons-arrow-right-24: Sweep][sweep]
+
+[:octicons-arrow-right-24: Earn Screen][earn]
 
 [:octicons-arrow-right-24: The Taker Role][jm-taker]
 
-[i/earn]: interface/04-sweep.md
 [orderbook]: market/orderbook.md
 [jm-taker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-taker-role
 
