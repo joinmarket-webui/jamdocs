@@ -260,10 +260,20 @@ change in Jam.
 
 ### Equal-Output CoinJoin
 
-...also referred to as equal-amount or equal-value CoinJoin transactions.
+An equal-output CoinJoin is a collaborative transaction that produces outputs of
+equal denomination, i.e. outputs of equal value when measured in sats. For this
+reason, these types of transactions are also referred to as equal-amount or
+equal-value CoinJoin transactions.
 
-    TODO
+Equal-output CoinJoins are [batch transaction](#batch-transaction) that are
+easily identifiable [on-chain](#onchain) due to their uniform output structure.
 
+Like any collaborative transaction, an equal-output CoinJoin breaks the [Common
+Input Ownership Heuristic](#common-input-ownership-heuristic). Participating in
+such a transaction allows you to gain privacy by "hiding in the crowd."
+
+Jam defaults to collaborative transactions when [sending][send] and
+[sweeping][sweep], creating equal-output CoinJoins.
 
 ## F
 ### Fidelity Bond
