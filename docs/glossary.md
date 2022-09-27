@@ -218,7 +218,7 @@ like a self-spend is actually a payment.
 
 One can only conclude, as is also mentioned in the report linked above, that "an
 external observer cannot possibly gain a full picture or claim 100% confidence
-in [ownership] attribution."
+in ownership attribution."
 
 [:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals-tx]
 
@@ -475,12 +475,12 @@ sweep all funds from your wallet multiple transactions are created using the
 A market taker is someone who buys bitcoin liquidity from the market, taking up
 [market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
 
-You will automatically take offers when running the [scheduler](#scheduler) via the
-["Sweep"][i/sweep] functionality.
+You will automatically take offers when running the [scheduler](#scheduler) via
+the ["Sweep"][sweep] functionality.
 
 [:octicons-arrow-right-24: Sweep][sweep]
 
-[:octicons-arrow-right-24: Earn Screen][i/earn]
+[:octicons-arrow-right-24: Earn Screen][earn]
 
 [:octicons-arrow-right-24: The Taker Role][jm-taker]
 
