@@ -469,7 +469,20 @@ sweep all funds from your wallet multiple transactions are created using the
 ## T
 ### Taint
 
-    TODO
+Taint is an external property defined by [chain analysis](#chain-analysis)
+surveillance firms. It is an attempt to trace the origin and ownership of
+[UTXOs](#utxo), classifying their owners and building lists of "good" and "bad"
+money.
+
+All taint in bitcoin always is and always will be arbitrarily defined and
+probabilistically applied. Just like [change detection](#change-detection), it
+is more an art than a science. It can never be done exactly. False positives and
+false negatives will always arise.
+
+The bitcoin network is indifferent to taint. Miners will include any transaction
+in a valid block that will reward them economically. Any application of taint on
+the block production level is equivalent to imposing additional rules via a
+soft-fork, which fully validating nodes can reject.
 
 ### Taker
 A market taker is someone who buys bitcoin liquidity from the market, taking up
