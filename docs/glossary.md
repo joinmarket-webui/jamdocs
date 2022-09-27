@@ -316,17 +316,19 @@ your chance of being chosen as a [market maker](#maker) drastically.
 ## J
 ### Jam
 
-Jam is both [the name][name] of the project and the verb we use for running multiple
-collaborative transactions automatically via the [sweep tab](#schedule).
+Jam is both [the name][name] of the project and the verb we use when a
+collaborative transaction is in progress.
+
+> Sir! The radar, sir! It appears to be... [Jam starts flowing through the
+> computer screen] jammed!
+>
+><cite>Spaceballs</cite>
 
 [:octicons-arrow-right-24: About][name]
-
-[:octicons-arrow-right-24: Jam Interface][sweep]
 
 [:octicons-arrow-right-24: jamapp.org][jamapp-org]
 
 [name]: about.md
-[sweep]: interface/04-sweep.md
 [jamapp-org]: https://jamapp.org
 
 ### Jar
@@ -420,7 +422,7 @@ symbol*[^satsymbol] is used:
 
 [^satsymbol]: [satsymbol.com](https://satsymbol.com/)
 
-### Schedule
+### Scheduler
 
     TODO
 
@@ -456,8 +458,13 @@ JoinMarket uses [fidelity bonds](#fidelity-bond) to protect users from Sybil att
 
 ### Sweep
 
-A 'sweep' send will transfer all funds of a jar or all funds of your wallet. To sweep your wallet multiple transactions are created
+A 'sweep' send will transfer all funds of a jar or all funds of your wallet. To
+sweep all funds from your wallet multiple transactions are created using the
+[scheduler](#scheduler).
 
+[:octicons-arrow-right-24: 'Sweep' Screen][sweep]
+
+[sweep]: interface/04-sweep.md
 
 ## T
 ### Taint
@@ -468,14 +475,15 @@ A 'sweep' send will transfer all funds of a jar or all funds of your wallet. To 
 A market taker is someone who buys bitcoin liquidity from the market, taking up
 [market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
 
-You will automatically take offers when running the scheduler via the ["Sweep"
-tab][i/sweep].
+You will automatically take offers when running the [scheduler](#scheduler) via the
+["Sweep"][i/sweep] functionality.
+
+[:octicons-arrow-right-24: Sweep][sweep]
 
 [:octicons-arrow-right-24: Earn Screen][i/earn]
 
 [:octicons-arrow-right-24: The Taker Role][jm-taker]
 
-[i/sweep]: interface/04-sweep.md
 [orderbook]: market/orderbook.md
 [jm-taker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-taker-role
 
