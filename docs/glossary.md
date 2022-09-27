@@ -73,7 +73,7 @@ harms the privacy of yourself and others. You should never reuse addresses.
 ### Address Type
 
     TODO
-    
+
 ### Anonymity Set
 
     TODO
@@ -153,8 +153,9 @@ companies to de-anonymize actors. The concept was introduced in 2013 by Gregory
 Maxwell.[^gmaxwell1][^gmaxwell2]
 
 All CoinJoin transactions are collaborative transactions. The two main types of
-CoinJoin transactions are equal-output and unequal-output CoinJoins. Other
-differences might be interactivity (or lack thereof) and number of participants.
+CoinJoin transactions are [equal-output](#equal-output-coinjoin) and
+unequal-output CoinJoins. Other differences might be interactivity (or lack
+thereof) and number of participants.
 
 [^gmaxwell1]: [I taint rich!](https://bitcointalk.org/?topic=139581) Maxwell, Jan. 2013
 [^gmaxwell2]: [CoinJoin: Bitcoin privacy for the real world](https://bitcointalk.org/?topic=279249) Maxwell, Aug. 2013
@@ -240,8 +241,9 @@ are controlled by a single entity. This assumption is clearly wrong, because
 ### Doxxic Change
 
 "Doxxic" change is any leftover change that is going back to you when
-participating in an equal-output CoinJoin. Doxxic change is problematic because
-it can potentially destroy any privacy benefits gained from a CoinJoin.  
+participating in an [equal-output CoinJoin](#equal-output-coinjoin). Doxxic
+change is problematic because it can potentially destroy any privacy benefits
+gained from a CoinJoin.  
 
 The word is a combination of "toxic" and "doxxing." Doxxing is the act of finding
 out the legal identity (or similar identifiying information) of a pseudonymous
@@ -250,7 +252,7 @@ Names*[^true-names] of participants.
 
 [^true-names]: Vernor Vinge, 1981, [True Names](https://bitcoin-resources.com/books/true-names)
 
-You can use the [Scheduler](/interface/04-sweep) functionality to avoid doxxic
+You can use the [sweep](/interface/04-sweep) functionality to avoid doxxic
 change in Jam.
 
 ## E
@@ -312,7 +314,7 @@ your chance of being chosen as a [market maker](#maker) drastically.
 ### Jam
 
 Jam is both [the name][name] of the project and the verb we use for running multiple
-collaborative transactions automatically via the [scheduler](#schedule).
+collaborative transactions automatically via the [sweep tab](#schedule).
 
 [:octicons-arrow-right-24: About][name]
 
@@ -433,7 +435,10 @@ JoinMarket uses [fidelity bonds](#fidelity-bond) to protect users from Sybil att
 [fb-design]: https://gist.github.com/chris-belcher/18ea0e6acdb885a2bfbdee43dcd6b5af
 
 ### Sweep
-A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
+
+A 'sweep' send will transfer all funds of a jar or all funds of your wallet. To sweep your wallet multiple transactions are created
+
+
 ## T
 ### Taint
 
@@ -443,14 +448,14 @@ A 'sweep' send will transfer all funds of a jar (or all funds of a wallet).
 A market taker is someone who buys bitcoin liquidity from the market, taking up
 [market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
 
-You will automatically take offers when running the scheduler via the ["Jam"
-tab][i/earn].
+You will automatically take offers when running the scheduler via the ["Sweep"
+tab][i/sweep].
 
 [:octicons-arrow-right-24: Earn Screen][i/earn]
 
 [:octicons-arrow-right-24: The Taker Role][jm-taker]
 
-[i/earn]: interface/04-sweep.md
+[i/sweep]: interface/04-sweep.md
 [orderbook]: market/orderbook.md
 [jm-taker]: https://github.com/openoms/bitcoin-tutorials/blob/master/joinmarket/joinmarket_private_flow.md#the-taker-role
 
