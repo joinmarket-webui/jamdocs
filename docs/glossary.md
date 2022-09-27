@@ -197,8 +197,9 @@ of the game. The goal of chain analysis companies is to link identities to
 transactions, and to do that, one has to detect whether funds changed hands or not.
 
 Technically speaking, change detection is trying to figure out which output of a
-transaction is a change output. Change detection is based on various heuristics. False positives will always
-exist, even if the transaction under scrutiny is a simple spend. Consequently, it is more an art than a science.
+transaction is a change output. Change detection is based on various heuristics.
+False positives will always exist, even if the transaction under scrutiny is a
+simple spend. Consequently, it is more an art than a science.
 
 To quote one special investigations team speaking on chain analysis:
 
@@ -485,8 +486,10 @@ the block production level is equivalent to imposing additional rules via a
 soft-fork, which fully validating nodes can reject.
 
 ### Taker
+
 A market taker is someone who buys bitcoin liquidity from the market, taking up
-[market makers](#maker) on their offers. You can see active offers in the [order book][orderbook].
+[market makers](#maker) on their offers. You can see active offers in the [order
+book][orderbook].
 
 You will automatically take offers when running the [scheduler](#scheduler) via
 the ["Sweep"][sweep] functionality.
