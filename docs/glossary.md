@@ -389,7 +389,24 @@ Short for pay-to-script-hash.
 
 ### PayJoin
 
-    TODO
+A PayJoin is a collaborative transaction between two parties that facilitates an
+actual payment for a good or service. The merchant agrees to provide one or
+multiple inputs to the transaction, increasing the privacy of both parties.
+
+A PayJoin has different [onchain](#onchain) characteristics than an
+[equal-output CoinJoin](#equal-output-coinjoin) and is not detectable via [chain
+analysis](#chain-analysis) alone. A PayJoin transaction has multiple
+interpretations, all of which are equally valid. In addition to breaking the
+[common input ownership heuristic](#common-input-ownership-heuristic) it poisons
+the basis of all [chain analysis](#chain-analysis), because of its
+undetectability.
+
+[:octicons-arrow-right-24: Bitcoin Wiki: PayJoin][wiki-payjoin]
+
+[:octicons-arrow-right-24: Bitcoin Wiki: PayJoin Adoption][wiki-payjoin]
+
+[wiki-payjoin]: https://en.bitcoin.it/wiki/PayJoin
+[wiki-payjoin-adoption]: https://en.bitcoin.it/wiki/PayJoin_adoption
 
 ## S
 ### Sats
