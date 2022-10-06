@@ -185,7 +185,7 @@ docker run --rm  -it \
         --env JAM_JMWALLETD_API_PORT="28183" \
         --env JAM_JMWALLETD_WEBSOCKET_PORT="28283" \
         --env JAM_JMOBWATCH_PORT="62601" \
-        --publish "8080:80" \
+        --publish "3000:80" \
         ghcr.io/joinmarket-webui/jam-ui-only:v0.1.0-clientserver-v0.9.8
 ```
 
@@ -201,8 +201,8 @@ npm start
 !!! success
     Always make sure to [verify the code][verification] that you run.
 
-When successful, a browser pointing to `http://localhost:3000` should
-automatically be opened.
+When successful, Jam can be accessed by visiting
+`http://localhost:3000` in your browser.
 
 
 ### ...connecting to a remote JoinMarket instance
