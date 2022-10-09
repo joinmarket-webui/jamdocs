@@ -170,6 +170,10 @@ python3 scripts/jmwalletd.py
 python3 scripts/obwatch/ob-watcher.py --host=127.0.0.1
 ```
 
+!!! info
+    Bind both services to `127.0.0.1` instead of `0.0.0.0` to not expose them to
+    your local network.
+
 It is recommended to install both services as system services, e.g. via
 `systemd`. Also, see your `joinmarket.cfg` config file and adapt the values to
 your needs. It is generally advised to leave all settings at their default
@@ -179,8 +183,9 @@ values. The above commands all use the standard values (e.g. for ports).
 
 
 !!! info
-    Bind both services to `127.0.0.1` instead of `0.0.0.0` to not expose them to
-    your local network.
+    Please make sure to provide values for config variables `max_cj_fee_abs`
+    and `max_cj_fee_rel` in `joinmarket.cfg`. Set them to values you feel
+    comfortable with.
 
 Once `jmwalletd` and `ob-watcher` are running, the last thing to do is to launch
 Jam. You can either run the docker image, or download the source code and run it
@@ -223,7 +228,8 @@ but before starting Jam (either directly or with docker), create a ssh tunnel
 to the remote host.
 
 ```sh
-ssh yourhost.local -v -o GatewayPorts=true -N -L 28183:127.0.0.1:28183 -L 28283:127.0.0.1:28283 -L 62601:127.0.0.1:62601
+ssh yourhost.local -v -o GatewayPorts=true -N \
+  -L 28183:127.0.0.1:28183 -L 28283:127.0.0.1:28283 -L 62601:127.0.0.1:62601
 ```
 
 ---
