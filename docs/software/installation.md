@@ -146,8 +146,19 @@ Prerequisites:
 - JoinMarket
 - [docker](#with-docker) or [node & npm](#without-docker)
 
-If you have [successfully installed JoinMarket][jm-install-docs], navigate to JoinMarket's root directory and start
-`jmwalletd` and `ob-watcher`:
+If you have [successfully installed JoinMarket][jm-install-docs], generate a
+self-signed SSL certificate in JoinMarket's working directory, then navigate
+to JoinMarket's root directory and start `jmwalletd` and `ob-watcher`.
+
+In JoinMarket's working directory (e.g. `~/.joinmarket/`):
+```sh
+mkdir ssl/ && cd "$_"
+openssl req -newkey rsa:4096 -x509 -sha256 -days 3650 -nodes \
+  -out cert.pem -keyout key.pem \
+  -subj "/C=US/ST=Utah/L=Lehi/O=Your Company, Inc./OU=IT/CN=example.com"
+```
+
+In JoinMarket's root directory:
 
 ```sh
 . jmvenv/bin/activate
