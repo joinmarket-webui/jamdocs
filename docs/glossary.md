@@ -76,7 +76,16 @@ harms the privacy of yourself and others. You should never reuse addresses.
 
 ### Anonymity Set
 
-    TODO
+The only way to hide in plain sight is by hiding in a crowd. The anonymity set
+is simply the size of this crowd.
+
+If you are putting on a hat and sunglasses to hide in a crowd of people that are
+wearing the same hat and sunglasses, your anonymity set is the size of this
+crowd. If said crowd is 50 people, an attacker could mistake you for anyone out
+of these 50 people. Similarly, when doing a [collaborative
+transaction](#collaborative-transaction) in bitcoin, you are creating an
+[onchain](#onchain) footprint that is equivalent to the onchain footprint of
+others.
 
 ## B
 ### Base Layer
