@@ -199,7 +199,7 @@ transactions, and to do that, one has to detect whether funds changed hands or n
 Technically speaking, change detection is trying to figure out which output of a
 transaction is a change output. Change detection is based on various heuristics.
 False positives will always exist, even if the transaction under scrutiny is a
-simple spend. Consequently, it is more an art than a science.
+[simple spend](#simple-spend). Consequently, it is more an art than a science.
 
 To quote one special investigations team speaking on chain analysis:
 
@@ -429,7 +429,16 @@ symbol*[^satsymbol] is used:
 
 ### Simple Spend
 
-    TODO
+A transaction that splits one input into two outputs: payment and change.
+
+The "simple spend" is the most common bitcoin transaction type to date, since
+most wallet implementations do not optimize for privacy. For most simple spend
+transactions it is possible to discern which output is the actual payment or
+which one is the change. This [change detection](#change-detection) makes
+the tracing of funds possible.
+
+[:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals-tx]
+
 
 ### SNICKER
 Simple Non-Interactive Coinjoin with Keys for Encryption Reused.
