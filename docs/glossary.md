@@ -322,9 +322,6 @@ your chance of being chosen as a [market maker](#maker) drastically.
 [jm-fb-math]: https://gist.github.com/chris-belcher/87ebbcbb639686057a389acb9ab3e25b
 [jam-fb]: /interface/fidelity-bonds/
 
-### Fungibility
-
-    TODO
 
 ## J
 ### Jam
