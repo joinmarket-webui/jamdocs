@@ -381,9 +381,17 @@ An offchain (or off-chain) transaction is any transaction that does not happen
 handing over of physical private keys, as well as transactions on centralized
 ledgers such as exchanges and other trusted third parties.
 
+Some offchain transactions, such as handing over private keys on USB sticks or
+similar, are outside of the scope of [chain analysis](#chain-analysis).
+Consequently, chain analysis can never be completely accurate.
+
 ### Onchain
 
-    TODO
+An onchain (or on-chain) transaction is a bitcoin transaction that is settled on
+the bitcoin [timechain](#timechain). The analysis of these transactions is
+called [chain analysis](#chain-analysis), which is the spying on and
+de-anonymizing of bitcoin's users by trying to find patterns in the onchain
+data.
 
 ## P
 ### P2PKH
