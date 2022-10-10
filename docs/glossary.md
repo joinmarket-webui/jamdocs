@@ -70,13 +70,18 @@ harms the privacy of yourself and others. You should never reuse addresses.
 
 [reuse]: https://en.bitcoin.it/wiki/Address_reuse
 
-### Address Type
-
-    TODO
-
 ### Anonymity Set
 
-    TODO
+The only way to hide in plain sight is by hiding in a crowd. The anonymity set
+is simply the size of this crowd.
+
+If you are putting on a hat and sunglasses to hide in a crowd of people that are
+wearing the same hat and sunglasses, your anonymity set is the size of this
+crowd. If said crowd is 50 people, an attacker could mistake you for anyone out
+of these 50 people. Similarly, when doing a [collaborative
+transaction](#collaborative-transaction) in bitcoin, you are creating an
+[onchain](#onchain) footprint that is equivalent to the onchain footprint of
+others.
 
 ## B
 ### Base Layer
@@ -199,7 +204,7 @@ transactions, and to do that, one has to detect whether funds changed hands or n
 Technically speaking, change detection is trying to figure out which output of a
 transaction is a change output. Change detection is based on various heuristics.
 False positives will always exist, even if the transaction under scrutiny is a
-simple spend. Consequently, it is more an art than a science.
+[simple spend](#simple-spend). Consequently, it is more an art than a science.
 
 To quote one special investigations team speaking on chain analysis:
 
@@ -260,7 +265,14 @@ change in Jam.
 ## E
 ### Eclipse Attack
 
-    TODO
+An eclipse attack is an attack in networked systems in which an attacker targets
+a node to convince it of a false network state. The attacker surrounds the node
+in order to conceal or block off accurate information, leaving the attacked
+node(s) in the dark in terms of the global network state.
+
+An eclipse attack is similar to a [Sybil attack](#sybil-attack).
+
+[:octicons-arrow-right-24: Bitcoin Stack Exchange: Eclipse Attack vs. Sybil Attack](https://bitcoin.stackexchange.com/a/61154/93857)
 
 ### Equal-Output CoinJoin
 
@@ -310,9 +322,6 @@ your chance of being chosen as a [market maker](#maker) drastically.
 [jm-fb-math]: https://gist.github.com/chris-belcher/87ebbcbb639686057a389acb9ab3e25b
 [jam-fb]: /interface/fidelity-bonds/
 
-### Fungibility
-
-    TODO
 
 ## J
 ### Jam
@@ -369,11 +378,22 @@ held by each node, that are not yet confirmed in the [timechain](#timechain).
 ## O
 ### Offchain
 
-    TODO
+An offchain (or off-chain) transaction is any transaction that does not happen
+[onchain](#onchain). Examples include transactions on the Lightning network, the
+handing over of physical private keys, as well as transactions on centralized
+ledgers such as exchanges and other trusted third parties.
+
+Some offchain transactions, such as handing over private keys on USB sticks or
+similar, are outside of the scope of [chain analysis](#chain-analysis).
+Consequently, chain analysis can never be completely accurate.
 
 ### Onchain
 
-    TODO
+An onchain (or on-chain) transaction is a bitcoin transaction that is settled on
+the bitcoin [timechain](#timechain). The analysis of these transactions is
+called [chain analysis](#chain-analysis), which is the spying on and
+de-anonymizing of bitcoin's users by trying to find patterns in the onchain
+data.
 
 ## P
 ### P2PKH
@@ -425,11 +445,26 @@ symbol*[^satsymbol] is used:
 
 ### Scheduler
 
-    TODO
+The 'scheduler' is a component of JoinMarket which schedules multiple
+[collaborative transactions](#collaborative-transaction) in a row. It will use
+random intervals and amounts to make timing analysis and de-anonymization via
+[chain analysis](#chain-analysis) more difficult.
+
+The '[Sweep](#sweep)' screen uses the scheduler to sweep funds to one or
+multiple external wallets under your control.
 
 ### Simple Spend
 
-    TODO
+A transaction that splits one input into two outputs: payment and change.
+
+The "simple spend" is the most common bitcoin transaction type to date, since
+most wallet implementations do not optimize for privacy. For most simple spend
+transactions it is possible to discern which output is the actual payment or
+which one is the change. This [change detection](#change-detection) makes
+the tracing of funds possible.
+
+[:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals-tx]
+
 
 ### SNICKER
 Simple Non-Interactive Coinjoin with Keys for Encryption Reused.
