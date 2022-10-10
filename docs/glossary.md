@@ -425,7 +425,13 @@ symbol*[^satsymbol] is used:
 
 ### Scheduler
 
-    TODO
+The 'scheduler' is a component of JoinMarket which schedules multiple
+[collaborative transactions](#collaborative-transaction) in a row. It will use
+random intervals and amounts to make timing analysis and de-anonymization via
+[chain analysis](#chain-analysis) more difficult.
+
+The '[Sweep](#sweep)' screen uses the scheduler to sweep funds to one or
+multiple external wallets under your control.
 
 ### Simple Spend
 
