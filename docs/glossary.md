@@ -70,10 +70,6 @@ harms the privacy of yourself and others. You should never reuse addresses.
 
 [reuse]: https://en.bitcoin.it/wiki/Address_reuse
 
-### Address Type
-
-    TODO
-
 ### Anonymity Set
 
 The only way to hide in plain sight is by hiding in a crowd. The anonymity set
