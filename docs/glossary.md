@@ -260,7 +260,14 @@ change in Jam.
 ## E
 ### Eclipse Attack
 
-    TODO
+An eclipse attack is an attack in networked systems in which an attacker targets
+a node to convince it of a false network state. The attacker surrounds the node
+in order to conceal or block off accurate information, leaving the attacked
+node(s) in the dark in terms of the global network state.
+
+An eclipse attack is similar to a [Sybil attack](#sybil-attack).
+
+[:octicons-arrow-right-24: Bitcoin Stack Exchange: Eclipse Attack vs. Sybil Attack](https://bitcoin.stackexchange.com/a/61154/93857)
 
 ### Equal-Output CoinJoin
 
