@@ -376,7 +376,10 @@ held by each node, that are not yet confirmed in the [timechain](#timechain).
 ## O
 ### Offchain
 
-    TODO
+An offchain (or off-chain) transaction is any transaction that does not happen
+[onchain](#onchain). Examples include transactions on the Lightning network, the
+handing over of physical private keys, as well as transactions on centralized
+ledgers such as exchanges and other trusted third parties.
 
 ### Onchain
 
