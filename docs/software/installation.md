@@ -107,6 +107,10 @@ docker run --rm  -it \
         --env JM_RPC_PASSWORD="****************" \
         --env APP_USER="JAM_USERNAME" \
         --env APP_PASSWORD="****************" \
+        --env ENSURE_WALLET="true" \
+        --env REMOVE_LOCK_FILES="true" \
+        --env RESTORE_DEFAULT_CONFIG="true" \
+        --volume jmdatadir:/root/.joinmarket \
         --publish "8080:80" \
         ghcr.io/joinmarket-webui/jam-standalone:v0.1.0-clientserver-v0.9.8
 ```
@@ -129,6 +133,10 @@ docker run --rm  -it \
         --env JM_RPC_PASSWORD="n5a___YOUR_RPC_PASSWORD___yNA" \
         --env APP_USER="jam" \
         --env APP_PASSWORD="AvQ___YOUR_APP_PASSWORD___iCw" \
+        --env ENSURE_WALLET="true" \
+        --env REMOVE_LOCK_FILES="true" \
+        --env RESTORE_DEFAULT_CONFIG="true" \
+        --volume jmdatadir:/root/.joinmarket \
         --publish "8080:80" \
         ghcr.io/joinmarket-webui/jam-standalone:v0.1.0-clientserver-v0.9.8
 ```
