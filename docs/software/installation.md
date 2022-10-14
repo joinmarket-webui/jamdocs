@@ -108,7 +108,7 @@ docker run --rm  -it \
         --env APP_USER="JAM_USERNAME" \
         --env APP_PASSWORD="****************" \
         --publish "8080:80" \
-        ghcr.io/joinmarket-webui/jam-standalone:v0.1.0-clientserver-v0.9.8
+        ghcr.io/joinmarket-webui/jam-standalone:v0.1.1-clientserver-v0.9.8
 ```
 
 If you are connecting to a local Bitcoin Core node, use the above command but
@@ -130,7 +130,7 @@ docker run --rm  -it \
         --env APP_USER="jam" \
         --env APP_PASSWORD="AvQ___YOUR_APP_PASSWORD___iCw" \
         --publish "8080:80" \
-        ghcr.io/joinmarket-webui/jam-standalone:v0.1.0-clientserver-v0.9.8
+        ghcr.io/joinmarket-webui/jam-standalone:v0.1.1-clientserver-v0.9.8
 ```
 
 Please use your password manager or something like `openssl rand -base64 32` to
@@ -202,13 +202,13 @@ docker run --rm  -it \
         --env JAM_JMWALLETD_WEBSOCKET_PORT="28283" \
         --env JAM_JMOBWATCH_PORT="62601" \
         --publish "3000:80" \
-        ghcr.io/joinmarket-webui/jam-ui-only:v0.1.0-clientserver-v0.9.8
+        ghcr.io/joinmarket-webui/jam-ui-only:v0.1.1-clientserver-v0.9.8
 ```
 
 ```sh
 # Option 2: run Jam via npm
 
-git clone https://github.com/joinmarket-webui/jam.git --branch v0.1.0 --depth=1
+git clone https://github.com/joinmarket-webui/jam.git --branch v0.1.1 --depth=1
 cd jam/
 npm install
 npm start
