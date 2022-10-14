@@ -55,7 +55,7 @@ Click "Cheatsheet" at the bottom of the screen to open up the cheatsheet in Jam.
 Some processes in Jam might take a long time to complete. Further, **Jam is
 considered beta software.** While JoinMarket is tried and tested, Jam is new and
 things might break. Use with caution. Please report any issues [directly on
-GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
+GitHub](https://github.com/joinmarket-webui/jam/issues/new).
 
 Make sure to understand the privacy fundamentals, best practices, as well as the
 motivation behind this software. Also, understand that you are participating in

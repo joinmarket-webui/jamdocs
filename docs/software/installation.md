@@ -96,7 +96,7 @@ The official [Jam standalone docker image][jam-docker-standalone]
 is already bundled with JoinMarket and Tor. It takes care of starting all
 subservices (API, Orderbook, etc.) and everything works out-of-the-box.
 
-[jam-docker-standalone]: https://github.com/joinmarket-webui/jam-docker/pkgs/container/joinmarket-webui-standalone
+[jam-docker-standalone]: https://github.com/joinmarket-webui/jam-docker/pkgs/container/jam-standalone
 
 If you are connecting to a remote Bitcoin Core node, run:
 ```sh
