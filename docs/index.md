@@ -36,7 +36,7 @@ All development is done by volunteers. Consequently, please heed the following
 warning:
 
 !!! danger
-    **Jam is considered beta software.** While JoinMarket is tried and tested, Jam is new and things might break. Use with caution. Please report any issues [directly on GitHub](https://github.com/joinmarket-webui/joinmarket-webui/issues/new).
+    **Jam is considered beta software.** While JoinMarket is tried and tested, Jam is new and things might break. Use with caution. Please report any issues [directly on GitHub](https://github.com/joinmarket-webui/jam/issues/new).
 
 ## Installation
 
@@ -75,4 +75,4 @@ look at the FAQ to get answers to frequently asked questions.
 [faq]: FAQ
 [tgJam]: https://t.me/JoinMarketWebUI
 [mxJam]: https://matrix.to/#/%23jam:bitcoin.kyoto
-[ghJam]: https://github.com/joinmarket-webui/joinmarket-webui/issues
+[ghJam]: https://github.com/joinmarket-webui/jam/issues

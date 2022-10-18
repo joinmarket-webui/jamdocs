@@ -69,11 +69,11 @@ a change.
 If you're good with words and copy editing, or if you want to help to
 translate Jam into multiple languages, [join the translation team][translations].
 
-[milestones]: https://github.com/joinmarket-webui/joinmarket-webui/milestones
+[milestones]: https://github.com/joinmarket-webui/jam/milestones
 
-[issues]: https://github.com/joinmarket-webui/joinmarket-webui/issues
-[pulls]: https://github.com/joinmarket-webui/joinmarket-webui/pulls
-[good-first-issue]: https://github.com/joinmarket-webui/joinmarket-webui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[issues]: https://github.com/joinmarket-webui/jam/issues
+[pulls]: https://github.com/joinmarket-webui/jam/pulls
+[good-first-issue]: https://github.com/joinmarket-webui/jam/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [translations]: https://www.transifex.com/joinmarket/jam/dashboard/
 [figma]: https://www.figma.com/file/kfejZJFlwBywvLEnPEmJo1/JoinMarket-UI?node-id=2850%3A67638
 
@@ -89,6 +89,6 @@ receiving pull-requests, bug reports, ideas, and feedback from everyone. See the
 participating in this project.
 
 
-[contrib]: https://github.com/joinmarket-webui/joinmarket-webui/blob/master/CONTRIBUTING.md
-[calls]: https://github.com/joinmarket-webui/joinmarket-webui/wiki/community-calls
+[contrib]: https://github.com/joinmarket-webui/jam/blob/master/CONTRIBUTING.md
+[calls]: https://github.com/joinmarket-webui/jam/wiki/community-calls
 [telegram]: https://t.me/JoinMarketWebUI

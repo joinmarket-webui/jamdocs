@@ -78,7 +78,7 @@ You can resolve this by manually deleting the wallet `.lock` file as explained
 in [issue #173][lockfile-issue].
 
 
-[lockfile-issue]: https://github.com/joinmarket-webui/joinmarket-webui/issues/173#issuecomment-1069086553
+[lockfile-issue]: https://github.com/joinmarket-webui/jam/issues/173#issuecomment-1069086553
 
 ### Why is my collaborative transaction taking so long?
 

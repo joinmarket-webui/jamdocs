@@ -40,7 +40,7 @@ It should say that _"This tag was signed with the committer’s verified
 signature"_ and show you the last 16 characters of the GPG key ID listed above
 (`89C4 A25E 69A5 DE7F`).
 
-[releases]: https://github.com/joinmarket-webui/joinmarket-webui/releases
-[contributors]: https://github.com/joinmarket-webui/joinmarket-webui/graphs/contributors
+[releases]: https://github.com/joinmarket-webui/jam/releases
+[contributors]: https://github.com/joinmarket-webui/jam/graphs/contributors
 [now]: https://www.blockstream.info/block-height/742834
 [gigi]: https://dergigi.com/pgp/

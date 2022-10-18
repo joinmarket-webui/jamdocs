@@ -48,7 +48,7 @@ something in a tasty way (and putting it in [jars][glossary]).
 ![](assets/spaceballs.gif)
 </center>
 
-[name]: https://github.com/joinmarket-webui/joinmarket-webui/issues/22#issuecomment-1024654436
+[name]: https://github.com/joinmarket-webui/jam/issues/22#issuecomment-1024654436
 
 ## About the Philosophy
 

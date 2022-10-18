@@ -96,7 +96,7 @@ The official [Jam standalone docker image][jam-docker-standalone]
 is already bundled with JoinMarket and Tor. It takes care of starting all
 subservices (API, Orderbook, etc.) and everything works out-of-the-box.
 
-[jam-docker-standalone]: https://github.com/joinmarket-webui/jam-docker/pkgs/container/joinmarket-webui-standalone
+[jam-docker-standalone]: https://github.com/joinmarket-webui/jam-docker/pkgs/container/jam-standalone
 
 If you are connecting to a remote Bitcoin Core node, run:
 ```sh
@@ -112,7 +112,7 @@ docker run --rm  -it \
         --env RESTORE_DEFAULT_CONFIG="true" \
         --volume jmdatadir:/root/.joinmarket \
         --publish "8080:80" \
-        ghcr.io/joinmarket-webui/jam-standalone:v0.1.0-clientserver-v0.9.8
+        ghcr.io/joinmarket-webui/jam-standalone:${jam_version}
 ```
 
 If you are connecting to a local Bitcoin Core node, use the above command but
@@ -138,7 +138,7 @@ docker run --rm  -it \
         --env RESTORE_DEFAULT_CONFIG="true" \
         --volume jmdatadir:/root/.joinmarket \
         --publish "8080:80" \
-        ghcr.io/joinmarket-webui/jam-standalone:v0.1.0-clientserver-v0.9.8
+        ghcr.io/joinmarket-webui/jam-standalone:${jam_version}
 ```
 
 Please use your password manager or something like `openssl rand -base64 32` to
@@ -210,13 +210,13 @@ docker run --rm  -it \
         --env JAM_JMWALLETD_WEBSOCKET_PORT="28283" \
         --env JAM_JMOBWATCH_PORT="62601" \
         --publish "3000:80" \
-        ghcr.io/joinmarket-webui/jam-ui-only:v0.1.0-clientserver-v0.9.8
+        ghcr.io/joinmarket-webui/jam-ui-only:${jam_version}
 ```
 
 ```sh
 # Option 2: run Jam via npm
 
-git clone https://github.com/joinmarket-webui/jam.git --branch v0.1.0 --depth=1
+git clone https://github.com/joinmarket-webui/jam.git --branch ${jam_version} --depth=1
 cd jam/
 npm install
 npm start
