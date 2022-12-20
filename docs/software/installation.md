@@ -70,8 +70,8 @@ v1.8.0](https://github.com/rootzoll/raspiblitz/issues/2891).
 
 Jam can be installed directly from the [MyNode](https://mynodebtc.com/) Marketplace:
 
-- Open the interface of your MyNode device <br/> (type `mynode.local` in your browser)
-- Find "Jam" in the Markplace (Note: The JoinMarket app must also be installed)
+- Open the interface of your MyNode device <br/>(type `mynode.local` in your browser)
+- Find "Jam" in the Markplace <br/>(Note: the JoinMarket app must also be installed)
 - Click install
 - Done!
 
