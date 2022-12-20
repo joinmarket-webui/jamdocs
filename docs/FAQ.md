@@ -129,14 +129,34 @@ folder of JoinMarket's working directory (e.g. `/home/<user>/.joinmarket/logs`)
 
 e.g. `tail -n 200 -f /home/user/.joinmarket/logs/jmwalletd_logs.log`
 
-### No connection to gateway
+### How to resolve "No connection to gateway"?
 
-TODO
+This can have several reasons and basically means that the UI cannot reach the backend service.
+Depending on your [installation](/software/installation/) (native setup, docker images,
+local/remote hosts, etc.), there are a number of things you should verify.
 
-(hint: check service is running; check ports are open) can also be reverse proxy
-issues; reverse proxy is still mandatory (this is a pain point for me.. we need
-to get rid of it) don't know if we should go into details why it is needed or
-what the differences are
+Please make sure that:
+
+- Your Bitcoin Core instance is up and running, fully synced and is accepting RPC requests.
+
+```
+bitcoin-cli getblockchaininfo
+```
+
+- The backend service is running and is reachable on the specified ports.
+  Verify that you get a response from the server, by executing a request
+  _on the host that is running your JoinMarket instance_ (if you run an Umbrel node, 
+  this requests needs to be executed _inside_ the Jam docker container):
+
+```
+curl --insecure https://127.0.0.1:28183/api/v1/session
+```
+
+- [Check the logs](#how-do-i-view-the-log-file) for any errors or warnings.
+
+- If all the above fails, try restarting every service or do a complete node reboot.
+
+- As a last resort, seek help in the [support channel](/contribute/#say-hello).
 
 ### Can I import an existing wallet?
 
