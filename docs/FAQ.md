@@ -177,7 +177,7 @@ Recovered wallet OK
 Here is an example of how you'd get into the Jam container on Umbrel:
 
 - Log into your umbrel with `ssh umbrel@umbrel.local`
-- Move into the jam container with `docker exec -it jam_jam_1 bash`
+- Move into the jam container with `docker exec -it jam_web_1 bash`
 - Navigate to JoinMarket's root directory with `cd /src`
 - Now follow the import procedure as explained above
 - Leave the command line with `exit` (multiple times)
