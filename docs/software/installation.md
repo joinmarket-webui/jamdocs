@@ -5,6 +5,7 @@ Jam comes packaged with the following full-node solutions:
 - [Umbrel](#with-umbrel)
 - [Citadel](#with-citadel)
 - [Raspiblitz](#with-raspiblitz)
+- [MyNode](#with-mynode)
 
 You should be able to install Jam with one click if you are running any of the
 above. You can also do a [manual installation](#manual-installation).
@@ -64,6 +65,15 @@ config.scripts/bonus.joinmarket-webui.sh menu
 We hope that Jam will be available as a one-click app
 install with [RaspiBlitz
 v1.8.0](https://github.com/rootzoll/raspiblitz/issues/2891).
+
+### ...with MyNode
+
+Jam can be installed directly from the [MyNode](https://mynodebtc.com/) Marketplace:
+
+- Open the interface of your MyNode device <br/>(type `mynode.local` in your browser)
+- Find "Jam" in the Markplace <br/>(Note: the JoinMarket app must also be installed)
+- Click install
+- Done!
 
 ---
 
