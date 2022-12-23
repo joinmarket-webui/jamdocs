@@ -6,6 +6,7 @@ Jam comes packaged with the following full-node solutions:
 - [Citadel](#with-citadel)
 - [Raspiblitz](#with-raspiblitz)
 - [MyNode](#with-mynode)
+- [Start9](#with-start9)
 
 You should be able to install Jam with one click if you are running any of the
 above. You can also do a [manual installation](#manual-installation).
@@ -72,6 +73,15 @@ Jam can be installed directly from the [MyNode](https://mynodebtc.com/) Marketpl
 
 - Open the interface of your MyNode device <br/>(type `mynode.local` in your browser)
 - Find "Jam" in the Markplace <br/>(Note: the JoinMarket app must also be installed)
+- Click install
+- Done!
+
+### ...with Start9
+
+Jam can be installed directly from the [Start9](https://start9.com/) Marketplace:
+
+- Open the interface on EmbassyOS <br/> (type your personalized embassy address similar to `embassy-example-example.local` in your browser)
+- Find "Jam" in the Start9 [Marketplace](https://marketplace.start9.com/marketplace/jam)
 - Click install
 - Done!
 
