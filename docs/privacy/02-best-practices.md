@@ -50,10 +50,8 @@ impli­ca­tions for regular users are mostly negative as a multi­tude of
 data leaks have shown. If you choose to use KYC on- or off-ramps, make
 sure that you under­stand the relation­ship between yourself and the
 service in question. You are trusting this service with your personal
-data, including the future safety of this data. If you still earn
-fiat-denom­i­nated income, we recom­mend using one bitcoin-only service
-that allows you to execute automatic recur­ring buys on your behalf.
-Swan Bitcoin is such a service. If you want to skip KYC entirely, have
+data, including the future safety of this data.
+If you want to skip KYC entirely, have
 a look at no-KYC only.
 
 [:octicons-arrow-right-24: No KYC Only][nokyc]
