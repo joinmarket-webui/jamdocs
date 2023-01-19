@@ -7,7 +7,7 @@ a block. The higher the fee you are willing to pay, the higher the likelihood
 that your transaction will be included quickly.
 
 In JoinMarket, you pay fees to [market makers][maker] in order to use their
-liquidity to your advantage.
+liquidity to both of your advantage. However because the market maker gets the fee as he is waiting around and providing the liquidity.
 
 Consequently, when you are sending a collaborative transaction in Jam—or when you are using the scheduler to do multiple transactions—you have to pay fees to miners and makers. How high these fees are depends on market and [mempool][mempool] conditions.
 
