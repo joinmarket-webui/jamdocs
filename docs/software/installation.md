@@ -4,9 +4,10 @@ Jam comes packaged with the following full-node solutions:
 
 - [Umbrel](#with-umbrel)
 - [Citadel](#with-citadel)
-- [Raspiblitz](#with-raspiblitz)
+- [RaspiBlitz](#with-raspiblitz)
 - [MyNode](#with-mynode)
 - [Start9](#with-start9)
+- [RaspiBolt](#with-raspibolt)
 
 You should be able to install Jam with one click if you are running any of the
 above. You can also do a [manual installation](#manual-installation).
@@ -47,7 +48,7 @@ Jam can be installed directly from the [Citadel](https://runcitadel.space/) app 
     If you are asked to enter a username and password after installation, enter
     "citadel" as the username and the password that Citadel provides for you.
 
-### ...with Raspiblitz
+### ...with RaspiBlitz
 
 You can install Jam via the command line in RaspiBlitz v1.7.2 and up. To install
 it, exit the Raspiblitz menu and run:
@@ -84,6 +85,10 @@ Jam can be installed directly from the [Start9](https://start9.com/) Marketplace
 - Find "Jam" in the Start9 [Marketplace](https://marketplace.start9.com/marketplace/jam)
 - Click install
 - Done!
+
+### ...with RaspiBolt
+
+See the RaspiBolt [guide](https://raspibolt.org/guide/bonus/bitcoin/Jam.html) for detailed instructions.
 
 ---
 
