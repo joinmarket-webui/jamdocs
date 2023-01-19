@@ -107,6 +107,28 @@ virtually impossible.
 Because identification can only happen heuristically, one part of the solution
 to Bitcoin's privacy conundrum lies in collaboration.
 
+## Trustless Bitcoin Transactions
+
+Because of their specific nature(explained above), Bitcoin transactions have this special very special property that allows multiple entities to make a payment, in a transaction, at the same time.
+
+Another interesting aspect is that Bitcoin transactions have this propriety of atomicity, which means either all the events go forward successfully or none.
+
+So multiple parties can contribute an input(or many) and then specify some outputs for that transaction, which can belong to them or someone else.
+
+Even though the inputs belong to different entities, we can still be sure no one loses their money.
+If some participants misbehave, the whole transaction will fail, but no and no money will be moved because of the atomicity propriety, so no loss.
+
+When a  bitcoin transaction is constructed, no movement of money happens.
+Same as how you write on a check how much money you want to send, but until the check is signed and presented to a bank, the money sits still.
+
+After a transaction is constructed, valid signatures need to be provided from each input.
+Same as the check analogy you can send the money to anyone you want(even yourself), but only the owner of the funds needs to provide the signature.
+
+After a transaction has been signed, it can be broadcasted to the Bitcoin network, this process would be equivalent to giving the check to a bank teller.
+The network will check if the signatures are valid, and that there is no more money going out then was in(sum of outputs <= sum of inputs), and afterward, the transaction can be mined and added to the blockchain.
+
+![](../assets/collaborative-tx.png)
+
 ## Collaborative Transactions
 
 When it comes to privacy, collaboration is the norm. Take encryption, for
@@ -138,12 +160,12 @@ all inputs have to be controlled by the same party. Thus, the "handshake" is
 about bringing multiple parties together to collaborate on a bitcoin
 transaction.
 
+
 Once the collaborating parties agree on the parameters of the transaction, the
 transaction is signed by all parties and broadcast to the network. Because of
 the heuristical nature of transaction analysis, an onlooker won't be able to
 figure out the flow of funds.
 
-![](../assets/collaborative-tx.png)
 
 One especially promising technique to increase the privacy of all is to combine
 the above with an actual payment. In this scenario, the "handshake" is about
