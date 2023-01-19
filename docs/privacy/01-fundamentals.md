@@ -36,7 +36,7 @@ In the simplest sense, a Bitcoin transaction is just a bunch of data that
 describes the movement of bitcoins.
 
 A bitcoin transaction consists of inputs and outputs. Every transaction input
-refers to the output of a previous transaction. We say that an input "consumes"
+refers to the output of a previous transaction (except the coinbase transaction). We say that an input "consumes"
 an output. If an output is not consumed yet, we speak of an unspent transaction
 output, or UTXO, for short.
 
