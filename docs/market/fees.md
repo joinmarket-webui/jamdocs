@@ -61,7 +61,7 @@ transaction is more expensive than a [simple spend][ss].
 ## Earning Maker Fees
 
 As mentioned above, you can use the [Earn][earn] tab to earn maker fees
-yourself.[^fn-home-mining] Simply choose an offer type, select how many fees you would like to earn, and press "Start Earning!"
+yourself. Simply choose an offer type, select how many fees you would like to earn, and press "Start Earning!"
 
 Make sure to check the [orderbook][orderbook] to compare your offer with current
 market rates. If your offer isn't competetive, nobody will take you up on it and
@@ -69,13 +69,43 @@ you will earn zero sats.
 
 [orderbook]: orderbook.md
 
-[^fn-home-mining]: You can also mine yourself to earn mining fees, but that's outside of the scope of Jam. We refer the curious reader to [econoalchemist's home mining guide](https://archive.ph/TLIay) instead.
-
 [:octicons-arrow-right-24: FAQ: How much can I earn?][faq-earn]
 
 [:octicons-arrow-right-24: Orderbook][orderbook]
 
 [faq-earn]: /FAQ/#how-much-can-i-earn
+
+## Real life vs. Theory
+
+The Market Makers put up their coins in a hot wallet to be offered for liquidity, which means they face the following inconveniences:
+- they are exposed to the risk of getting their coins stolen
+- they incur an opportunity cost because they could be using these bitcoins to do something else with them. This is further amplified if additional coins are locked in a [Fidelity Bond][Fidelity Bond]
+
+It only seems fair that they get paid for all those inconvenience.
+So how come the profits are minuscule?
+
+With the market dynamics described above,  even since the early days, its been observed that makers make very little profit from offering liquidity.
+This does not mean the market is "broken" it just reflects the reality of the situation.
+There is much more supply than demand for CoinJoins.
+
+This whole thing is a market and it does what markets do well, price in all the relevant information/risks/costs.
+
+Another fact to consider is that the Bitcoin network itself has a cost to use - Bitcoin transaction fees.
+
+Even though most of the times fees seem to be very low, when constructing a CoinJoin the transaction gets big(each input/outputs adds extra data to the transaction).
+Because of this factor, CoinJoins will start up starting with a pretty big baseline fee which is taken by the miners, so not that much left for the makers.
+
+We can summaries the trade-off between a maker and a taker like so:
+- Makers: get kinda-free long term fairly good mixing
+- Takers: non-free short term better mixing
+
+As a taker, you get to pick the exact amounts you want to mix, and as such you will not be left with any [Doxxic Change][Doxxic Change].
+Plus, you get to pick who you mix with, so you know the makers, not the other way around, giving a slight privacy advantage.
+
+Worth clarifying that the quality of a CoinJoin is the same for a maker or take, the small advantages/disadvantages are peripheral and have to do with what happens after the CoinJoin.
+
+[Doxxic Change]: /glossary/#doxxic-change
+[Fidelity Bond]: /glossary/#fidelity-bond
 
 ## Fee Conversion
 
