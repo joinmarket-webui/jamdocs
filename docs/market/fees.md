@@ -61,15 +61,13 @@ transaction is more expensive than a [simple spend][ss].
 ## Earning Maker Fees
 
 As mentioned above, you can use the [Earn][earn] tab to earn maker fees
-yourself.[^fn-home-mining] Simply choose an offer type, select how many fees you would like to earn, and press "Start Earning!"
+yourself. Simply choose an offer type, select how many fees you would like to earn, and press "Start Earning!"
 
 Make sure to check the [orderbook][orderbook] to compare your offer with current
 market rates. If your offer isn't competetive, nobody will take you up on it and
 you will earn zero sats.
 
 [orderbook]: orderbook.md
-
-[^fn-home-mining]: You can also mine yourself to earn mining fees, but that's outside of the scope of Jam. We refer the curious reader to [econoalchemist's home mining guide](https://archive.ph/TLIay) instead.
 
 [:octicons-arrow-right-24: FAQ: How much can I earn?][faq-earn]
 
