@@ -308,7 +308,8 @@ cryptographic identities costly.
 
 !!! warning
     It is impossible to move or spend funds that are locked in a fidelity bond
-    before the bond expires. They **cannot be used in collaborative transactions**
+    before the bond expires. They **cannot be used in collaborative transactions 
+    (either as [taker][taker] or [maker][maker])**
     as fidelity bonds are time-locked by the Bitcoin protocol.
 
 Fidelity bonds improve the privacy guarantees of the whole system and increase
@@ -326,7 +327,8 @@ your chance of being chosen as a [market maker](#maker) drastically.
 [jm-fb]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/fidelity-bonds.md
 [jm-fb-math]: https://gist.github.com/chris-belcher/87ebbcbb639686057a389acb9ab3e25b
 [jam-fb]: /interface/fidelity-bonds/
-
+[maker]: /glossary/#maker
+[taker]: /glossary/#taker
 
 ## J
 ### Jam

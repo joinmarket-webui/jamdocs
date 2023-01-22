@@ -23,6 +23,9 @@ the creation of cryptographic identities costly.
 Fidelity bonds improve the privacy guarantees of the whole system and increase
 your chance of being chosen as a [market maker][maker] drastically.
 
+Be aware that funds locked in a Fidelity Bond will **not** be included in your offer amount,
+so remember to leave some funds unlocked order to partecipate as a market maker.
+
 [:octicons-arrow-right-24: Fidelity Bonds][fb]
 
 [fb]: fidelity-bonds.md
