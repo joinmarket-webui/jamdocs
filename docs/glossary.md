@@ -155,14 +155,14 @@ probabilistic with low certainty.
 
 CoinJoins break the [common input ownership
 heuristic](#common-input-ownership-heuristic) that is used by chain analysis
-companies to de-anonymize actors. The concept was introduced in 2013 by Gregory
-Maxwell.[^gmaxwell1][^gmaxwell2]
+companies to de-anonymize actors. The concept was 1st introduced in 2011 by Bitcointalk user hashcoin[^hashcoin], but later popularised in 2013 by Gregory Maxwell.[^gmaxwell1][^gmaxwell2]
 
 All CoinJoin transactions are collaborative transactions. The two main types of
 CoinJoin transactions are [equal-output](#equal-output-coinjoin) and
 unequal-output CoinJoins. Other differences might be interactivity (or lack
 thereof) and number of participants.
 
+[^hashcoin]: [Blind Bitcoin Transfers](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) hashcoin, July 2011
 [^gmaxwell1]: [I taint rich!](https://bitcointalk.org/?topic=139581) Maxwell, Jan. 2013
 [^gmaxwell2]: [CoinJoin: Bitcoin privacy for the real world](https://bitcointalk.org/?topic=279249) Maxwell, Aug. 2013
 
