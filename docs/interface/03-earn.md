@@ -3,6 +3,7 @@
 Use the 'Earn' tab to earn [sats][sats] by offering liquidity to other market
 participants. You will be acting as a [market maker][maker]. Creating a
 [fidelity bond][bond] is recommended.
+In Jam, takers pay 100% of the mining fees: as a market maker, you will not pay anything. Just profit!
 
 [sats]: /glossary/#sats
 [bond]: /glossary/#fidelity-bond
