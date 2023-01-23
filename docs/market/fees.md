@@ -75,6 +75,38 @@ you will earn zero sats.
 
 [faq-earn]: /FAQ/#how-much-can-i-earn
 
+## Real life vs. Theory
+
+The Market Makers put up their coins in a hot wallet to be offered for liquidity, which means they face the following inconveniences:
+- they are exposed to the risk of getting their coins stolen
+- they incur an opportunity cost because they could be using these bitcoins to do something else with them. This is further amplified if additional coins are locked in a [Fidelity Bond][Fidelity Bond]
+
+It only seems fair that they get paid for all those inconvenience.
+So how come the profits are minuscule?
+
+With the market dynamics described above,  even since the early days, its been observed that makers make very little profit from offering liquidity.
+This does not mean the market is "broken" it just reflects the reality of the situation.
+There is much more supply than demand for CoinJoins.
+
+This whole thing is a market and it does what markets do well, price in all the relevant information/risks/costs.
+
+Another fact to consider is that the Bitcoin network itself has a cost to use - Bitcoin transaction fees.
+
+Even though most of the times fees seem to be very low, when constructing a CoinJoin the transaction gets big(each input/outputs adds extra data to the transaction).
+Because of this factor, CoinJoins will start up starting with a pretty big baseline fee which is taken by the miners, so not that much left for the makers.
+
+We can summaries the trade-off between a maker and a taker like so:
+- Makers: get kinda-free long term fairly good mixing
+- Takers: non-free short term better mixing
+
+As a taker, you get to pick the exact amounts you want to mix, and as such you will not be left with any [Doxxic Change][Doxxic Change].
+Plus, you get to pick who you mix with, so you know the makers, not the other way around, giving a slight privacy advantage.
+
+Worth clarifying that the quality of a CoinJoin is the same for a maker or take, the small advantages/disadvantages are peripheral and have to do with what happens after the CoinJoin.
+
+[Doxxic Change]: /glossary/#doxxic-change
+[Fidelity Bond]: /glossary/#fidelity-bond
+
 ## Fee Conversion
 
 All fees are denominated in [sats][sats]. Use one of the tools below to convert them to fiat:
