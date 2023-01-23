@@ -10,7 +10,8 @@ creation of fraudulent identities.
 
 !!! warning
     It is impossible to move or spend funds that are locked in a fidelity bond
-    before the bond expires. They **cannot be used in collaborative transactions**
+    before the bond expires. They **cannot be used in collaborative transactions 
+    (neither as [taker][taker] nor as [maker][maker])**
     as fidelity bonds are time-locked by the Bitcoin protocol.
 
 You can create a fidelity bond via the [Earn][earn] screen. It involves the following steps:
@@ -26,6 +27,8 @@ funds][timelock] for the set duration.
 [earn]: /interface/03-earn/
 [jar]: /glossary/#jar
 [timelock]: /glossary/#timelock
+[maker]: /glossary/#maker
+[taker]: /glossary/#taker
 
 ---
 
