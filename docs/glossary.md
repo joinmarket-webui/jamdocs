@@ -309,7 +309,7 @@ cryptographic identities costly.
 !!! warning
     It is impossible to move or spend funds that are locked in a fidelity bond
     before the bond expires. They **cannot be used in collaborative transactions 
-    (either as [taker][taker] or [maker][maker])**
+    (neither as [taker][taker] nor as [maker][maker])**
     as fidelity bonds are time-locked by the Bitcoin protocol.
 
 Fidelity bonds improve the privacy guarantees of the whole system and increase
