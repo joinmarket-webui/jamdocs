@@ -61,10 +61,10 @@ transaction is more expensive than a [simple spend][ss].
 ## Earning Maker Fees
 
 As mentioned above, you can use the [Earn][earn] tab to earn maker fees
-yourself. Simply choose an offer type, select how many fees you would like to earn, and press "Start Earning!"
+yourself. Simply choose an offer type, select how many fees you would like to earn, and press "Start Earning!".
 
 Make sure to check the [orderbook][orderbook] to compare your offer with current
-market rates. If your offer isn't competetive, nobody will take you up on it and
+market rates. If your offer isn't competitive, it's likely nobody will take it and thus
 you will earn zero sats.
 
 [orderbook]: orderbook.md
