@@ -27,10 +27,17 @@ your chance of being chosen as a [market maker][maker] drastically.
 Be aware that funds locked in a Fidelity Bond will **not** be included in your offer amount,
 so remember to keep additional funds in order to participate as a market maker.
 
+!!! warning
+    It is impossible to move or spend funds that are locked in a fidelity bond
+    before the bond expires. They **cannot be used in collaborative transactions 
+    (neither as [taker][taker] nor as [maker][maker])**
+    as fidelity bonds are time-locked by the Bitcoin protocol.
+
 [:octicons-arrow-right-24: Fidelity Bonds][fb]
 
 [fb]: fidelity-bonds.md
 [sybil]: /glossary/#sybil-attack
+[taker]: /glossary/#taker
 [maker]: /glossary/#maker
 
 ### Offer Options
