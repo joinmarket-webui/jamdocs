@@ -26,12 +26,6 @@ wallet can be actively used at a time. Wallets are locked when not used. Your
 - Switch wallet: open another wallet and lock the current one
 - Create new wallet: initialize a new, empty wallet
 
-
-!!! question
-    Want to import a wallet? Look at the [FAQ][faq-import]!
-
-[faq-import]: /FAQ/#can-i-import-an-existing-wallet
-
 ### Community Links
 
 - [Documentation](#): you are here!
