@@ -166,7 +166,7 @@ Just make sure you are running [JoinMarket `v0.9.10`][jm-v0-9-10] or later.
 [jam-v0-1-6]: https://github.com/joinmarket-webui/jam/releases/tag/v0.1.6
 [jm-v0-9-10]: https://github.com/JoinMarket-Org/joinmarket-clientserver/releases/tag/v0.9.10
 
-### How to import wallets via the command line?
+### How to import an existing wallet via the command line?
 
 If you are running a JoinMarket version lower than `v0.9.10` or if you are a command line maximalist, follow these steps:
 
