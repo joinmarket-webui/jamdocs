@@ -11,7 +11,7 @@ Jam comes packaged with the following full-node solutions:
 
 You should be able to install Jam with one click if you are running any of the
 above. 
-Except for RaspiBlitz and RaspiBolt, where you'll need to use the command line.
+Except for RaspiBolt, where you'll need to use the command line.
 
 You can also do a [manual installation](#manual-installation).
 
@@ -53,8 +53,9 @@ Jam can be installed directly from the [Citadel](https://runcitadel.space/) app 
 
 ### ...with RaspiBlitz
 
-You can install Jam via the command line in RaspiBlitz v1.7.2 and up. To install
-it, exit the Raspiblitz menu and run:
+Jam can be installed directly from the [Raspiblitz](https://github.com/raspiblitz/raspiblitz) WebUI since RaspiBlitz v1.9.0.
+
+Alternatively you can install Jam via the command line, since RaspiBlitz v1.7.2 and up. To install it, exit the RaspiBlitz menu and run:
 
 ```sh
 patch
@@ -66,10 +67,6 @@ To get information on how to connect to Jam run:
 ```sh
 config.scripts/bonus.joinmarket-webui.sh menu
 ```
-
-We hope that Jam will be available as a one-click app
-install with [RaspiBlitz
-v1.8.0](https://github.com/rootzoll/raspiblitz/issues/2891).
 
 ### ...with MyNode
 
