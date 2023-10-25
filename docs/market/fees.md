@@ -21,7 +21,7 @@ Of course, you can offer liquidity yourself via the [Earn][earn] functionality, 
 
 ## Paying Maker Fees
 
-When doing a collaborative transaction via the [Send][send] or [Jam][sweep] tabs,
+When doing a collaborative transaction via the [Send][send] or [Sweep][sweep] tabs,
 you are taking liquidity offers from others, effectively becoming a [market
 taker][taker].
 
