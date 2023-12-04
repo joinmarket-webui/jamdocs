@@ -62,6 +62,11 @@ See also "[a note on fees][fee-note]" from the JoinMarket documentation.
 [ms]: https://mempool.space/
 [ms-install]: https://github.com/mempool/mempool#one-click-installation
 
+### What is the password used for?
+
+The password is used for encrypting the wallet file. 
+The password is **not** used as a passphrase.
+
 ### I'm getting an error when trying to open the wallet
 
 The following error can pop up in case JoinMarket didnt't shut down cleanly:
