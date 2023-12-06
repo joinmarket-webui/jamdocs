@@ -62,6 +62,12 @@ See also "[a note on fees][fee-note]" from the JoinMarket documentation.
 [ms]: https://mempool.space/
 [ms-install]: https://github.com/mempool/mempool#one-click-installation
 
+### What is the password used for?
+
+The password is used for encrypting the wallet file. 
+It is **not** used as a passphrase that extends your mnemonic seed (also known as the 13th or 25th word).
+Only the mnemonic seed is needed to recover your funds, e.g. when you restore your wallet on a different device.
+
 ### I'm getting an error when trying to open the wallet
 
 The following error can pop up in case JoinMarket didnt't shut down cleanly:
