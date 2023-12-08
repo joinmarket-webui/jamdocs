@@ -166,8 +166,16 @@ curl --insecure https://127.0.0.1:28183/api/v1/session
 
 ### Can I import an existing wallet?
 
-Yes, it is possible to import an existing wallet.
-However, not yet via the web interface, but with a few manual steps via the command line.
+Yes, importing an existing wallet can be done via the web interface since [Jam `v0.1.6`][jam-v0-1-6]
+using the button labeled "Import existing wallet" on the starting page.
+Make sure you are running [JoinMarket `v0.9.10`][jm-v0-9-10] or later.
+
+[jam-v0-1-6]: https://github.com/joinmarket-webui/jam/releases/tag/v0.1.6
+[jm-v0-9-10]: https://github.com/JoinMarket-Org/joinmarket-clientserver/releases/tag/v0.9.10
+
+### How to import an existing wallet via the command line?
+
+If you are running a JoinMarket version lower than `v0.9.10` or if you are a command line maximalist, follow these steps:
 
 - Log into the host machine, e.g. with `ssh` (see an example for Umbrel below)
 - Navigate to JoinMarket's root directory
