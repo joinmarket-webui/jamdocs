@@ -215,3 +215,15 @@ Here is an example of how you'd get into the Jam container on Umbrel:
 - Navigate to JoinMarket's root directory with `cd /src`
 - Now follow the import procedure as explained above
 - Leave the command line with `exit` (multiple times)
+
+### Jam doesn't work anymore after updating Bitcoin Core to v26.0?
+
+BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0.
+This leads to issues for JoinMarket and thus also Jam.
+The problem should be fixed once JoinMarket supports Bitcoin Core descriptor wallets.
+
+_For now, the fix is to add `deprecatedrpc=create_bdb` to your bitcoin.conf file._
+
+Restart and then it should work.
+
+Or use a lower version than Bitcoin Core v26.0.
