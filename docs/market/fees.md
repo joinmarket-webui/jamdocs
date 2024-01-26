@@ -80,7 +80,7 @@ you will earn zero sats.
 All fees are denominated in [sats][sats]. Use one of the tools below to convert them to fiat:
 
 - [Sats converter](https://bitcoiner.guide/convert/)
-- [Bitkoin.io](https://bitkoin.io/)
+- [mempool.space converter](https://mempool.space/tools/calculator)
 
 [sats]: /glossary/#sats
 
