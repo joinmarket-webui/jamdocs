@@ -216,6 +216,11 @@ Here is an example of how you'd get into the Jam container on Umbrel:
 - Now follow the import procedure as explained above
 - Leave the command line with `exit` (multiple times)
 
+### Which bitcoin address types are supported?
+
+For sending, all address types are supported.
+For receiving, only bech32 (p2wpkh) addresses are used.
+
 ### Jam doesn't work anymore after updating Bitcoin Core to v26.0?
 
 BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0.
