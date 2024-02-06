@@ -108,7 +108,7 @@ See ["Something else is/seems stuck"](#something-isseems-stuck-what-can-i-do) fo
 To participate in coinjoin(s) the wallet needs to be active (unlocked).
 This does not require Jam to be open, as the unlocked wallet stays active after closing the browser.
 
-The rest of your setup does need to keep running and be online.
+The rest of your setup needs to keep running and be online.
 
 This applies to both as a [_taker_](/glossary/#taker) (Send/Sweep) and as a [_maker_](/glossary/#maker) (Earn).
 
