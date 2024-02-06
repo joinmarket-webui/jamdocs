@@ -103,6 +103,15 @@ For a better assessment, the following can be taken as a guideline:
 If an operation takes longer than that, then there might be a different issue.
 See ["Something else is/seems stuck"](#something-isseems-stuck-what-can-i-do) for more info.
 
+### Does Jam need to be open for/during coinjoin?
+
+To participate in coinjoin(s) the wallet needs to be active (unlocked).
+This does not require Jam to be open, as the unlocked wallet stays active after closing the browser.
+
+The rest of your setup needs to keep running and be online.
+
+This applies to both as a [_taker_](/glossary/#taker) (Send/Sweep) and as a [_maker_](/glossary/#maker) (Earn).
+
 ### Something else is/seems stuck; what can I do?
 
 If a single collaborative transaction takes hours, or if your
