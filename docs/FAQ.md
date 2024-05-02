@@ -173,6 +173,14 @@ curl --insecure https://127.0.0.1:28183/api/v1/session
 
 - As a last resort, seek help in the [support channel](/contribute/#say-hello).
 
+### Why is my offer not shown in the orderbook?
+
+It takes some time for your node to retrieve individual offers in the orderbook.
+Similar to mempools, depending on your directory nodes and message channels, 
+not everyone sees the same offers and there is no "The Orderbook".
+Wait a couple of time and refresh your local orderbook. 
+If you can't see your own offer after a few minutes, only then there may be a problem.
+
 ### Can I import an existing wallet?
 
 Yes, importing an existing wallet can be done via the web interface since [Jam `v0.1.6`][jam-v0-1-6]
