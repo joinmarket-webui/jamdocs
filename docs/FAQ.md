@@ -257,7 +257,7 @@ The example commands are for Umbrel, if you're using Citadel simply replace `umb
 `nano /mnt/data/umbrel/bitcoin/bitcoin.conf`
 <br>
 
-4. Add the config to the config file"
+4. Add the following line to the config file
 
 `deprecatedrpc=create_bdb`
 <br>
