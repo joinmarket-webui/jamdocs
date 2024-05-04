@@ -246,6 +246,37 @@ The problem should be fixed once JoinMarket supports Bitcoin Core descriptor wal
 
 _For now, the fix is to add `deprecatedrpc=create_bdb` to your bitcoin.conf file._
 
-Restart and then it should work.
+<details>
+<summary>Step-by-step instructions on how to do this on Umbrel/Citadel</summary>
+The example commands are for Umbrel, if you're using Citadel simply replace `umbrel` with `citadel`.
+<br>
+<br>
+
+1. Open the terminal and login to your node using ssh:
+
+`ssh umbrel@umbrel.local`
+<br>
+
+2. Enter your password (same password as when you use the browser).
+<br>
+
+3. Enter command to edit your bitcoin.conf file:
+
+`nano /mnt/data/umbrel/bitcoin/bitcoin.conf`
+<br>
+
+4. Add the following line to the config file
+
+`deprecatedrpc=create_bdb`
+<br>
+
+5. Save and exit the editing of the file, by pressing the following keystroke combo:
+
+`ctrl x` (to save), then `y` (to exit)
+<br>
+
+</details>
+
+Restart and then it should work as the new config is now active.
 
 Or use a lower version than Bitcoin Core v26.0.
