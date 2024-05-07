@@ -50,7 +50,7 @@ mempool or use a public site like [mempool.space][ms] to do a fee estimation.
 
 !!! hint
 
-    We recommended that you [run your own mempool.space
+    It is recommended that you [run your own mempool.space
     instance][ms-install] on your full node.
 
 See also "[a note on fees][fee-note]" from the JoinMarket documentation.
@@ -101,7 +101,7 @@ For a better assessment, the following can be taken as a guideline:
 - a scheduled sweep can take hours, even days (<3days)
 
 If an operation takes longer than that, then there might be a different issue.
-See ["Something else is/seems stuck"](#something-isseems-stuck-what-can-i-do) for more info.
+See ["Something else is/seems stuck"](#something-else-isseems-stuck-what-can-i-do) for more info.
 
 ### Does Jam need to be open for/during coinjoin?
 
