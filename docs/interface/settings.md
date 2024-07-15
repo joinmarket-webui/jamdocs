@@ -32,4 +32,3 @@ wallet can be actively used at a time. Wallets are locked when not used. Your
 - [GitHub](https://github.com/joinmarket-webui/jam/): track issues & participate in development
 - [Matrix](https://matrix.to/#/%23jam:bitcoin.kyoto): technical discussion & help
 - [Telegram](https://t.me/JoinMarketWebUI): general discussion (old room)
-- [JoinMarket Twitter](https://twitter.com/joinmarket)
