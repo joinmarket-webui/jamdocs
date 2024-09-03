@@ -15,6 +15,10 @@ from someone else, or send funds from another wallet yourself.
     containers. Think of jars as different pockets in your wallet, or different
     identities. The default jar to receive funds is **Jar A**.
 
+You can receive to a specific jar by clicking on it.
+
+If you enter an amount to receive, it will make a BIP21 payment URI, encoded in the QR-code.
+
 Once you have funded your wallet, you can use the 'Send' tab to do
 a collaborative transaction.
 
