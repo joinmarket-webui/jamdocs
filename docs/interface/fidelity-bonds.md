@@ -14,6 +14,8 @@ creation of fraudulent identities.
     (neither as [taker][taker] nor as [maker][maker])**
     as fidelity bonds are time-locked by the Bitcoin protocol.
 
+## Create Fidelity Bond
+
 You can create a fidelity bond via the [Earn][earn] screen. It involves the following steps:
 
 1. Set expiration date (which defines the bond's duration)
@@ -54,6 +56,30 @@ Refer to the screenshots below to understand the steps in more detail:
 
 ![](../assets/interface/fb05-overview-light.png#only-light)
 
+## Renew Fidelity Bond
+
+Since [Jam version 0.2.0](https://github.com/joinmarket-webui/jam/releases/tag/v0.2.0) it is possible to easily renew a fidelity bond.
+At the Earn tab it will be shown that the fidelity bond is expired:
+
+![](../assets/interface/fb06-expired.png#only-dark)
+
+![](../assets/interface/fb06-expired-light.png#only-light)
+
+Click `Renew Bond`.
+
+Then specify the expiration date of the new/renewed bond.
+
+![](../assets/interface/fb07-renew.png#only-dark)
+
+![](../assets/interface/fb07-renew-light.png#only-light)
+
+![](../assets/interface/fb08-confirm-renew.png#only-dark)
+
+![](../assets/interface/fb08-confirm-renew-light.png#only-light)
+
+![](../assets/interface/fb09-renew-success.png#only-dark)
+
+![](../assets/interface/fb09-renew-success-light.png#only-light)
 
 [:octicons-arrow-right-24: Orderbook][orderbook]
 
