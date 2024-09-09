@@ -18,6 +18,11 @@ Only non-frozen funds will be considered for the transaction.
 
 Use the 'Sweep' button in the amount field to empty a single jar.
 
+!!! Warning
+    Using the _Sweep_ button to empty a jar can significantly override the set fee limit.
+    This is because of the lack of change output.
+    The (default) maximum difference is 80%.
+    
 Use the
 [Sweep tab][sweep] to sweep all non-frozen funds of your wallet (all jars) to external
 addresses.

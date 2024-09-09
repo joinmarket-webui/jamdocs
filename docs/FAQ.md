@@ -50,7 +50,7 @@ mempool or use a public site like [mempool.space][ms] to do a fee estimation.
 
 !!! hint
 
-    We recommended that you [run your own mempool.space
+    It is recommended that you [run your own mempool.space
     instance][ms-install] on your full node.
 
 See also "[a note on fees][fee-note]" from the JoinMarket documentation.
@@ -101,7 +101,7 @@ For a better assessment, the following can be taken as a guideline:
 - a scheduled sweep can take hours, even days (<3days)
 
 If an operation takes longer than that, then there might be a different issue.
-See ["Something else is/seems stuck"](#something-isseems-stuck-what-can-i-do) for more info.
+See ["Something else is/seems stuck"](#something-else-isseems-stuck-what-can-i-do) for more info.
 
 ### Does Jam need to be open for/during coinjoin?
 
@@ -246,6 +246,37 @@ The problem should be fixed once JoinMarket supports Bitcoin Core descriptor wal
 
 _For now, the fix is to add `deprecatedrpc=create_bdb` to your bitcoin.conf file._
 
-Restart and then it should work.
+<details>
+<summary>Step-by-step instructions on how to do this on Umbrel/Citadel</summary>
+The example commands are for Umbrel, if you're using Citadel simply replace `umbrel` with `citadel`.
+<br>
+<br>
+
+1. Open the terminal and login to your node using ssh:
+
+`ssh umbrel@umbrel.local`
+<br>
+
+2. Enter your password (same password as when you use the browser).
+<br>
+
+3. Enter command to edit your bitcoin.conf file:
+
+`nano /mnt/data/umbrel/bitcoin/bitcoin.conf`
+<br>
+
+4. Add the following line to the config file
+
+`deprecatedrpc=create_bdb`
+<br>
+
+5. Save and exit the editing of the file, by pressing the following keystroke combo:
+
+`ctrl x` (to save), then `y` (to exit)
+<br>
+
+</details>
+
+Restart and then it should work as the new config is now active.
 
 Or use a lower version than Bitcoin Core v26.0.
