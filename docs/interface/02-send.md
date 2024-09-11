@@ -1,34 +1,48 @@
 # Send
 
-Use the 'Send' tab to send funds to someone or to one of jars. Jam defaults to
+Use the 'Send' tab to send funds to a specific address or to one of the jars. 
+
+Jam defaults to
 [collaborative transactions][ct] when sending, which enhances your privacy and
 security.
 
-!!! info
-    Jam uses [jars][jars] under the hood to separate funds into disconnected
-    containers. Think of jars as different pockets in your wallet, or different
-    identities.
-
 [ct]: /glossary/#collaborative-transaction
 [jars]: /glossary/#jar
-
-You can choose the number of collaborators in the send options. The higher the
-number of collaborators, the larger your [anonymity set][anonset].
-
-[anonset]: /glossary/#anonymity-set
 
 ![](../assets/interface/send.png#only-dark)
 
 ![](../assets/interface/send-light.png#only-light)
 
-Use the 'Sweep' button in the amount field to empty a single jar, or use the
-[Sweep tab][sweep] to sweep all non-frozen funds of your wallet to external
-addresses.
+Only one jar can be selected to send from.
+Only non-frozen funds will be considered for the transaction.
+
+Use the 'Sweep' button in the amount field to empty a single jar.
 
 !!! Warning
     Using the _Sweep_ button to empty a jar can significantly override the set fee limit.
     This is because of the lack of change output.
     The (default) maximum difference is 80%.
+    
+Use the
+[Sweep tab][sweep] to sweep all non-frozen funds of your wallet (all jars) to external
+addresses.
+
+## Sending options
+
+You can set several configurations for the transaction at the _Sending options_ dropdown. 
+This includes whether to do a collaborative transaction or not (enabled by default), the number of collaborators (default is random from 8 to 10), and the fee settings (collaborator fees and mining fees).
+
+The higher the
+number of collaborators, the larger your [anonymity set][anonset], but this will come with higher fees.
+
+[anonset]: /glossary/#anonymity-set
+
+![](../assets/interface/send-sending-options.png#only-dark)
+
+
+![](../assets/interface/send-sending-options-light.png#only-light)
+
+> The values in the images are dummy values, set your own ones correctly!
 
 After you made your first collaborative transaction with one of your jars as the
 recipient, you are ready to earn.
