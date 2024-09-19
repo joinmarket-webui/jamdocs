@@ -252,7 +252,7 @@ Bumping can be done with the following steps:
 Which fee rate to use to get confirmed in the desired timeframe has to be calculated manually.
 
 !!! warning
-    Be aware of the privacy and/or additional cost trade-offs
+    Be aware of the privacy and/or additional cost trade-offs.
 
 ### Jam doesn't work anymore after updating Bitcoin Core to v26.0?
 
