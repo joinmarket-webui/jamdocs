@@ -238,6 +238,22 @@ Here is an example of how you'd get into the Jam container on Umbrel:
 For sending, all address types are supported.
 For receiving, only bech32 (p2wpkh) addresses are used.
 
+### How can I speed up/bump an unconfirmed transaction?
+
+Bumping an unconfirmed transaction currently has to be done manually and can only be done by using CPFP.
+This means that you need 1 or more outputs of the transaction to be able to bump it.
+
+Bumping can be done with the following steps:
+
+- Figure out which unconfirmed output(s) to use to create the child transaction
+- Freeze all other coins in that jar
+- Send a (non-collaborative) transaction from that jar with a high(er) fee rate
+
+Which fee rate to use to get confirmed in the desired timeframe has to be calculated manually.
+
+!!! warning
+    Be aware of the privacy and/or additional cost trade-offs.
+
 ### Jam doesn't work anymore after updating Bitcoin Core to v26.0?
 
 BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0.
