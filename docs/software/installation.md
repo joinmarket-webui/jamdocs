@@ -208,7 +208,7 @@ python3 scripts/obwatch/ob-watcher.py --host=127.0.0.1
     your local network.
 
 It is recommended to install both services as system services, e.g. via
-`systemd`. Also, see your `joinmarket.cfg` config file and adapt the values to
+`systemd` (see section below on installing services). Also, see your `joinmarket.cfg` config file and adapt the values to
 your needs. It is generally advised to leave all settings at their default
 values. The above commands all use the standard values (e.g. for ports).
 
@@ -271,5 +271,118 @@ Once you managed to install Jam, make sure to understand how to use it.
 
 [:octicons-arrow-right-24: First Use][cheatsheet]
 
+### ... installing `jmwalletd`, `ob-watcher` and `jam` services (optional but recommended)
+The following will setup three services that run at startup, so you don't need to manually start Jam or any related daemon. That is, every time reboot your server, you can access Jam via the URL you have configured (e.g. 127.0.0.1:3000 or similar) without any further action.
+
+The service scripts below assume standard joinmarket structure, such as:  
+Working directory: `/home/joinmarket/.joinmarket`  
+Main joinmarket directory: `/home/joinmarket/joinmarket-clientserver`  
+User and group: `joinmarket` and `joinmarket`  
+
+#### Create these files with the content below each
+For the `jmwalletd.service`, create this file:
+```sh
+sudo nano /etc/systemd/system/jmwalletd.service
+```
+...and add this content
+```sh
+[Unit]
+Description=JoinMarket Wallet Daemon For Jam
+After=network.target
+
+[Service]
+User=joinmarket
+Group=joinmarket
+WorkingDirectory=/home/joinmarket/.joinmarket
+ExecStart=/home/joinmarket/joinmarket-clientserver/jmvenv/bin/python3 /home/joinmarket/joinmarket-clientserver/scripts/jmwalletd.py
+Restart=always
+RestartSec=10s
+PrivateDevices=yes
+ProtectSystem=full
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=multi-user.target
+```
+For the `ob-watcher.service`, create this file:
+```sh
+sudo nano /etc/systemd/system/ob-watcher.service
+```
+...and add this content
+```sh
+[Unit]
+Description= JoinMarket OB Watcher For Jam
+After=network.target
+
+[Service]
+User=joinmarket
+Group=joinmarket
+WorkingDirectory=/home/joinmarket/.joinmarket
+ExecStart=/home/joinmarket/joinmarket-clientserver/jmvenv/bin/python3 /home/joinmarket/joinmarket-clientserver/scripts/obwatch/ob-watcher.py --host=127.0.0.1
+Restart=always
+PrivateDevices=yes
+ProtectSystem=full
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=multi-user.target
+```
+For the `jam.service`, create this file:
+```sh
+sudo nano /etc/systemd/system/jam.service
+```
+...and add this content
+```sh
+[Unit]
+Description=Jam service
+After=network.target
+
+[Service]
+User=joinmarket
+Group=joinmarket
+WorkingDirectory=/home/joinmarket/jam
+ExecStart=/usr/bin/npm start
+Restart=always
+PrivateDevices=yes
+ProtectSystem=full
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=multi-user.target
+```
+#### Reload for applying new config, enable services at boot and start them
+
+The following command will reload the new configuration files so they are recognized by `systemd`:
+```sh
+sudo systemctl daemon-reload
+```
+The following will enable the services to be run at startup:
+```sh
+sudo systemctl enable jmwalletd
+sudo systemctl enable ob-watcher
+sudo systemctl enable jam
+```
+Finally, these commands will start the services:
+```sh
+sudo systemctl start jmwalletd
+sudo systemctl start ob-watcher
+sudo systemctl start jam
+```
+
+#### Knowing if any of the services are starting at boot
+These commands will tell you which of your services is set to start at boot:
+```sh
+systemctl is-enabled jmwalletd.service
+systemctl is-enabled ob-watcher.service
+systemctl is-enabled jam.service
+```
+
+#### Tail the logs of the services
+It can be helpful as well to get the logs in realtime for each of the services. These commands will achieve that:
+```sh
+sudo journalctl -fu jmwalletd.service -o cat --priority=debug
+sudo journalctl -fu ob-watcher.service -o cat --priority=debug
+sudo journalctl -fu jam.service -o cat --priority=debug
+```
 
 [cheatsheet]: /interface/00-cheatsheet
