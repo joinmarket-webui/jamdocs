@@ -1,8 +1,7 @@
 # Sweep
 
-Use the 'Sweep' tab to empty your wallet using the scheduler. The scheduler will
-execute a series of collaborative transactions with randomized parameters, which
-will send your funds to multiple destination addresses over time.
+Use the 'Sweep' tab to empty your wallet using the scheduler (a.k.a. tumbler). The scheduler will
+execute a series of collaborative sweep transactions through the mixdepths (jars) with randomized parameters, like the time between the transactions and the fees. Eventually it will send your funds to the three entered destination addresses.
 
 ![](../assets/interface/jam.png#only-dark)
 
