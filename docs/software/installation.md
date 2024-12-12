@@ -271,11 +271,11 @@ Once you managed to install Jam, make sure to understand how to use it.
 
 [:octicons-arrow-right-24: First Use][cheatsheet]
 
-### ... installing `jmwalletd`, `ob-watcher` and `jam` services (optional but recommended)
-The following will setup three services that run at startup, so you don't need to manually start Jam or any related daemon. That is, every time reboot your server, you can access Jam via the URL you have configured (e.g. 127.0.0.1:3000 or similar) without any further action.
+### ... Configure to run `jmwalletd`, `ob-watcher` and `jam` services at start up(optional but recommended)
+The following will setup three services that run at startup, so you don't need to manually start Jam or any related daemon. That is, every time you boot your server, you can access Jam via the URL you have configured (e.g. 127.0.0.1:3000 or similar) without any further action.
 
 The service scripts below assume standard joinmarket structure, such as:  
-Working directory: `/home/joinmarket/.joinmarket`  
+Working/data directory: `/home/joinmarket/.joinmarket`  
 Main joinmarket directory: `/home/joinmarket/joinmarket-clientserver`  
 User and group: `joinmarket` and `joinmarket`  
 
@@ -369,7 +369,7 @@ sudo systemctl start ob-watcher
 sudo systemctl start jam
 ```
 
-#### Knowing if any of the services are starting at boot
+#### Verify that the services are starting at boot
 These commands will tell you which of your services is set to start at boot:
 ```sh
 systemctl is-enabled jmwalletd.service
