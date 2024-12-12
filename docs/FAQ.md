@@ -254,6 +254,13 @@ Which fee rate to use to get confirmed in the desired timeframe has to be calcul
 !!! warning
     Be aware of the privacy and/or additional cost trade-offs.
 
+### Can I try Jam on Testnet/Regtest/Signet?
+
+Yes, it is possible to use Jam on testing networks.
+It is recommended to use Regtest or Signet.
+How to do this depends on how you are running Jam, as Bitcoin Core and JoinMarket need to be configured to use the test network.
+After that, Jam will automatically "switch" too.
+
 ### Jam doesn't work anymore after updating Bitcoin Core to v26.0?
 
 BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0.
