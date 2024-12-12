@@ -254,6 +254,13 @@ Which fee rate to use to get confirmed in the desired timeframe has to be calcul
 !!! warning
     Be aware of the privacy and/or additional cost trade-offs.
 
+### Can I try Jam on Testnet/Regtest/Signet?
+
+Yes, it is possible to use Jam on testing networks.
+It is recommended to use Regtest or Signet.
+How to do this depends on how you are running Jam, as Bitcoin Core and JoinMarket need to be configured to use the test network.
+After that, Jam will automatically "switch" too.
+
 ### How can I see the transaction history?
 
 Jam does not display a transaction history, as the JoinMarket RPC currently does not support it.
