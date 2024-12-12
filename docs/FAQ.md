@@ -259,7 +259,7 @@ Which fee rate to use to get confirmed in the desired timeframe has to be calcul
 Jam does not display a transaction history, as the JoinMarket RPC currently does not support it.
 
 To see the transaction history of a wallet, the JoinMarket `wallet-tool` can be used, using the command line.
-More info [here](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/v0.9.11/docs/USAGE.md#wallet-history).
+Find [more info in the JoinMarket documentation](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/v0.9.11/docs/USAGE.md#wallet-history).
 
 It is also possible to use other wallet software, but be aware of the risks (xpub leak when not usig your own node) and preferably use a watch-only wallet.
 
