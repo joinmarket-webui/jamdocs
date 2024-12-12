@@ -254,6 +254,15 @@ Which fee rate to use to get confirmed in the desired timeframe has to be calcul
 !!! warning
     Be aware of the privacy and/or additional cost trade-offs.
 
+### How can I see the transaction history?
+
+Jam does not display a transaction history, as the JoinMarket RPC currently does not support it.
+
+To see the transaction history of a wallet, the JoinMarket `wallet-tool` can be used, using the command line.
+Find [more info in the JoinMarket documentation](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/v0.9.11/docs/USAGE.md#wallet-history).
+
+It is also possible to use other wallet software, but be aware of the risks (xpub leak when not usig your own node) and preferably use a watch-only wallet.
+
 ### Jam doesn't work anymore after updating Bitcoin Core to v26.0?
 
 BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0.
