@@ -233,6 +233,16 @@ Here is an example of how you'd get into the Jam container on Umbrel:
 - Now follow the import procedure as explained above
 - Leave the command line with `exit` (multiple times)
 
+### How can I delete/remove a wallet?
+
+It is not possible to remove a wallet in the GUI.
+
+A wallet can be removed by manually deleting the wallet file.
+
+!!! warning
+    Don't do this without having your backup.
+    You may lose all your money, as there is no way to undo the deletion.
+
 ### Which bitcoin address types are supported?
 
 For sending, all address types are supported.
