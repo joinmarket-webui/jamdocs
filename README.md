@@ -1,6 +1,6 @@
-# Jam Docs | [jamdocs.org](https://jamdocs.org/)
+# Jam Docs | [https://joinmarket-webui.github.io/jamdocs](https://https://joinmarket-webui.github.io/jamdocs)
 
-Documentation for [Jam](https://jamapp.org/). Built using mkdocs material theme.
+Documentation for [Jam](https://https://joinmarket-webui.github.io/jamdocs). Built using mkdocs material theme.
 
 ### Install
 ```
