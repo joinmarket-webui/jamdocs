@@ -280,11 +280,24 @@ Find [more info in the JoinMarket documentation](https://github.com/JoinMarket-O
 
 It is also possible to use other wallet software, but be aware of the risks (xpub leak when not usig your own node) and preferably use a watch-only wallet.
 
+
+### Which Bitcoin Core versions are supported?
+
+!!! warning
+    JoinMarket <=`v0.9.11` __does not support__ Bitcoin Core >=`v30`.
+
+JoinMarket is compatible with Bitcoin Core releases up through `v29`. Beginning with Bitcoin Core `v26`, [a special config property (`deprecatedrpc=create_bdb`) needs to be enabled](#jam-doesnt-work-anymore-after-updating-bitcoin-core-to-v260) to ensure full functionality. Up till JoinMarket `v0.9.11`, Bitcoin Core `v30` __is not supported__; users should continue running `v29` or earlier until `v30` support is added.
+
+!!! hint
+
+    BerkeleyDB (BDB) wallet support was removed in Bitcoin Core `v30`.
+    This leads to issues for JoinMarket and thus also Jam.
+    The problem should be fixed [once JoinMarket is supporting Bitcoin Core descriptor wallets](https://github.com/JoinMarket-Org/joinmarket-clientserver/pull/1775). A release is not yet published at the time of writing (2025-10-15).
+
+
 ### Jam doesn't work anymore after updating Bitcoin Core to v26.0?
 
-BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0.
-This leads to issues for JoinMarket and thus also Jam.
-The problem should be fixed once JoinMarket supports Bitcoin Core descriptor wallets.
+BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0 which is needed for JoinMarket <=`v0.9.11`.
 
 _For now, the fix is to add `deprecatedrpc=create_bdb` to your bitcoin.conf file._
 
