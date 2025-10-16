@@ -286,7 +286,8 @@ It is also possible to use other wallet software, but be aware of the risks (xpu
 !!! warning
     JoinMarket <=`v0.9.11` __does not support__ Bitcoin Core >=`v30`.
 
-JoinMarket is compatible with Bitcoin Core releases up through `v29`. Beginning with Bitcoin Core `v26`, [a special config property (`deprecatedrpc=create_bdb`) needs to be enabled](#jam-doesnt-work-anymore-after-updating-bitcoin-core-to-v260) to ensure full functionality. Up till JoinMarket `v0.9.11`, Bitcoin Core `v30` __is not supported__; users should continue running `v29` or earlier until `v30` support is added.
+JoinMarket is compatible with Bitcoin Core releases up to `v29`. 
+Beginning with Bitcoin Core `v26`, [a special config property (`deprecatedrpc=create_bdb`) needs to be enabled](#jam-doesnt-work-anymore-after-updating-bitcoin-core-to-v260) to for full functionality. JoinMarket `v0.9.11` does not support Bitcoin Core `v30`; users should continue running `v29` or earlier until `v30` support is added.
 
 !!! hint
 
