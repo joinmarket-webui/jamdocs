@@ -3,7 +3,6 @@
 Jam comes packaged with the following full-node solutions:
 
 - [Umbrel](#with-umbrel)
-- [Citadel](#with-citadel)
 - [RaspiBlitz](#with-raspiblitz)
 - [MyNode](#with-mynode)
 - [Start9](#with-start9)
@@ -37,19 +36,6 @@ Jam can be installed directly from the [Umbrel](https://umbrel.com/) app store:
 - Find "Jam" in the Umbrel app store
 - Click install
 - Done!
-
-### ...with Citadel
-
-Jam can be installed directly from the [Citadel](https://runcitadel.space/) app store:
-
-- Open the interface of your Citadel node <br/> (type `citadel.local` in your browser)
-- Find "Jam" in the Citadel app store
-- Click install
-- Done!
-
-!!! info
-    If you are asked to enter a username and password after installation, enter
-    "citadel" as the username and the password that Citadel provides for you.
 
 ### ...with RaspiBlitz
 

@@ -129,7 +129,7 @@ it is always a good idea to inspect the log files for warning and error messages
 ### How do I view the log file?
 
 If you are running Jam with one of the supported integrations (RaspiBlitz,
-Citadel, Umbrel, etc.) chances are you can view the logs inside the app
+Start9, Umbrel, etc.) chances are you can view the logs inside the app
 (See Settings > Show logs).
 
 If the option is not displayed, or if you run the `standalone` docker image
@@ -303,9 +303,7 @@ BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0 which is n
 _For now, the fix is to add `deprecatedrpc=create_bdb` to your bitcoin.conf file._
 
 <details>
-<summary>Step-by-step instructions on how to do this on Umbrel/Citadel</summary>
-The example commands are for Umbrel, if you're using Citadel simply replace `umbrel` with `citadel`.
-<br>
+<summary>Step-by-step instructions on how to do this on Umbrel</summary>
 <br>
 
 1. Open the terminal and login to your node using ssh:

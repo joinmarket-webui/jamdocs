@@ -96,7 +96,7 @@ both your privacy as well as your fee footprint.
 
 Looking up addresses in public block explorers will link those addresses with
 your IP, which, in turn, can be linked to your real identity. Software packages
-like Umbrel, Citadel, RaspiBlitz, and BTCPay Server make it easy to run your own
+like Umbrel, Start9, RaspiBlitz, and BTCPay Server make it easy to run your own
 block explorer. If you have to use a public block explorer, make sure to mask
 your IP by connecting to them via [Tor](https://www.torproject.org/download/),
 or at least use a VPN.
