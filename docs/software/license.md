@@ -1,6 +1,6 @@
 # License
 
-Both Jam and JoinMarket are released under free and open-source software licenses.
+Both Jam and JoinMarket NG are released under free and open-source software licenses.
 
 [:octicons-arrow-right-24: Philosophy: Free Software][free-software]
 
@@ -8,16 +8,16 @@ Both Jam and JoinMarket are released under free and open-source software license
 
 ## Jam
 
-Jam and is licensed under the [MIT License](https://directory.fsf.org/wiki/License:Expat).
+Jam and is licensed under the [MIT License](https://mit-license.org).
 The Jam documentation is licensed under the [GNU FDL](https://www.gnu.org/licenses/fdl-1.3.en.html).
 
 - Jam [LICENSE](https://github.com/joinmarket-webui/jam/blob/master/LICENSE)
-- JamDocs [LICENSE](https://github.com/joinmarket-webui/jamdocs/blob/master/LICENSE)
+- Jam documentation [LICENSE](https://github.com/joinmarket-webui/jamdocs/blob/master/LICENSE)
 
 ---
 
-## JoinMarket
+## JoinMarket NG
 
-JoinMarket is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
+JoinMarket NG is released under the [MIT License](https://mit-license.org).
 
-- JoinMarket [LICENSE](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/LICENSE)
+- JoinMarket NG [LICENSE](https://github.com/joinmarket-ng/joinmarket-ng/blob/main/LICENSE)
