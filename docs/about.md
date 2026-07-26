@@ -20,11 +20,11 @@ and thus more easily accessible for more people.
 
 ## About JoinMarket
 
-[JoinMarket][jmcs] is a special kind of software that is aimed at improving the privacy
+[JoinMarket][jmng] is a special kind of software that is aimed at improving the privacy
 and fungibility of bitcoin transactions. The main way to improve privacy and
 fungibility on-chain is via collaborative transactions.
 
-[jmcs]: https://github.com/JoinMarket-Org/joinmarket-clientserver
+[jmng]: https://github.com/joinmarket-ng/joinmarket-ng
 
 A collaborative transaction requires the coordination of multiple parties. The
 right resources ([UTXOs][glossary]) have to be available in the right quantity
