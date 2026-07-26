@@ -11,7 +11,7 @@ Have a question that is not listed here? [Let us know!][contribute]
 This FAQ compiles questions that relate to Jam in particular. For things related
 to JoinMarket in general, please refer to the [JoinMarket documentation][jm-docs].
 
-[jm-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/tree/master/docs
+[jm-docs]: https://github.com/joinmarket-ng/joinmarket-ng/blob/main/docs/index.md
 
 ### How much can I earn?
 
@@ -53,9 +53,9 @@ mempool or use a public site like [mempool.space][ms] to do a fee estimation.
     It is recommended that you [run your own mempool.space
     instance][ms-install] on your full node.
 
-See also "[a note on fees][fee-note]" from the JoinMarket documentation.
+See also "[Fees and safety][fee-note]" from the JoinMarket documentation.
 
-[fee-note]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/tumblerguide.md#a-note-on-fees
+[fee-note]: https://github.com/joinmarket-ng/joinmarket-ng/blob/main/docs/README-tumbler.md#fees-and-safety
 [fees]: market/fees.md
 [orderbook]: market/orderbook.md
 [glossary]: glossary.md
