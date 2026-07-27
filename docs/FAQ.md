@@ -11,7 +11,7 @@ Have a question that is not listed here? [Let us know!][contribute]
 This FAQ compiles questions that relate to Jam in particular. For things related
 to JoinMarket in general, please refer to the [JoinMarket documentation][jm-docs].
 
-[jm-docs]: https://github.com/JoinMarket-Org/joinmarket-clientserver/tree/master/docs
+[jm-docs]: https://github.com/joinmarket-ng/joinmarket-ng/blob/main/docs/index.md
 
 ### How much can I earn?
 
@@ -53,9 +53,9 @@ mempool or use a public site like [mempool.space][ms] to do a fee estimation.
     It is recommended that you [run your own mempool.space
     instance][ms-install] on your full node.
 
-See also "[a note on fees][fee-note]" from the JoinMarket documentation.
+See also "[Fees and safety][fee-note]" from the JoinMarket documentation.
 
-[fee-note]: https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/tumblerguide.md#a-note-on-fees
+[fee-note]: https://github.com/joinmarket-ng/joinmarket-ng/blob/main/docs/README-tumbler.md#fees-and-safety
 [fees]: market/fees.md
 [orderbook]: market/orderbook.md
 [glossary]: glossary.md
@@ -129,7 +129,7 @@ it is always a good idea to inspect the log files for warning and error messages
 ### How do I view the log file?
 
 If you are running Jam with one of the supported integrations (RaspiBlitz,
-Citadel, Umbrel, etc.) chances are you can view the logs inside the app
+Start9, Umbrel, etc.) chances are you can view the logs inside the app
 (See Settings > Show logs).
 
 If the option is not displayed, or if you run the `standalone` docker image
@@ -303,9 +303,7 @@ BerkeleyDB (BDB) wallet creation was deprecated in Bitcoin Core v26.0 which is n
 _For now, the fix is to add `deprecatedrpc=create_bdb` to your bitcoin.conf file._
 
 <details>
-<summary>Step-by-step instructions on how to do this on Umbrel/Citadel</summary>
-The example commands are for Umbrel, if you're using Citadel simply replace `umbrel` with `citadel`.
-<br>
+<summary>Step-by-step instructions on how to do this on Umbrel</summary>
 <br>
 
 1. Open the terminal and login to your node using ssh:
