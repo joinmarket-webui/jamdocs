@@ -68,6 +68,11 @@ The password is used for encrypting the wallet file.
 It is **not** used as a passphrase that extends your mnemonic seed (also known as the 13th or 25th word).
 Only the mnemonic seed is needed to recover your funds, e.g. when you restore your wallet on a different device.
 
+### Does Jam support PayJoin?
+
+No, currently Jam doesn't support PayJoin, both for sending and receiving.
+PayJoin support is on the roadmap.
+
 ### I'm getting an error when trying to open the wallet
 
 The following error can pop up in case JoinMarket didnt't shut down cleanly:
