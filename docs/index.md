@@ -16,6 +16,9 @@ the financial privacy of yourself and others.
 
 [contribute]: contribute.md
 
+!!! tip
+    Check out the Jam [tutorial video](https://yewtu.be/watch?v=FbyjG2upGO8) made by BTC Sessions. This video will walk you through setting up and using Jam, as well as helping you understand what is actually happening in the background.
+
 ## Before You Start
 
 Before you get going with Jam you should understand the "why" behind it all.
