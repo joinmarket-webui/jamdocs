@@ -19,10 +19,6 @@ else, or send funds from another wallet yourself.
 To receive to a specific jar, open 'Receive options' and select it under
 'Receive to'. The badge below the address shows which jar it belongs to.
 
-If you enter an amount (in sats), the QR code becomes a BIP21 payment request.
-'Copy' and 'Share' then hand out the full payment request instead of just the
-address.
-
 Once you have funded your wallet, you can use the 'Send' tab to do
 a collaborative transaction.
 
