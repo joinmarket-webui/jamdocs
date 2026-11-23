@@ -599,7 +599,7 @@ transaction output, or [UTXO](#utxo), for short.
 Short for [transaction](#transaction).
 ## U
 ### Unspent Transaction Output
-The tip of the chain of signatures which originates in a coinbase output. It's a "coin" that
+The tip of the chain of signatures which originates in a [coinbase](#coinbase) output. It's a "coin" that
 has not yet been spent and can still be spend.
 ### UTXO
 Short for [Unspent Transaction Output](#unspent-transaction-output).
