@@ -14,7 +14,7 @@ else, or send funds from another wallet yourself.
 !!! info
     Jam uses [jars][jars] under the hood to separate funds into disconnected
     containers. Think of jars as different pockets in your wallet, or different
-    identities. The default jar to receive funds is **Jar A**.
+    identities. The default jar to receive funds is the first one, **Apricot**.
 
 To receive to a specific jar, open 'Receive options' and select it under
 'Receive to'. The badge below the address shows which jar it belongs to.
