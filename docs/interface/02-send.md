@@ -87,9 +87,12 @@ number of collaborators, the larger your [anonymity set][anonset], but this will
   the service first.
 - If the jar you send from contains a [fidelity bond][fb] that is not frozen,
   freeze it first (e.g. by deselecting it under 'Select UTXOs').
-- When a collaborative transaction ends, Jam shows 'Collaborative flow stopped'.
-  Jam cannot always tell whether the transaction went through, so check your
-  [wallet][wallet] to confirm.
+- While a collaborative transaction runs, the 'Taker status' card shows its
+  progress (e.g. 'Evaluating offers...', 'Collecting signatures...'). Click
+  'Abort' to stop it, Jam asks you to confirm first. When it ends, the card
+  shows the result, e.g. 'Completed' or 'Failed', until you click 'Done'.
+  If it shows 'Completed (unverified)', Jam could not see the transaction in
+  the mempool, so check your [wallet][wallet] to confirm.
 
 After you made your first collaborative transaction with one of your jars as the
 recipient, you are ready to earn.
