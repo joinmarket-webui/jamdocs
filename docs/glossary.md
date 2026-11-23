@@ -143,6 +143,26 @@ analysis companies is the [common input ownership
 heuristic](#common-input-ownership-heuristic). Collaborative transactions break
 this heuristic.
 
+### Coinbase
+
+The coinbase transaction, also called a generation transaction, is the first
+[transaction](#transaction) in every block. The miner who creates the block adds
+it. It doesn't spend any earlier output. Instead, it creates new [sats](#sats)
+and collects the block reward: the block subsidy plus the fees paid by the other
+transactions in the block. Strictly speaking, "the coinbase" is the content of
+this transaction's input, which can hold arbitrary data.
+
+The outputs of a coinbase transaction can't be spent for at least 100 blocks.
+
+[:octicons-arrow-right-24: Privacy Fundamentals: The Bitcoin Transaction][fundamentals-tx]
+
+[:octicons-arrow-right-24: Bitcoin Developer Guide: Transaction Data][devguide-coinbase]
+
+[:octicons-arrow-right-24: Bitcoin Wiki: Coinbase][wiki-coinbase]
+
+[devguide-coinbase]: https://developer.bitcoin.org/devguide/block_chain.html#transaction-data
+[wiki-coinbase]: https://en.bitcoin.it/wiki/Coinbase
+
 ### CoinJoin
 
 A CoinJoin is a collaborative transaction that combines inputs from multiple
@@ -579,7 +599,7 @@ transaction output, or [UTXO](#utxo), for short.
 Short for [transaction](#transaction).
 ## U
 ### Unspent Transaction Output
-The tip of the chain of signatures which originates in a coinbase output. It's a "coin" that
+The tip of the chain of signatures which originates in a [coinbase](#coinbase) output. It's a "coin" that
 has not yet been spent and can still be spend.
 ### UTXO
 Short for [Unspent Transaction Output](#unspent-transaction-output).
